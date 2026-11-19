@@ -4,6 +4,7 @@ import sys
 from datetime import datetime, timezone
 from html.parser import HTMLParser
 from urllib.parse import urljoin, urlparse
+from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 from urllib.robotparser import RobotFileParser
 
@@ -48,7 +49,13 @@ def scan(name):
     parsed = urlparse(url)
     robots_url = f'{parsed.scheme}://{parsed.netloc}/robots.txt'
     robots = RobotFileParser()
-    robots.parse(fetch(robots_url).decode('utf-8').splitlines())
+    try:
+        rules = fetch(robots_url).decode('utf-8').splitlines()
+    except HTTPError as exc:
+        if exc.code != 404:
+            raise
+        rules = []
+    robots.parse(rules)
     if not robots.can_fetch(AGENT, url):
         raise ValueError('robots.txt does not permit this URL')
     body = fetch(url)
