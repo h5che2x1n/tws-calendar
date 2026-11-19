@@ -59,7 +59,12 @@ def build(events):
             raise ValueError('all_day must be boolean')
         if end is not None and end <= start:
             raise ValueError('end must follow start')
-        desc = e.get('description', '') + '\n官方公告: ' + e['source_url']
+        desc = e.get('details', e.get('description', ''))
+        if e.get('time_tbd'):
+            if not e['all_day']:
+                raise ValueError('time_tbd requires date-only event')
+            desc = '具体时间待公布（日期占位）\n' + desc
+        desc += '\n官方公告: ' + e['source_url']
         if e.get('watch_url'):
             url = urlparse(e['watch_url'])
             if url.scheme != 'https' or not url.netloc:
@@ -68,6 +73,8 @@ def build(events):
         lines += ['BEGIN:VEVENT', 'UID:' + uid + '@tws-calendar', 'DTSTAMP:' + fmt(updated), 'LAST-MODIFIED:' + fmt(updated), 'SEQUENCE:' + str(e['sequence']), startline]
         if endline:
             lines.append(endline)
+        if e.get('location'):
+            lines.append('LOCATION:' + escape(e['location']))
         lines += ['SUMMARY:' + escape(e['title']), 'DESCRIPTION:' + escape(desc), 'URL:' + e['source_url'], 'STATUS:' + ('CANCELLED' if e['status'] == 'cancelled' else 'CONFIRMED'), 'END:VEVENT']
     lines.append('END:VCALENDAR')
     return ('\r\n'.join(map(fold, lines)) + '\r\n').encode('utf-8')
