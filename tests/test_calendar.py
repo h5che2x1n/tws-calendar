@@ -45,6 +45,14 @@ class CalendarTests(unittest.TestCase):
         data = build([self.event]).decode('utf-8').replace('\r\n ', '')
         self.assertIn('具体时间待公布（日期占位）', data)
 
+    def test_original_uid_and_recurrence_preserved_and_override(self):
+        original = 'BEGIN:VCALENDAR\nBEGIN:VEVENT\nUID:fictional-test@tws-calendar\nRRULE:FREQ=YEARLY\nSUMMARY:旧记录\nEND:VEVENT\nEND:VCALENDAR\n'
+        untouched = build([], original).decode('utf-8')
+        self.assertIn('RRULE:FREQ=YEARLY', untouched)
+        updated = build([self.event], original).decode('utf-8')
+        self.assertEqual(updated.count('UID:fictional-test@tws-calendar'), 1)
+        self.assertNotIn('旧记录', updated)
+
 
 if __name__ == '__main__': unittest.main()
 
