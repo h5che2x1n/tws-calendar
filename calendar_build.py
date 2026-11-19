@@ -102,8 +102,14 @@ def clean_original(block):
             value = line[len('LOCATION:'):]
             if value in ('线上', 'MBC', 'KBS 2TV', 'SBS', 'YouTube：KBS Kpop', 'TBS Channel 1') or '仅通知' in value or '通知中签者' in value:
                 line = 'LOCATION:'
+            if '播出／DOHOON 特别MC' in title:
+                line = 'LOCATION:https://onair.imbc.com/'
+            elif '《人气歌谣》／SHINYU MC' in title:
+                line = 'LOCATION:https://www.sbs.co.kr/live'
+            elif '做家务的男人们2' in title:
+                line = 'LOCATION:https://onair.kbs.co.kr/index.html?ch_code=12&ch_type=globalList&sname=onair&stype=live'
         elif line.startswith('SEQUENCE:'):
-            line = 'SEQUENCE:' + str(int(line.split(':', 1)[1]) + 2)
+            line = 'SEQUENCE:' + str(int(line.split(':', 1)[1]) + 3)
         elif line.startswith('DTSTAMP:'):
             line = 'DTSTAMP:20261119T124500Z'
         result.append(line)
@@ -163,6 +169,13 @@ def build(events, original=None):
             location = '\n'.join(filter(None, (location, e['watch_url'])))
         if location:
             lines.append('LOCATION:' + escape(location))
+        if e.get('geo'):
+            lat, lon = e['geo']
+            if not (-90 <= lat <= 90 and -180 <= lon <= 180) or not location:
+                raise ValueError('invalid location coordinates')
+            label = location.split(' · ', 1)[0].replace('"', "'")
+            lines.append('GEO:' + str(lat) + ';' + str(lon))
+            lines.append('X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-TITLE="' + label + '":geo:' + str(lat) + ',' + str(lon))
         lines += ['SUMMARY:' + escape(e['title']), 'DESCRIPTION:' + escape(desc)]
         lines.append('STATUS:' + ('CANCELLED' if e['status'] == 'cancelled' else 'CONFIRMED'))
         if e.get('remind_at_start'):
