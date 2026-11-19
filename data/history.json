@@ -992,6 +992,76 @@
     "details": "TWS 出演。",
     "source_url": "https://biz.chosun.com/en/en-entertainment/2025/11/10/25HTR2B6EBD3ZFMZKD7V33LHJE/",
     "historical": true
+  },
+  {
+    "id": "history-20240825-macau-showcase",
+    "title": "TWS｜SUMMER BEAT! 澳门 Showcase",
+    "status": "confirmed",
+    "sequence": 0,
+    "all_day": true,
+    "start": "2024-08-25",
+    "end": "2024-08-26",
+    "updated_at": "2026-11-19T13:15:00Z",
+    "location": "",
+    "details": "TWS《SUMMER BEAT!》澳门 Showcase。",
+    "source_url": "https://zh.wikipedia.org/wiki/TWS%E6%BC%94%E5%94%B1%E6%9C%83%E5%88%97%E8%A1%A8",
+    "historical": true
+  },
+  {
+    "id": "history-20241114-best-hit",
+    "title": "TWS｜Best Hit 歌谣祭 2024",
+    "status": "confirmed",
+    "sequence": 0,
+    "all_day": true,
+    "start": "2024-11-14",
+    "end": "2024-11-15",
+    "updated_at": "2026-11-19T13:15:00Z",
+    "location": "",
+    "details": "TWS 出演年末音乐节目。",
+    "source_url": "https://zh.wikipedia.org/wiki/TWS%E6%BC%94%E5%94%B1%E6%9C%83%E5%88%97%E8%A1%A8",
+    "historical": true
+  },
+  {
+    "id": "history-20250702-japan-showcase",
+    "title": "TWS｜はじめまして 日本出道纪念 Showcase",
+    "status": "confirmed",
+    "sequence": 0,
+    "all_day": true,
+    "start": "2025-07-02",
+    "end": "2025-07-03",
+    "updated_at": "2026-11-19T13:15:00Z",
+    "location": "",
+    "details": "TWS 日本出道纪念 Showcase。",
+    "source_url": "https://zh.wikipedia.org/wiki/TWS%E6%BC%94%E5%94%B1%E6%9C%83%E5%88%97%E8%A1%A8",
+    "historical": true
+  },
+  {
+    "id": "history-20251227-countdown-japan",
+    "title": "TWS｜COUNTDOWN JAPAN 25/26",
+    "status": "confirmed",
+    "sequence": 0,
+    "all_day": true,
+    "start": "2025-12-27",
+    "end": "2025-12-28",
+    "updated_at": "2026-11-19T13:15:00Z",
+    "location": "",
+    "details": "TWS 出演年末音乐节。",
+    "source_url": "https://zh.wikipedia.org/wiki/TWS%E6%BC%94%E5%94%B1%E6%9C%83%E5%88%97%E8%A1%A8",
+    "historical": true
+  },
+  {
+    "id": "history-20260110-golden-disc",
+    "title": "TWS｜第 40 届 Golden Disc Awards",
+    "status": "confirmed",
+    "sequence": 0,
+    "all_day": true,
+    "start": "2026-01-10",
+    "end": "2026-01-11",
+    "updated_at": "2026-11-19T13:15:00Z",
+    "location": "",
+    "details": "TWS 出演金唱片颁奖典礼。",
+    "source_url": "https://zh.wikipedia.org/wiki/TWS%E6%BC%94%E5%94%B1%E6%9C%83%E5%88%97%E8%A1%A8",
+    "historical": true
   }
 ]
 
