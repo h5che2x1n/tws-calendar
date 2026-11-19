@@ -219,9 +219,13 @@ def build(events, original=None):
             lat, lon = e['geo']
             if not (-90 <= lat <= 90 and -180 <= lon <= 180) or not location:
                 raise ValueError('invalid location coordinates')
-            label = location.split(' · ', 1)[0].replace('"', "'")
+            place = location.split('\n', 1)[0]
+            label, sep, address = place.partition(' · ')
+            def parameter(value):
+                return value.replace('^', '^^').replace('"', "^'").replace('\n', '^n')
             lines.append('GEO:' + str(lat) + ';' + str(lon))
-            lines.append('X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-TITLE="' + label + '":geo:' + str(lat) + ',' + str(lon))
+            params = ';X-ADDRESS="' + parameter(address) + '"' if sep and address else ''
+            lines.append('X-APPLE-STRUCTURED-LOCATION;VALUE=URI' + params + ';X-APPLE-RADIUS=100;X-TITLE="' + parameter(label) + '":geo:' + str(lat) + ',' + str(lon))
         lines += ['SUMMARY:' + escape(e['title']), 'DESCRIPTION:' + escape(desc)]
         lines.append('STATUS:' + ('CANCELLED' if e['status'] == 'cancelled' else 'CONFIRMED'))
         if e.get('remind_at_start'):

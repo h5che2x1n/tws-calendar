@@ -48,6 +48,13 @@ class CalendarTests(unittest.TestCase):
         self.assertIn('LOCATION:首尔\\, 韩国', data)
         self.assertIn('成员：TWS\\n具体会场待公布', data)
 
+    def test_structured_map_location(self):
+        self.event.update(location='虚构场馆 · 虚构地址 1 号', geo=[35.0, 139.0])
+        data = build([self.event]).decode('utf-8').replace('\r\n ', '')
+        self.assertIn('X-ADDRESS="虚构地址 1 号"', data)
+        self.assertIn('X-TITLE="虚构场馆":geo:35.0,139.0', data)
+        self.assertIn('GEO:35.0;139.0', data)
+
     def test_watch_url_is_in_location_and_source_in_details(self):
         self.event.update(location='体育场', watch_url='https://example.org/live')
         data = build([self.event]).decode('utf-8').replace('\r\n ', '')
