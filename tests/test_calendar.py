@@ -74,7 +74,25 @@ class CalendarTests(unittest.TestCase):
         self.assertIn('演出介绍。\\n来源：https://example.org', data)
         self.assertNotIn('核对日期', data)
         self.assertNotIn('不会自动更新', data)
-        self.assertIn('SEQUENCE:4', data)
+        self.assertIn('SEQUENCE:5', data)
+
+    def test_default_duration_and_explicit_end(self):
+        self.event.update(title='虚构线上视频签售')
+        del self.event['end']
+        data = build([self.event]).decode('utf-8').replace('\r\n ', '')
+        self.assertIn('DTEND:20300101T120000Z', data)
+        self.assertIn('结束时间为估计', data)
+        self.event['end'] = '2030-01-01T22:00:00+09:00'
+        data = build([self.event]).decode('utf-8').replace('\r\n ', '')
+        self.assertIn('DTEND:20300101T130000Z', data)
+        self.assertNotIn('结束时间为估计', data)
+
+    def test_variety_default_and_no_prerecording_guess(self):
+        self.event.update(title='TWS TOURS in BANGKOK EP.1')
+        del self.event['end']
+        self.assertIn(b'DTEND:20300101T120000Z', build([self.event]))
+        self.event['title'] = '虚构音乐中心预录'
+        self.assertNotIn(b'DTEND', build([self.event]))
 
     def test_historical_source_stays_in_data_not_calendar(self):
         self.event['historical'] = True

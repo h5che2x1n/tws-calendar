@@ -1,6 +1,6 @@
 import json
 import re
-from datetime import date, datetime, timezone
+from datetime import date, datetime, timezone, timedelta
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -29,6 +29,31 @@ def timestamp(value):
 
 def fmt(value):
     return value.strftime('%Y%m%dT%H%M%SZ')
+
+
+DEFAULT_MINUTES = {'video_fansign': 60, 'offline_fansign': 120,
+                   'year_end': 240, 'music_bank': 90, 'music_core': 80,
+                   'inkigayo': 70, 'radio': 120, 'variety': 60}
+
+
+def duration_category(title, explicit=None):
+    if explicit is not None:
+        if explicit not in DEFAULT_MINUTES:
+            raise ValueError('unknown duration category')
+        return explicit
+    t = title.lower()
+    if '预录' in t or '事前录制' in t:
+        return None
+    if any(x in t for x in ('签售', 'fansign', '팬사인회')):
+        return 'video_fansign' if any(x in t for x in ('视频', '线上', 'video', 'online', '영상통화')) else 'offline_fansign'
+    if any(x in t for x in ('music bank global', '歌谣大战', 'kgma', 'mma 2026', 'aaa 2026', 'asia artist awards', 'mama awards')):
+        return 'year_end'
+    if any(x in t for x in ('music bank', '音乐银行', '뮤직뱅크')): return 'music_bank'
+    if any(x in t for x in ('音乐中心', 'music core', '음악중심')): return 'music_core'
+    if any(x in t for x in ('人气歌谣', 'inkigayo', '인기가요')): return 'inkigayo'
+    if any(x in t for x in ('radio', '电台', '라디오')): return 'radio'
+    if any(x in t for x in ('偶像两天一夜', '돌박이일', 'tws tours in bangkok', '做家务的男人们')): return 'variety'
+    return None
 
 
 def original_events(text):
@@ -116,10 +141,19 @@ def clean_original(block):
             elif '做家务的男人们2' in title:
                 line = 'LOCATION:https://onair.kbs.co.kr/index.html?ch_code=12&ch_type=globalList&sname=onair&stype=live'
         elif line.startswith('SEQUENCE:'):
-            line = 'SEQUENCE:' + str(int(line.split(':', 1)[1]) + 4)
+            line = 'SEQUENCE:' + str(int(line.split(':', 1)[1]) + 5)
         elif line.startswith('DTSTAMP:'):
-            line = 'DTSTAMP:20261119T124500Z'
+            line = 'DTSTAMP:20261119T145500Z'
         result.append(line)
+    starts = [x for x in result if x.startswith('DTSTART:')]
+    category = duration_category(title)
+    if category and starts and not any(x.startswith(('DTEND', 'DURATION')) for x in result):
+        start = datetime.strptime(starts[0][8:], '%Y%m%dT%H%M%SZ').replace(tzinfo=timezone.utc)
+        result.insert(-1, 'DTEND:' + fmt(start + timedelta(minutes=DEFAULT_MINUTES[category])))
+        for i, line in enumerate(result):
+            if line.startswith('DESCRIPTION:'):
+                result[i] += '\\n结束时间为估计，实际以官方安排为准。'
+                break
     return result
 
 
@@ -146,6 +180,11 @@ def build(events, original=None):
         elif e['all_day'] is False:
             start = timestamp(e['start'])
             end = timestamp(e['end']) if e.get('end') else None
+            default_estimated = False
+            category = duration_category(e['title'], e.get('duration_category'))
+            if end is None and category is not None:
+                end = start + timedelta(minutes=DEFAULT_MINUTES[category])
+                default_estimated = True
             startline, endline = 'DTSTART:' + fmt(start), ('DTEND:' + fmt(end) if end else None)
         else:
             raise ValueError('all_day must be boolean')
@@ -154,7 +193,7 @@ def build(events, original=None):
         if e.get('end_estimated') and (e['all_day'] or end is None):
             raise ValueError('estimated end requires a timed event with end')
         desc = e.get('details', e.get('description', ''))
-        if e.get('end_estimated'):
+        if e.get('end_estimated') or (not e['all_day'] and default_estimated):
             desc += '\n结束时间为估计，实际以官方安排为准。'
         if e.get('time_tbd'):
             if not e['all_day']:
