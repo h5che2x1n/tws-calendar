@@ -48,17 +48,63 @@ def original_events(text):
                 raise ValueError('nested event')
             block = [line]
         elif block is not None:
-            block.append(line.replace('导入后不会自动更新。', '原始快照，后续变更需另行核查。'))
+            block.append(line)
             if line == 'END:VEVENT':
                 ids = [x[4:] for x in block if x.startswith('UID:')]
                 if len(ids) != 1:
                     raise ValueError('original event must have one UID')
-                result.append((ids[0], block))
+                result.append((ids[0], clean_original(block)))
                 block = None
     if block is not None or not result:
         raise ValueError('invalid or empty original calendar')
     if len({uid for uid, _ in result}) != len(result):
         raise ValueError('duplicate original UID')
+    return result
+
+
+def clean_original(block):
+    """Keep the imported UID and timing, while removing research notes."""
+    result = []
+    title = next((x[len('SUMMARY:'):] for x in block if x.startswith('SUMMARY:')), '')
+    concise = {
+        '《Show! 音乐中心》预录': 'TWS《Show! 音乐中心》预录。',
+        'TO US 官方快闪店最后一天': 'TWS《TO US》官方快闪店营业最后一天。',
+        '《Show! 音乐中心》播出／DOHOON 特别MC': 'TWS 出演《Show! 音乐中心》，DOHOON 担任特别 MC。',
+        '《做家务的男人们2》': 'JIHOON 出演《做家务的男人们2》。',
+        '2026 KGMA Music Day': 'TWS 出演 2026 KGMA Music Day。',
+        'MMA 2026 DAY 1': 'TWS 出演 MMA 2026 第一天。',
+        'AAA 2026 DAY 2': 'TWS 出演 AAA 2026 第二天。',
+        'M2U RECORD 线下签售': 'TWS《TO US》线下签售；具体会场另行通知。',
+        '日本巡演全曲无删减电视首播': '2026 TWS 日本巡演全曲无删减版电视首播。',
+    }
+    for line in block:
+        if line.startswith('DESCRIPTION:'):
+            parts = line[len('DESCRIPTION:'):].split('\\n')
+            intro = parts[0]
+            for key, value in concise.items():
+                if key in title:
+                    intro = value
+                    break
+            if '生日' in title:
+                intro = intro.split('；', 1)[0] + '。'
+            intro = re.sub(r'；(?:[^。]*交叉参考|[^。]*未采用)[^。]*。', '。', intro)
+            intro = re.sub(r'官方公告具体时间待通知；第三方20:00未采用。', '时间待公布。', intro)
+            intro = re.sub(r'官网确认TWS为12月12日阵容；17:00 JST开演参考Soompi年末汇总。', 'TWS出演日本场第一天。', intro)
+            intro = re.sub(r'典礼开始时间，不是TWS个人舞台时间。官网：[^；]*；', '', intro)
+            intro = re.sub(r'时间参考：\S+', '', intro)
+            intro = re.sub(r'；17:00为台湾当地典礼时间，与北京时间相同。时间参考Soompi年末汇总；非单独舞台时刻。', '出演12月6日。', intro)
+            sources = [p for p in parts if p.startswith('来源：')]
+            desc = '\\n'.join(filter(None, [intro.strip()] + sources))
+            line = 'DESCRIPTION:' + desc
+        elif line.startswith('LOCATION:'):
+            value = line[len('LOCATION:'):]
+            if value in ('线上', 'MBC', 'KBS 2TV', 'SBS', 'YouTube：KBS Kpop', 'TBS Channel 1'):
+                line = 'LOCATION:'
+        elif line.startswith('SEQUENCE:'):
+            line = 'SEQUENCE:' + str(int(line.split(':', 1)[1]) + 1)
+        elif line.startswith('DTSTAMP:'):
+            line = 'DTSTAMP:20261119T124500Z'
+        result.append(line)
     return result
 
 
@@ -90,23 +136,39 @@ def build(events, original=None):
             raise ValueError('all_day must be boolean')
         if end is not None and end <= start:
             raise ValueError('end must follow start')
+        if e.get('end_estimated') and (e['all_day'] or end is None):
+            raise ValueError('estimated end requires a timed event with end')
         desc = e.get('details', e.get('description', ''))
+        if e.get('end_estimated'):
+            desc += '\n结束时间为估计，实际以官方安排为准。'
         if e.get('time_tbd'):
             if not e['all_day']:
                 raise ValueError('time_tbd requires date-only event')
             desc = '具体时间待公布（日期占位）\n' + desc
-        desc += '\n官方公告: ' + e['source_url']
-        if e.get('watch_url'):
+        if not e.get('historical'):
+            desc += '\n官方公告: ' + e['source_url']
+        if e.get('watch_url') and not e.get('historical'):
             url = urlparse(e['watch_url'])
             if url.scheme != 'https' or not url.netloc:
                 raise ValueError('watch_url must be HTTPS')
-            desc += '\n观看链接: ' + e['watch_url']
         lines += ['BEGIN:VEVENT', 'UID:' + uid + '@tws-calendar', 'DTSTAMP:' + fmt(updated), 'LAST-MODIFIED:' + fmt(updated), 'SEQUENCE:' + str(e['sequence']), startline]
         if endline:
             lines.append(endline)
-        if e.get('location'):
-            lines.append('LOCATION:' + escape(e['location']))
-        lines += ['SUMMARY:' + escape(e['title']), 'DESCRIPTION:' + escape(desc), 'URL:' + e['source_url'], 'STATUS:' + ('CANCELLED' if e['status'] == 'cancelled' else 'CONFIRMED'), 'END:VEVENT']
+        location = e.get('location', '')
+        if e.get('watch_url') and not e.get('historical') and e['watch_url'] not in location:
+            location = '\n'.join(filter(None, (location, e['watch_url'])))
+        if location:
+            lines.append('LOCATION:' + escape(location))
+        lines += ['SUMMARY:' + escape(e['title']), 'DESCRIPTION:' + escape(desc)]
+        if not e.get('historical'):
+            lines.append('URL:' + e['source_url'])
+        lines.append('STATUS:' + ('CANCELLED' if e['status'] == 'cancelled' else 'CONFIRMED'))
+        if e.get('remind_at_start'):
+            if e['all_day']:
+                raise ValueError('start reminder requires a confirmed time')
+            if e['status'] != 'cancelled':
+                lines += ['BEGIN:VALARM', 'TRIGGER:PT0S', 'ACTION:DISPLAY', 'DESCRIPTION:' + escape(e['title'] + ' 开始'), 'END:VALARM']
+        lines.append('END:VEVENT')
     if original is not None:
         for uid, block in original_events(original):
             if uid not in {item + '@tws-calendar' for item in seen}:
@@ -117,6 +179,7 @@ def build(events, original=None):
 
 if __name__ == '__main__':
     events = json.loads(Path('data/events.json').read_text(encoding='utf-8'))
+    events += json.loads(Path('data/history.json').read_text(encoding='utf-8'))
     if not isinstance(events, list):
         raise ValueError('events must be an array')
     Path('site').mkdir(exist_ok=True)
