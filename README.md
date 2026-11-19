@@ -1,6 +1,6 @@
 # TWS 官方行程订阅
 
-这是一个尚需维护的日历发布系统。已核实行程保存在 `data/events.json`；当前为空。每天北京时间 09:23 及手动运行时重新验证、生成并部署。**当前没有自动采集或自动新增行程**：PLEDIS、Weverse 和日本官网需要人工核查、录入；不能把成功部署当成来源采集成功。现有 ChatGPT 搜索任务不会自动写入此仓库。
+这是一个尚需维护的日历发布系统。已核实行程保存在 `data/events.json`；当前为空。每天北京时间 09:23 及手动运行时重新验证、生成并部署。**当前没有自动新增行程**。独立的 Official source review 工作流每天检查日本官网第一页，产生待人工核查的候选链接报告；不是全面抓取，且不会写入日历。PLEDIS 的页面当前不能稳定识别，需人工核查；Weverse 也需人工核查。不能把成功部署当成来源采集成功。现有 ChatGPT 搜索任务不会自动写入此仓库。
 
 ## 首次启用
 
@@ -14,7 +14,7 @@
 [{"id":"example-stable-id","title":"虚构示例","status":"confirmed","sequence":0,"all_day":false,"start":"2030-01-01T20:00:00+09:00","end":"2030-01-01T21:00:00+09:00","updated_at":"2029-12-01T00:00:00Z","source_url":"https://example.org/notice","watch_url":"https://example.org/watch","description":"说明"}]
 ```
 
-实际活动必须核实开始时间及偏移量；时间不明确不得推测或标为全天。结束时间未知的定时活动可省略 `end`，日历不会猜测时长。真正的全天活动使用 `all_day: true`，开始、结束用 `YYYY-MM-DD`，结束是排他的次日日期。`watch_url` 和 `description` 可省略。每个活动分配唯一永久 id，改期沿用 id 并递增 sequence、更新 updated_at；取消时保留记录，将 status 设为 cancelled、递增 sequence、更新 updated_at。不要删除已发布事件或复用 id。提交后工作流发布。禁止将上面的示例写入实际数据。
+实际活动必须核实开始时间及偏移量；不可推测时间。仅日期已确认但时刻待定时可用 `all_day: true`、`time_tbd: true` 表示日期占位，详情会注明时间待公布。结束时间未知的定时活动可省略 `end`。真正的全天活动使用 `all_day: true`，开始、结束用 `YYYY-MM-DD`，结束是排他的次日日期。`location` 写地点，`details` 写成员、活动说明和注意事项；`watch_url` 可省略。每个活动分配唯一永久 id，改期沿用 id 并递增 sequence、更新 updated_at；取消时保留记录，将 status 设为 cancelled、递增 sequence、更新 updated_at。不要删除已发布事件或复用 id。提交后工作流发布。禁止将上面的示例写入实际数据。
 
 来源：日本官网 https://tws-official.jp/schedule 、PLEDIS https://www.pledis.co.kr/ko/artist/detail/TWS/notice/ 。公告可能有图片或需要登录；人工核对并记录来源。
 
