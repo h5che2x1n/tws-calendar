@@ -1,5 +1,8 @@
 name: Official source review
 on:
+  push:
+    branches: [main]
+    paths: ['sources/**', 'tests/test_sources.py', '.github/workflows/source-review.yml']
   schedule:
     - cron: '11 1 * * *'
   workflow_dispatch:
