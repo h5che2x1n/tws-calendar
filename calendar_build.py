@@ -80,7 +80,14 @@ def clean_original(block):
     for line in block:
         if line.startswith('URL:') or (line.startswith('DESCRIPTION:') and '生日' in title):
             continue
-        if line.startswith('DESCRIPTION:'):
+        if line.startswith('SUMMARY:'):
+            if '生日' in title: icon = '🎂 '
+            elif any(x in title for x in ('签售', '合影')): icon = '🤝 '
+            elif any(x in title for x in ('KGMA', 'MMA', 'AAA', 'Festival', '歌谣大战')): icon = '🏆 '
+            elif 'VR' in title or '快闪店' in title: icon = '🎬 '
+            else: icon = '📺 '
+            line = 'SUMMARY:' + icon + title
+        elif line.startswith('DESCRIPTION:'):
             parts = line[len('DESCRIPTION:'):].split('\\n')
             intro = parts[0]
             for key, value in concise.items():
@@ -109,7 +116,7 @@ def clean_original(block):
             elif '做家务的男人们2' in title:
                 line = 'LOCATION:https://onair.kbs.co.kr/index.html?ch_code=12&ch_type=globalList&sname=onair&stype=live'
         elif line.startswith('SEQUENCE:'):
-            line = 'SEQUENCE:' + str(int(line.split(':', 1)[1]) + 3)
+            line = 'SEQUENCE:' + str(int(line.split(':', 1)[1]) + 4)
         elif line.startswith('DTSTAMP:'):
             line = 'DTSTAMP:20261119T124500Z'
         result.append(line)
