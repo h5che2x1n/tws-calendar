@@ -52,11 +52,12 @@ def build(events):
             start, end = date.fromisoformat(e['start']), date.fromisoformat(e['end'])
             startline, endline = 'DTSTART;VALUE=DATE:' + start.strftime('%Y%m%d'), 'DTEND;VALUE=DATE:' + end.strftime('%Y%m%d')
         elif e['all_day'] is False:
-            start, end = timestamp(e['start']), timestamp(e['end'])
-            startline, endline = 'DTSTART:' + fmt(start), 'DTEND:' + fmt(end)
+            start = timestamp(e['start'])
+            end = timestamp(e['end']) if e.get('end') else None
+            startline, endline = 'DTSTART:' + fmt(start), ('DTEND:' + fmt(end) if end else None)
         else:
             raise ValueError('all_day must be boolean')
-        if end <= start:
+        if end is not None and end <= start:
             raise ValueError('end must follow start')
         desc = e.get('description', '') + '\n官方公告: ' + e['source_url']
         if e.get('watch_url'):
@@ -64,7 +65,10 @@ def build(events):
             if url.scheme != 'https' or not url.netloc:
                 raise ValueError('watch_url must be HTTPS')
             desc += '\n观看链接: ' + e['watch_url']
-        lines += ['BEGIN:VEVENT', 'UID:' + uid + '@tws-calendar', 'DTSTAMP:' + fmt(updated), 'LAST-MODIFIED:' + fmt(updated), 'SEQUENCE:' + str(e['sequence']), startline, endline, 'SUMMARY:' + escape(e['title']), 'DESCRIPTION:' + escape(desc), 'URL:' + e['source_url'], 'STATUS:' + ('CANCELLED' if e['status'] == 'cancelled' else 'CONFIRMED'), 'END:VEVENT']
+        lines += ['BEGIN:VEVENT', 'UID:' + uid + '@tws-calendar', 'DTSTAMP:' + fmt(updated), 'LAST-MODIFIED:' + fmt(updated), 'SEQUENCE:' + str(e['sequence']), startline]
+        if endline:
+            lines.append(endline)
+        lines += ['SUMMARY:' + escape(e['title']), 'DESCRIPTION:' + escape(desc), 'URL:' + e['source_url'], 'STATUS:' + ('CANCELLED' if e['status'] == 'cancelled' else 'CONFIRMED'), 'END:VEVENT']
     lines.append('END:VCALENDAR')
     return ('\r\n'.join(map(fold, lines)) + '\r\n').encode('utf-8')
 
