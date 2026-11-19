@@ -74,7 +74,7 @@ class CalendarTests(unittest.TestCase):
         self.assertIn('演出介绍。\\n来源：https://example.org', data)
         self.assertNotIn('核对日期', data)
         self.assertNotIn('不会自动更新', data)
-        self.assertIn('SEQUENCE:2', data)
+        self.assertIn('SEQUENCE:3', data)
 
     def test_historical_source_stays_in_data_not_calendar(self):
         self.event['historical'] = True
