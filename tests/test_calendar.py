@@ -34,6 +34,17 @@ class CalendarTests(unittest.TestCase):
         del self.event['end']
         self.assertNotIn(b'DTEND', build([self.event]))
 
+    def test_location_and_details(self):
+        self.event.update(location='首尔, 韩国', details='成员：TWS\n具体会场待公布')
+        data = build([self.event]).decode('utf-8').replace('\r\n ', '')
+        self.assertIn('LOCATION:首尔\\, 韩国', data)
+        self.assertIn('成员：TWS\\n具体会场待公布', data)
+
+    def test_date_placeholder_is_explicit(self):
+        self.event.update(all_day=True, time_tbd=True, start='2030-01-01', end='2030-01-02')
+        data = build([self.event]).decode('utf-8').replace('\r\n ', '')
+        self.assertIn('具体时间待公布（日期占位）', data)
+
 
 if __name__ == '__main__': unittest.main()
 
