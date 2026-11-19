@@ -78,6 +78,8 @@ def clean_original(block):
         '日本巡演全曲无删减电视首播': '2026 TWS 日本巡演全曲无删减版电视首播。',
     }
     for line in block:
+        if line.startswith('URL:') or (line.startswith('DESCRIPTION:') and '生日' in title):
+            continue
         if line.startswith('DESCRIPTION:'):
             parts = line[len('DESCRIPTION:'):].split('\\n')
             intro = parts[0]
@@ -98,10 +100,10 @@ def clean_original(block):
             line = 'DESCRIPTION:' + desc
         elif line.startswith('LOCATION:'):
             value = line[len('LOCATION:'):]
-            if value in ('线上', 'MBC', 'KBS 2TV', 'SBS', 'YouTube：KBS Kpop', 'TBS Channel 1'):
+            if value in ('线上', 'MBC', 'KBS 2TV', 'SBS', 'YouTube：KBS Kpop', 'TBS Channel 1') or '仅通知' in value or '通知中签者' in value:
                 line = 'LOCATION:'
         elif line.startswith('SEQUENCE:'):
-            line = 'SEQUENCE:' + str(int(line.split(':', 1)[1]) + 1)
+            line = 'SEQUENCE:' + str(int(line.split(':', 1)[1]) + 2)
         elif line.startswith('DTSTAMP:'):
             line = 'DTSTAMP:20261119T124500Z'
         result.append(line)
@@ -154,14 +156,14 @@ def build(events, original=None):
         lines += ['BEGIN:VEVENT', 'UID:' + uid + '@tws-calendar', 'DTSTAMP:' + fmt(updated), 'LAST-MODIFIED:' + fmt(updated), 'SEQUENCE:' + str(e['sequence']), startline]
         if endline:
             lines.append(endline)
-        location = e.get('location', '')
+        location = e.get('location', '').split('\nhttps://maps.apple.com/', 1)[0]
+        if any(s in location for s in ('具体会场未公开', '具体会场另行通知')):
+            location = ''
         if e.get('watch_url') and not e.get('historical') and e['watch_url'] not in location:
             location = '\n'.join(filter(None, (location, e['watch_url'])))
         if location:
             lines.append('LOCATION:' + escape(location))
         lines += ['SUMMARY:' + escape(e['title']), 'DESCRIPTION:' + escape(desc)]
-        if not e.get('historical'):
-            lines.append('URL:' + e['source_url'])
         lines.append('STATUS:' + ('CANCELLED' if e['status'] == 'cancelled' else 'CONFIRMED'))
         if e.get('remind_at_start'):
             if e['all_day']:
