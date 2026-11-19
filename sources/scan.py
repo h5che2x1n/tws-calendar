@@ -81,8 +81,13 @@ def main():
         try:
             result['sources'][name] = {'status': 'review_required', 'links': scan(name)}
         except Exception as exc:
-            failed = True
-            result['sources'][name] = {'status': 'unavailable', 'error': str(exc)}
+            # PLEDIS's current notice list is not present as ordinary links in
+            # the returned HTML. Keep it explicitly manual until supported.
+            if name == 'pledis':
+                result['sources'][name] = {'status': 'manual_required', 'error': str(exc)}
+            else:
+                failed = True
+                result['sources'][name] = {'status': 'unavailable', 'error': str(exc)}
     with open('source-report.json', 'w', encoding='utf-8') as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
     print(json.dumps(result, ensure_ascii=False, indent=2))
