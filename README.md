@@ -1,6 +1,6 @@
 # TWS 官方行程订阅
 
-这是一个尚需维护的日历发布系统。`data/original.ics` 保存 2026-11-07 的原始 30 项快照，包括原 UID、重复规则、地点和详情；它不是当前状态的重新核验。后续核实行程在 `data/events.json` 中维护。每天北京时间 09:23 及手动运行时重新验证、生成并部署。**当前没有自动新增行程**。独立的 Official source review 工作流每天检查日本官网第一页，产生待人工核查的候选链接报告；不是全面抓取，且不会写入日历。PLEDIS 的页面当前不能稳定识别，需人工核查；Weverse 也需人工核查。不能把成功部署当成来源采集成功。现有 ChatGPT 搜索任务不会自动写入此仓库。
+`data/original.ics` 保存原始快照；`data/events.json` 维护更新与新行程；`data/history.json` 收录历史发行、见面会、演唱会和年末舞台，来源保存在数据中而不显示在历史日历详情。历史目录尚未穷尽，仍可补充。原 UID 和生日重复规则继续保留。每天北京时间 09:23 及手动运行时重新验证、生成并部署。ChatGPT 的「TWS 行程更新」定时任务已配置核验及更新仓库，并成功手动测试一次；定时运行和来源覆盖仍需持续检查。日本官网检查仅列出第一页待核查链接，PLEDIS 和 Weverse 并非完整自动采集。
 
 ## 首次启用
 
@@ -14,7 +14,7 @@
 [{"id":"example-stable-id","title":"虚构示例","status":"confirmed","sequence":0,"all_day":false,"start":"2030-01-01T20:00:00+09:00","end":"2030-01-01T21:00:00+09:00","updated_at":"2029-12-01T00:00:00Z","source_url":"https://example.org/notice","watch_url":"https://example.org/watch","description":"说明"}]
 ```
 
-实际活动必须核实开始时间及偏移量；不可推测时间。仅日期已确认但时刻待定时可用 `all_day: true`、`time_tbd: true` 表示日期占位，详情会注明时间待公布。结束时间未知的定时活动可省略 `end`。真正的全天活动使用 `all_day: true`，开始、结束用 `YYYY-MM-DD`，结束是排他的次日日期。`location` 写地点，`details` 写成员、活动说明和注意事项；`watch_url` 可省略。每个活动分配唯一永久 id，改期沿用 id 并递增 sequence、更新 updated_at；取消时保留记录，将 status 设为 cancelled、递增 sequence、更新 updated_at。不要删除已发布事件或复用 id。提交后工作流发布。禁止将上面的示例写入实际数据。
+实际活动必须核实开始时间及偏移量；不可推测开始时刻。仅日期已确认但时刻待定时可用 `all_day: true`、`time_tbd: true` 表示日期占位；时刻公布后沿用同一个 id 改成定时事件，递增 sequence。结束时间确定则填写；有合理时长依据时可以估计，设置 `end_estimated: true`，日历会标明结束时间为估计；没有依据时省略 `end`。线上综艺有确定播出时间时设置 `remind_at_start: true`；实际提醒受 Apple 日历订阅和设备通知设置影响。全天日期使用 `YYYY-MM-DD`，结束是排他的次日日期。`location` 放线下场馆及已确认可直接观看或参与的链接，没有则留空；不把公告网址当成观看入口。`details` 简述活动和成员，非全员活动须注明确切成员；`source_url` 是官方通知，`watch_url` 是已核实的观看链接。不要写核验过程或内部维护说明。节目、打歌、MC、电台、综艺、演出和官方签售等均可收录，须有官方确认。每个活动分配唯一永久 id，改期沿用 id 并递增 sequence、更新 updated_at；取消时保留记录，不复用 id。提交后工作流发布。
 
 来源：日本官网 https://tws-official.jp/schedule 、PLEDIS https://www.pledis.co.kr/ko/artist/detail/TWS/notice/ 。公告可能有图片或需要登录；人工核对并记录来源。
 
