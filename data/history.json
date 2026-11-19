@@ -936,6 +936,62 @@
     "details": "TWS 出演年末舞台。",
     "source_url": "https://weverse.io/tws/notice/32834",
     "historical": true
+  },
+  {
+    "id": "history-20241204-fns",
+    "title": "TWS｜2024 FNS 歌谣祭",
+    "status": "confirmed",
+    "sequence": 0,
+    "all_day": true,
+    "start": "2024-12-04",
+    "end": "2024-12-05",
+    "updated_at": "2026-11-19T13:15:00Z",
+    "location": "",
+    "details": "TWS 出演。",
+    "source_url": "https://www.concertarchives.org/bands/tws?year=2024",
+    "historical": true
+  },
+  {
+    "id": "history-20250104-golden-disc",
+    "title": "TWS｜第 39 届 Golden Disc Awards",
+    "status": "confirmed",
+    "sequence": 0,
+    "all_day": true,
+    "start": "2025-01-04",
+    "end": "2025-01-05",
+    "updated_at": "2026-11-19T13:15:00Z",
+    "location": "",
+    "details": "TWS 出演。",
+    "source_url": "https://contentsmonster.jp/img/news/20241203_GDA_lineup1.pdf",
+    "historical": true
+  },
+  {
+    "id": "history-20251128-mama",
+    "title": "TWS｜2025 MAMA Awards",
+    "status": "confirmed",
+    "sequence": 0,
+    "all_day": true,
+    "start": "2025-11-28",
+    "end": "2025-11-29",
+    "updated_at": "2026-11-19T13:15:00Z",
+    "location": "",
+    "details": "TWS 出演。",
+    "source_url": "https://www.chosun.com/english/kpop-culture-en/2025/11/30/KBOJRODLVNHZJOPRCXCZEEIBTA/",
+    "historical": true
+  },
+  {
+    "id": "history-20251203-fns",
+    "title": "TWS｜2025 FNS 歌谣祭",
+    "status": "confirmed",
+    "sequence": 0,
+    "all_day": true,
+    "start": "2025-12-03",
+    "end": "2025-12-04",
+    "updated_at": "2026-11-19T13:15:00Z",
+    "location": "",
+    "details": "TWS 出演。",
+    "source_url": "https://biz.chosun.com/en/en-entertainment/2025/11/10/25HTR2B6EBD3ZFMZKD7V33LHJE/",
+    "historical": true
   }
 ]
 
