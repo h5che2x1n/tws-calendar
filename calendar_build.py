@@ -3,6 +3,7 @@ import re
 from datetime import date, datetime, timezone, timedelta
 from pathlib import Path
 from urllib.parse import urlparse
+from venue_maps import map_location
 
 
 def escape(value):
@@ -140,12 +141,22 @@ def clean_original(block):
                 line = 'LOCATION:https://www.sbs.co.kr/live'
             elif '做家务的男人们2' in title:
                 line = 'LOCATION:https://onair.kbs.co.kr/index.html?ch_code=12&ch_type=globalList&sname=onair&stype=live'
+            if line == 'LOCATION:首尔 高尺天空巨蛋':
+                line = 'LOCATION:' + escape(map_location('首尔 高尺天空巨蛋'))
+            elif line.startswith('LOCATION:'):
+                value = line[len('LOCATION:'):]
+                mapped = map_location(value)
+                if mapped != value:
+                    line = 'LOCATION:' + escape(mapped)
         elif line.startswith('SEQUENCE:'):
-            line = 'SEQUENCE:' + str(int(line.split(':', 1)[1]) + 5)
+            line = 'SEQUENCE:' + str(int(line.split(':', 1)[1]) + 6)
         elif line.startswith('DTSTAMP:'):
             line = 'DTSTAMP:20261119T145500Z'
         result.append(line)
     starts = [x for x in result if x.startswith('DTSTART:')]
+    if any('高尺天空巨蛋' in x for x in result if x.startswith('LOCATION:')):
+        result.insert(-1, 'GEO:37.49817;126.86707')
+        result.insert(-1, 'X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="서울특별시 구로구 경인로 430";X-APPLE-RADIUS=100;X-TITLE="高尺天空巨蛋":geo:37.49817,126.86707')
     category = duration_category(title)
     if category and starts and not any(x.startswith(('DTEND', 'DURATION')) for x in result):
         start = datetime.strptime(starts[0][8:], '%Y%m%dT%H%M%SZ').replace(tzinfo=timezone.utc)
@@ -211,6 +222,8 @@ def build(events, original=None):
         location = e.get('location', '').split('\nhttps://maps.apple.com/', 1)[0]
         if any(s in location for s in ('具体会场未公开', '具体会场另行通知')):
             location = ''
+        if location and not e.get('geo'):
+            location = map_location(location)
         if e.get('watch_url') and not e.get('historical') and e['watch_url'] not in location:
             location = '\n'.join(filter(None, (location, e['watch_url'])))
         if location:

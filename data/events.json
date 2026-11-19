@@ -123,16 +123,20 @@
     "id": "20261122-inkigayo-shinyu-mc",
     "title": "🎤 申惟｜SBS《人气歌谣》MC",
     "status": "confirmed",
-    "sequence": 5,
+    "sequence": 6,
     "all_day": false,
     "start": "2026-11-22T14:10:00+09:00",
-    "updated_at": "2026-11-19T14:08:24Z",
+    "updated_at": "2026-11-19T15:15:32Z",
     "location": "SBS 登村洞公开厅 · 서울특별시 강서구 양천로 442\nhttps://maps.apple.com/?q=%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B0%95%EC%84%9C%EA%B5%AC%20%EC%96%91%EC%B2%9C%EB%A1%9C%20442",
     "details": "SHINYU 担任 SBS《人气歌谣》MC。",
     "source_url": "https://weverse.io/tws/notice/41164?hl=ko",
     "end": "2026-11-22T15:20:00+09:00",
     "end_estimated": true,
-    "watch_url": "https://www.sbs.co.kr/live"
+    "watch_url": "https://www.sbs.co.kr/live",
+    "geo": [
+      37.56319,
+      126.85021
+    ]
   },
   {
     "id": "20261219-yes24-video-fansign",

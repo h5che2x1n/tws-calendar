@@ -81,7 +81,14 @@ class CalendarTests(unittest.TestCase):
         self.assertIn('演出介绍。\\n来源：https://example.org', data)
         self.assertNotIn('核对日期', data)
         self.assertNotIn('不会自动更新', data)
-        self.assertIn('SEQUENCE:5', data)
+        self.assertIn('SEQUENCE:6', data)
+
+    def test_venue_map_and_unknown_location(self):
+        self.event.update(location='韩国首尔 · 蚕室室内体育馆')
+        data = build([self.event]).decode('utf8').replace('\r\n ', '')
+        self.assertIn('https://maps.apple.com/?q=Jamsil+Indoor+Stadium+Seoul', data)
+        self.event['location'] = '具体会场未公开'
+        self.assertNotIn('LOCATION:', build([self.event]).decode('utf8'))
 
     def test_default_duration_and_explicit_end(self):
         self.event.update(title='虚构线上视频签售')
