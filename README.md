@@ -14,9 +14,9 @@
 [{"id":"example-stable-id","title":"虚构示例","status":"confirmed","sequence":0,"all_day":false,"start":"2030-01-01T20:00:00+09:00","end":"2030-01-01T21:00:00+09:00","updated_at":"2029-12-01T00:00:00Z","source_url":"https://example.org/notice","watch_url":"https://example.org/watch","description":"说明"}]
 ```
 
-实际活动必须核实开始与结束时间及偏移量；时间不明确不得推测或标为全天。真正的全天活动使用 `all_day: true`，开始、结束用 `YYYY-MM-DD`，结束是排他的次日日期。`watch_url` 和 `description` 可省略。每个活动分配唯一永久 id，改期沿用 id 并递增 sequence、更新 updated_at；取消时保留记录，将 status 设为 cancelled、递增 sequence、更新 updated_at。不要删除已发布事件或复用 id。提交后工作流发布。禁止将上面的示例写入实际数据。
+实际活动必须核实开始时间及偏移量；时间不明确不得推测或标为全天。结束时间未知的定时活动可省略 `end`，日历不会猜测时长。真正的全天活动使用 `all_day: true`，开始、结束用 `YYYY-MM-DD`，结束是排他的次日日期。`watch_url` 和 `description` 可省略。每个活动分配唯一永久 id，改期沿用 id 并递增 sequence、更新 updated_at；取消时保留记录，将 status 设为 cancelled、递增 sequence、更新 updated_at。不要删除已发布事件或复用 id。提交后工作流发布。禁止将上面的示例写入实际数据。
 
-来源：日本官网 https://tws-official.jp/schedule 、PLEDIS https://www.pledis.co.kr/ko/artist/detail/TWS/notice/ 。公告可能有图片、未明确结束时间或需要登录；人工核对并记录来源。未知结束时间的活动当前不能发布。
+来源：日本官网 https://tws-official.jp/schedule 、PLEDIS https://www.pledis.co.kr/ko/artist/detail/TWS/notice/ 。公告可能有图片或需要登录；人工核对并记录来源。
 
 ## 维护检查
 
