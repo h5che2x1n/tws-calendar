@@ -30,6 +30,10 @@ class CalendarTests(unittest.TestCase):
         with self.assertRaises(ValueError): build([self.event])
         with self.assertRaises(ValueError): build([dict(self.event, start='2030-01-01T20:00:00+09:00')] * 2)
 
+    def test_unknown_end_is_not_invented(self):
+        del self.event['end']
+        self.assertNotIn(b'DTEND', build([self.event]))
+
 
 if __name__ == '__main__': unittest.main()
 
