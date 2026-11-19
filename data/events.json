@@ -174,17 +174,19 @@
     "id": "249c51b0-0051-56ae-944b-abc7def48c50",
     "title": "🏆 TWS｜Music Bank Global Festival 日本 DAY 1",
     "status": "confirmed",
-    "sequence": 5,
+    "sequence": 6,
     "all_day": false,
     "start": "2026-12-12T17:00:00+09:00",
-    "updated_at": "2026-11-19T14:08:24Z",
+    "updated_at": "2026-11-19T14:30:39Z",
     "location": "MUFG Stadium／国立竞技场 · 東京都新宿区霞ヶ丘町10-1\nhttps://maps.apple.com/?q=%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%96%B0%E5%AE%BF%E5%8C%BA%E9%9C%9E%E3%83%B6%E4%B8%98%E7%94%BA10-1",
     "details": "TWS 出演日本场第一天。",
     "source_url": "https://www.music-bank.jp/",
     "geo": [
       35.678056,
       139.714722
-    ]
+    ],
+    "end": "2026-12-12T21:00:00+09:00",
+    "end_estimated": true
   },
   {
     "id": "d02fd13c-0f75-5c46-a000-ca26eba83800",
