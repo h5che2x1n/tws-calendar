@@ -1,0 +1,497 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//TWS Public Schedule//ZH-CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:TWS公开行程与生日｜2026-11-07核对
+X-WR-TIMEZONE:Asia/Shanghai
+X-WR-CALDESC:已核实行程快照；非官方日历，不自动更新。
+ 每项附来源。未公布时间用全天占位。
+BEGIN:VEVENT
+UID:f4e3db96-e4dc-591f-9e47-b1b9f20b6442@tws-calendar
+DTSTAMP:20261107T090000Z
+SEQUENCE:0
+SUMMARY:TWS｜SHINYU 申惟 生日
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+LOCATION:
+DESCRIPTION:出生日期：2003-11-07。每年重复的全天生日；不
+ 代表已公布生日直播或线下活动。\n全天日期标记；除生
+ 日和上映期间外，不表示全天举行。\n核对日期：2026-11-0
+ 7。导入后不会自动更新。\n来源：https://fansupport.joelin.cc/
+ en/group/tws/
+URL:https://fansupport.joelin.cc/en/group/tws/
+END:VEVENT
+BEGIN:VEVENT
+UID:3eebf90d-a353-5225-bcc3-23bedfbf3b14@tws-calendar
+DTSTAMP:20261107T090000Z
+SEQUENCE:0
+SUMMARY:TWS｜《Show! 音乐中心》预录
+DTSTART:20261106T233000Z
+TRANSP:TRANSPARENT
+LOCATION:首尔 上岩 MBC
+DESCRIPTION:预录时间；与下午电视播出分开记录。\n原公告
+ 时区：Asia/Seoul，开始 2026-11-07 08:30；北京时间 2026-11-07 07
+ :30。结束时间未公布，未推定活动时长。\n核对日期：202
+ 6-11-07。导入后不会自动更新。\n来源：https://weverse.io/tws/
+ notice/40748
+URL:https://weverse.io/tws/notice/40748
+END:VEVENT
+BEGIN:VEVENT
+UID:940e7064-7999-5e65-aaa6-1d7b5450f58e@tws-calendar
+DTSTAMP:20261107T090000Z
+SEQUENCE:0
+SUMMARY:TWS｜TO US 官方快闪店最后一天
+DTSTART:20261107T020000Z
+DTEND:20261107T110000Z
+TRANSP:TRANSPARENT
+LOCATION:首尔 龙山区 汉江大路42号 1F
+DESCRIPTION:官方营业期11月2日至7日；本日历仅保留11月7日
+ 。商业快闪，不表示成员到场。\n原公告时区：Asia/Seoul
+ ，开始 2026-11-07 11:00；北京时间 2026-11-07 10:00。\n核对日
+ 期：2026-11-07。导入后不会自动更新。\n来源：https://wevers
+ e.io/tws/notice/40227
+URL:https://weverse.io/tws/notice/40227
+END:VEVENT
+BEGIN:VEVENT
+UID:9e0e399b-f106-5535-a71c-deefa8441776@tws-calendar
+DTSTAMP:20261107T090000Z
+SEQUENCE:1
+SUMMARY:TWS｜《Show! 音乐中心》播出／DOHOON 特别MC
+DTSTART:20261107T062000Z
+TRANSP:TRANSPARENT
+LOCATION:MBC
+DESCRIPTION:出演及特别MC由官方确认；15:20 KST播出时刻交叉
+ 参考 Blip 与 theqoo。https://blip.kr/artists/TWS/schedule?unitId=125\n
+ 原公告时区：Asia/Seoul，开始 2026-11-07 15:20；北京时间 2026
+ -11-07 14:20。结束时间未公布，未推定活动时长。\n核对日
+ 期：2026-11-07。导入后不会自动更新。\n来源：https://wevers
+ e.io/tws/notice/40748\n观看链接说明：官方节目入口：https://p
+ rogram.imbc.com/musiccore；节目页可查视频，非本期TWS单独舞
+ 台直链。
+URL:https://program.imbc.com/musiccore
+END:VEVENT
+BEGIN:VEVENT
+UID:f5af4c41-56d0-5494-b52c-6e7205872b83@tws-calendar
+DTSTAMP:20261107T090000Z
+SEQUENCE:1
+SUMMARY:JIHOON｜《做家务的男人们2》
+DTSTART:20261107T133500Z
+TRANSP:TRANSPARENT
+LOCATION:KBS 2TV
+DESCRIPTION:志薰作为演播室特别嘉宾出演；中文别名《家务
+ 男》。\n原公告时区：Asia/Seoul，开始 2026-11-07 22:35；北京
+ 时间 2026-11-07 21:35。结束时间未公布，未推定活动时长。
+ \n核对日期：2026-11-07。导入后不会自动更新。\n来源：htt
+ ps://www2.newsen.com/news_view.php?code=999999&uid=202611061506462410\n观
+ 看链接说明：官方节目入口（不是当期正片直链）：https
+ ://program.kbs.co.kr/2tv/enter/kbshomenam/pc/index.html；当期尚未播
+ 出，未找到已公开正片。
+URL:https://program.kbs.co.kr/2tv/enter/kbshomenam/pc/index.html
+END:VEVENT
+BEGIN:VEVENT
+UID:5159e242-5af4-5e91-ab5c-80cad8690d6d@tws-calendar
+DTSTAMP:20261107T090000Z
+SEQUENCE:1
+SUMMARY:TWS｜《돌박이일》偶像两天一夜（时间待定）
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+TRANSP:TRANSPARENT
+LOCATION:YouTube：KBS Kpop
+DESCRIPTION:媒体转述PLEDIS信息确认11月8日公开；未核实具体
+ 上线时间，不按往期惯例填时刻。\n全天日期标记；除生
+ 日和上映期间外，不表示全天举行。\n核对日期：2026-11-0
+ 7。导入后不会自动更新。\n来源：https://www.fnnews.com/news/2
+ 02611071318314402\n观看链接说明：官方预告／Mood Sampler：http
+ s://www.youtube.com/watch?v=bT2lT2GMqk0；由TWS官方账号分享，视
+ 频页本次读取受限。官方发布频道：https://www.youtube.com/@K
+ BSKpop；未找到11月8日正片直链，以上预告不是正片。
+URL:https://www.youtube.com/watch?v=bT2lT2GMqk0
+END:VEVENT
+BEGIN:VEVENT
+UID:d184ed35-57dd-523f-95dd-988246623439@tws-calendar
+DTSTAMP:20261107T090000Z
+SEQUENCE:1
+SUMMARY:TWS｜《人气歌谣》／SHINYU MC
+DTSTART:20261108T062000Z
+TRANSP:TRANSPARENT
+LOCATION:SBS
+DESCRIPTION:以官方15:20 KST为准。TWS舞台使用11月5日预录；SHI
+ NYU当天担任MC。\n原公告时区：Asia/Seoul，开始 2026-11-08 15:
+ 20；北京时间 2026-11-08 14:20。结束时间未公布，未推定活
+ 动时长。\n核对日期：2026-11-07。导入后不会自动更新。\n
+ 来源：https://weverse.io/tws/notice/40821\n观看链接说明：官方
+ 节目入口：https://programs.sbs.co.kr/enter/gayo/main；非本期正
+ 片直链。
+URL:https://programs.sbs.co.kr/enter/gayo/main
+END:VEVENT
+BEGIN:VEVENT
+UID:4aa4a2b2-039a-5d29-9fa3-fd4f71c7c3f5@tws-calendar
+DTSTAMP:20261107T090000Z
+SEQUENCE:0
+SUMMARY:TWS｜2026 KGMA Music Day
+DTSTART:20261108T080000Z
+TRANSP:TRANSPARENT
+LOCATION:首尔 高尺天空巨蛋
+DESCRIPTION:典礼开始时间，不是TWS个人舞台时间。官网：htt
+ ps://kgma-is.com/；TWS为11月8日出演，非7日。\n原公告时区：
+ Asia/Seoul，开始 2026-11-08 17:00；北京时间 2026-11-08 16:00。结
+ 束时间未公布，未推定活动时长。\n核对日期：2026-11-07
+ 。导入后不会自动更新。\n来源：https://momentnews.co.kr/kgma-
+ 2026-day-lineup-ena-broadcast-updates/
+URL:https://momentnews.co.kr/kgma-2026-day-lineup-ena-broadcast-updates/
+END:VEVENT
+BEGIN:VEVENT
+UID:6975d16c-6537-5212-a101-4ed47517ee86@tws-calendar
+DTSTAMP:20261107T090000Z
+SEQUENCE:0
+SUMMARY:TWS｜Weverse 个人视频签售
+DTSTART:20261109T100000Z
+TRANSP:TRANSPARENT
+LOCATION:线上
+DESCRIPTION:TO US；仅中签者参与。\n原公告时区：Asia/Seoul，
+ 开始 2026-11-09 19:00；北京时间 2026-11-09 18:00。结束时间未
+ 公布，未推定活动时长。\n核对日期：2026-11-07。导入后
+ 不会自动更新。\n来源：https://weverse.io/tws/notice/39610
+URL:https://weverse.io/tws/notice/39610
+END:VEVENT
+BEGIN:VEVENT
+UID:4929a6d3-59ec-54fa-8c32-909deb32c027@tws-calendar
+DTSTAMP:20261107T090000Z
+SEQUENCE:0
+SUMMARY:TWS｜Weverse 线下签售
+DTSTART:20261111T100000Z
+TRANSP:TRANSPARENT
+LOCATION:首尔（具体地点仅通知中签者）
+DESCRIPTION:TO US；非自由入场活动。\n原公告时区：Asia/Seoul
+ ，开始 2026-11-11 19:00；北京时间 2026-11-11 18:00。结束时间
+ 未公布，未推定活动时长。\n核对日期：2026-11-07。导入
+ 后不会自动更新。\n来源：https://weverse.io/tws/notice/39987
+URL:https://weverse.io/tws/notice/39987
+END:VEVENT
+BEGIN:VEVENT
+UID:43e156fd-590b-5959-9023-3b6802ffd76c@tws-calendar
+DTSTAMP:20261107T090000Z
+SEQUENCE:0
+SUMMARY:TWS｜RUSH ROAD VR演唱会首尔重映
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261123
+TRANSP:TRANSPARENT
+LOCATION:首尔 Megabox COEX MX4D
+DESCRIPTION:11月13日至22日，场次以影院为准；为VR影片上映
+ ，不是成员现场演出。\n全天日期标记；除生日和上映期
+ 间外，不表示全天举行。\n核对日期：2026-11-07。导入后
+ 不会自动更新。\n来源：https://weverse.io/tws/notice/40427
+URL:https://weverse.io/tws/notice/40427
+END:VEVENT
+BEGIN:VEVENT
+UID:b48b6e75-31e8-5d44-a584-cdf347659f10@tws-calendar
+DTSTAMP:20261107T090000Z
+SEQUENCE:0
+SUMMARY:TWS｜WITHMUU 个人视频签售（时间待定）
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+TRANSP:TRANSPARENT
+LOCATION:线上
+DESCRIPTION:官方公告具体时间待通知；第三方20:00未采用。
+ 仅中签者参与。\n全天日期标记；除生日和上映期间外，
+ 不表示全天举行。\n核对日期：2026-11-07。导入后不会自
+ 动更新。\n来源：https://weverse.io/tws/notice/40394
+URL:https://weverse.io/tws/notice/40394
+END:VEVENT
+BEGIN:VEVENT
+UID:5e6871b1-2143-5f6e-bb6e-f4b90c0ee085@tws-calendar
+DTSTAMP:20261107T090000Z
+SEQUENCE:0
+SUMMARY:TWS｜MMA 2026 DAY 1
+DTSTART:20261114T090000Z
+TRANSP:TRANSPARENT
+LOCATION:首尔 高尺天空巨蛋
+DESCRIPTION:TWS出演11月14日；典礼18:00 KST，非单独舞台时刻
+ 。时间参考：https://www.soompi.com/article/1882479wpp/guide-to-2026-
+ year-end-shows-and-upcoming-awards-shows-schedules-lineups-nominees-and-mo
+ re\n原公告时区：Asia/Seoul，开始 2026-11-14 18:00；北京时间 
+ 2026-11-14 17:00。结束时间未公布，未推定活动时长。\n核
+ 对日期：2026-11-07。导入后不会自动更新。\n来源：https://
+ www.yna.co.kr/view/AKR20261014072800005
+URL:https://www.yna.co.kr/view/AKR20261014072800005
+END:VEVENT
+BEGIN:VEVENT
+UID:4b162540-c77b-5388-9882-65b478932f20@tws-calendar
+DTSTAMP:20261107T090000Z
+SEQUENCE:0
+SUMMARY:TWS｜Blue Dream Media 线下签售
+DTSTART:20261115T103000Z
+TRANSP:TRANSPARENT
+LOCATION:首尔（地点通知中签者）
+DESCRIPTION:\n原公告时区：Asia/Seoul，开始 2026-11-15 19:30；北
+ 京时间 2026-11-15 18:30。结束时间未公布，未推定活动时长
+ 。\n核对日期：2026-11-07。导入后不会自动更新。\n来源：
+ https://weverse.io/tws/notice/40499
+URL:https://weverse.io/tws/notice/40499
+END:VEVENT
+BEGIN:VEVENT
+UID:4b09c55b-86f8-57c4-a2b1-e6341fd221b0@tws-calendar
+DTSTAMP:20261107T090000Z
+SEQUENCE:0
+SUMMARY:TWS｜AAA 2026 DAY 2
+DTSTART:20261206T090000Z
+TRANSP:TRANSPARENT
+LOCATION:高雄 国家体育场
+DESCRIPTION:TWS在12月6日阵容；17:00为台湾当地典礼时间，与
+ 北京时间相同。时间参考Soompi年末汇总；非单独舞台时
+ 刻。\n原公告时区：Asia/Taipei，开始 2026-12-06 17:00；北京
+ 时间 2026-12-06 17:00。结束时间未公布，未推定活动时长。
+ \n核对日期：2026-11-07。导入后不会自动更新。\n来源：htt
+ ps://www.gvm.com.tw/article/133077
+URL:https://www.gvm.com.tw/article/133077
+END:VEVENT
+BEGIN:VEVENT
+UID:74fac67b-819c-58e7-9782-7677f6990df7@tws-calendar
+DTSTAMP:20261107T090000Z
+SEQUENCE:0
+SUMMARY:TWS｜MUSICPLANT 冬季主题特别签售
+DTSTART:20261209T100000Z
+TRANSP:TRANSPARENT
+LOCATION:首尔（地点通知中签者）
+DESCRIPTION:TO US；冬季滑雪场主题及特别环节。\n原公告时
+ 区：Asia/Seoul，开始 2026-12-09 19:00；北京时间 2026-12-09 18:00
+ 。结束时间未公布，未推定活动时长。\n核对日期：2026-1
+ 1-07。导入后不会自动更新。\n来源：https://weverse.io/tws/not
+ ice/40651
+URL:https://weverse.io/tws/notice/40651
+END:VEVENT
+BEGIN:VEVENT
+UID:249c51b0-0051-56ae-944b-abc7def48c50@tws-calendar
+DTSTAMP:20261107T090000Z
+SEQUENCE:0
+SUMMARY:TWS｜Music Bank Global Festival 日本 DAY 1
+DTSTART:20261212T080000Z
+TRANSP:TRANSPARENT
+LOCATION:东京 MUFG Stadium／国立竞技场
+DESCRIPTION:官网确认TWS为12月12日阵容；17:00 JST开演参考Soomp
+ i年末汇总。非单独舞台时刻。\n原公告时区：Asia/Tokyo，
+ 开始 2026-12-12 17:00；北京时间 2026-12-12 16:00。结束时间未
+ 公布，未推定活动时长。\n核对日期：2026-11-07。导入后
+ 不会自动更新。\n来源：https://www.music-bank.jp/
+URL:https://www.music-bank.jp/
+END:VEVENT
+BEGIN:VEVENT
+UID:6bc070b4-2bde-5ecc-9c60-eee6562344e5@tws-calendar
+DTSTAMP:20261107T090000Z
+SEQUENCE:0
+SUMMARY:TWS｜M2U RECORD 线下签售
+DTSTART:20261217T113000Z
+TRANSP:TRANSPARENT
+LOCATION:首尔（地点通知中签者）
+DESCRIPTION:按官方公告标题记录主办店名；公告正文存在其
+ 他店名残留，请参与者以中签通知为准。\n原公告时区：
+ Asia/Seoul，开始 2026-12-17 20:30；北京时间 2026-12-17 19:30。结
+ 束时间未公布，未推定活动时长。\n核对日期：2026-11-07
+ 。导入后不会自动更新。\n来源：https://weverse.io/tws/notice/
+ 40695
+URL:https://weverse.io/tws/notice/40695
+END:VEVENT
+BEGIN:VEVENT
+UID:90f52657-8b3a-58d7-9839-6f2d04163eb3@tws-calendar
+DTSTAMP:20261107T090000Z
+SEQUENCE:0
+SUMMARY:TWS｜SBS 歌谣大战（出演日／时间待定）
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261226
+TRANSP:TRANSPARENT
+LOCATION:韩国 一山 KINTEX
+DESCRIPTION:活动举办12月24日至25日，已公布TWS参演；具体出
+ 演哪一天尚未公布。跨两日占位不代表两日均出演。\n全
+ 天日期标记；除生日和上映期间外，不表示全天举行。\n
+ 核对日期：2026-11-07。导入后不会自动更新。\n来源：https
+ ://www.soompi.com/article/1880971wpp/2026-sbs-gayo-daejeon-announces-1st-l
+ ineup
+URL:https://www.soompi.com/article/1880971wpp/2026-sbs-gayo-daejeon-announc
+ es-1st-lineup
+END:VEVENT
+BEGIN:VEVENT
+UID:d02fd13c-0f75-5c46-a000-ca26eba83800@tws-calendar
+DTSTAMP:20261107T090000Z
+SEQUENCE:0
+SUMMARY:TWS｜RUSH ROAD 日本VR FEST上映
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20270101
+TRANSP:TRANSPARENT
+LOCATION:东京 109 Cinemas Premium 新宿
+DESCRIPTION:TWS作品上映12月25日至31日，每日4场，以影院排
+ 片为准；不是成员现场演出。\n全天日期标记；除生日和
+ 上映期间外，不表示全天举行。\n核对日期：2026-11-07。
+ 导入后不会自动更新。\n来源：https://tws-official.jp/news/86f9
+ 87f2f9fc
+URL:https://tws-official.jp/news/86f987f2f9fc
+END:VEVENT
+BEGIN:VEVENT
+UID:3d7acdd8-257a-5ae2-af3e-209bff77d5e6@tws-calendar
+DTSTAMP:20261107T090000Z
+SEQUENCE:1
+SUMMARY:TWS｜日本巡演全曲无删减电视首播
+DTSTART:20261227T130000Z
+TRANSP:TRANSPARENT
+LOCATION:TBS Channel 1
+DESCRIPTION:2026 TWS TOUR '24/7:FOR:YOU' IN JAPAN 全曲ノーカット版
+ ；日本付费频道，22:00 JST＝北京时间21:00。\n原公告时区
+ ：Asia/Tokyo，开始 2026-12-27 22:00；北京时间 2026-12-27 21:00。
+ 结束时间未公布，未推定活动时长。\n核对日期：2026-11-0
+ 7。导入后不会自动更新。\n来源：https://tws-official.jp/sched
+ ule/d0921e08bf14\n观看链接说明：TBS官方本节目专页：https://
+ www.tbs.co.jp/tbs-ch/item/o3070/；付费电视频道节目介绍及收看
+ 说明，不是免费在线正片。
+URL:https://www.tbs.co.jp/tbs-ch/item/o3070/
+END:VEVENT
+BEGIN:VEVENT
+UID:1ee620e8-1569-5728-a36c-c45b146f5dd4@tws-calendar
+DTSTAMP:20261107T090000Z
+SEQUENCE:0
+SUMMARY:TWS｜HANJIN 韩振 生日
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+LOCATION:
+DESCRIPTION:出生日期：2006-01-05。每年重复的全天生日；不
+ 代表已公布生日直播或线下活动。\n全天日期标记；除生
+ 日和上映期间外，不表示全天举行。\n核对日期：2026-11-0
+ 7。导入后不会自动更新。\n来源：https://fansupport.joelin.cc/
+ en/group/tws/
+URL:https://fansupport.joelin.cc/en/group/tws/
+END:VEVENT
+BEGIN:VEVENT
+UID:6455b60c-3837-51f3-bef3-886894aac326@tws-calendar
+DTSTAMP:20261107T090000Z
+SEQUENCE:0
+SUMMARY:TWS｜DOHOON 金道勋 生日
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+LOCATION:
+DESCRIPTION:出生日期：2005-01-30。每年重复的全天生日；不
+ 代表已公布生日直播或线下活动。\n全天日期标记；除生
+ 日和上映期间外，不表示全天举行。\n核对日期：2026-11-0
+ 7。导入后不会自动更新。\n来源：https://fansupport.joelin.cc/
+ en/group/tws/
+URL:https://fansupport.joelin.cc/en/group/tws/
+END:VEVENT
+BEGIN:VEVENT
+UID:9f52970c-40ab-58a5-a5e8-756e13123502@tws-calendar
+DTSTAMP:20261107T090000Z
+SEQUENCE:0
+SUMMARY:TWS｜TO US 日本关西签售／留言视频会（时间待定）
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270310
+TRANSP:TRANSPARENT
+LOCATION:日本 关西（详细场地仅通知中签者）
+DESCRIPTION:全员迷你谈话＋成员个人签售／个人留言视频拍
+ 摄；不同中签项目，不表示所有人均能参加全部环节。\n
+ 全天日期标记；除生日和上映期间外，不表示全天举行
+ 。\n核对日期：2026-11-07。导入后不会自动更新。\n来源：
+ https://tws-official.jp/news/a0f421a07b66
+URL:https://tws-official.jp/news/a0f421a07b66
+END:VEVENT
+BEGIN:VEVENT
+UID:701a8f6f-da3b-5b8a-b25e-5495de2c0271@tws-calendar
+DTSTAMP:20261107T090000Z
+SEQUENCE:0
+SUMMARY:TWS｜TO US 日本关西个人合影会（时间待定）
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270310
+TRANSP:TRANSPARENT
+LOCATION:日本 关西（详细场地仅通知中签者）
+DESCRIPTION:Heart Touch／Standing两种个人合影项目，时间与集
+ 合信息通知中签者。\n全天日期标记；除生日和上映期间
+ 外，不表示全天举行。\n核对日期：2026-11-07。导入后不
+ 会自动更新。\n来源：https://tws-official.jp/news/b9d42fb68e05
+URL:https://tws-official.jp/news/b9d42fb68e05
+END:VEVENT
+BEGIN:VEVENT
+UID:827bfd0d-7152-53e0-aaef-9daf118cfeb2@tws-calendar
+DTSTAMP:20261107T090000Z
+SEQUENCE:0
+SUMMARY:TWS｜TO US 日本关东签售／留言视频会（时间待定）
+DTSTART;VALUE=DATE:20270310
+DTEND;VALUE=DATE:20270311
+TRANSP:TRANSPARENT
+LOCATION:日本 关东（详细场地仅通知中签者）
+DESCRIPTION:全员迷你谈话＋成员个人签售／个人留言视频拍
+ 摄；不同中签项目，不表示所有人均能参加全部环节。\n
+ 全天日期标记；除生日和上映期间外，不表示全天举行
+ 。\n核对日期：2026-11-07。导入后不会自动更新。\n来源：
+ https://tws-official.jp/news/a0f421a07b66
+URL:https://tws-official.jp/news/a0f421a07b66
+END:VEVENT
+BEGIN:VEVENT
+UID:a7a7be60-5035-57d4-b2f8-6feaa38fb8ea@tws-calendar
+DTSTAMP:20261107T090000Z
+SEQUENCE:0
+SUMMARY:TWS｜TO US 日本关东个人合影会（时间待定）
+DTSTART;VALUE=DATE:20270310
+DTEND;VALUE=DATE:20270311
+TRANSP:TRANSPARENT
+LOCATION:日本 关东（详细场地仅通知中签者）
+DESCRIPTION:Heart Touch／Standing两种个人合影项目，时间与集
+ 合信息通知中签者。\n全天日期标记；除生日和上映期间
+ 外，不表示全天举行。\n核对日期：2026-11-07。导入后不
+ 会自动更新。\n来源：https://tws-official.jp/news/b9d42fb68e05
+URL:https://tws-official.jp/news/b9d42fb68e05
+END:VEVENT
+BEGIN:VEVENT
+UID:844890ed-6df2-522b-b77d-3b36a4240f2c@tws-calendar
+DTSTAMP:20261107T090000Z
+SEQUENCE:0
+SUMMARY:TWS｜JIHOON 韩志薰 生日
+DTSTART;VALUE=DATE:20270328
+DTEND;VALUE=DATE:20270329
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+LOCATION:
+DESCRIPTION:出生日期：2006-03-28。每年重复的全天生日；不
+ 代表已公布生日直播或线下活动。\n全天日期标记；除生
+ 日和上映期间外，不表示全天举行。\n核对日期：2026-11-0
+ 7。导入后不会自动更新。\n来源：https://tws-official.jp/news/
+ 87a9275a33af
+URL:https://tws-official.jp/news/87a9275a33af
+END:VEVENT
+BEGIN:VEVENT
+UID:a58320f4-cc2c-5c14-87db-54a23f07d7f3@tws-calendar
+DTSTAMP:20261107T090000Z
+SEQUENCE:0
+SUMMARY:TWS｜YOUNGJAE 崔英宰 生日
+DTSTART;VALUE=DATE:20270531
+DTEND;VALUE=DATE:20270601
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+LOCATION:
+DESCRIPTION:出生日期：2005-05-31。每年重复的全天生日；不
+ 代表已公布生日直播或线下活动。\n全天日期标记；除生
+ 日和上映期间外，不表示全天举行。\n核对日期：2026-11-0
+ 7。导入后不会自动更新。\n来源：https://fansupport.joelin.cc/
+ en/group/tws/
+URL:https://fansupport.joelin.cc/en/group/tws/
+END:VEVENT
+BEGIN:VEVENT
+UID:0002e53f-3737-5b02-8e9f-57c1eafe3ac2@tws-calendar
+DTSTAMP:20261107T090000Z
+SEQUENCE:0
+SUMMARY:TWS｜KYUNGMIN 李炅潣 生日
+DTSTART;VALUE=DATE:20271002
+DTEND;VALUE=DATE:20271003
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+LOCATION:
+DESCRIPTION:出生日期：2007-10-02。每年重复的全天生日；不
+ 代表已公布生日直播或线下活动。\n全天日期标记；除生
+ 日和上映期间外，不表示全天举行。\n核对日期：2026-11-0
+ 7。导入后不会自动更新。\n来源：https://fansupport.joelin.cc/
+ en/group/tws/
+URL:https://fansupport.joelin.cc/en/group/tws/
+END:VEVENT
+END:VCALENDAR
+
