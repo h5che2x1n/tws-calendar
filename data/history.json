@@ -880,6 +880,62 @@
     "details": "TWS 年末舞台。",
     "source_url": "https://news.sbs.co.kr/english/article.do?news_id=N1008381837",
     "historical": true
+  },
+  {
+    "id": "history-20241230-mbc-stage",
+    "title": "TWS｜2024 MBC 歌谣大祭典预录",
+    "status": "confirmed",
+    "sequence": 0,
+    "all_day": true,
+    "start": "2024-12-30",
+    "end": "2024-12-31",
+    "updated_at": "2026-11-19T13:00:00Z",
+    "location": "韩国首尔 · MBC",
+    "details": "TWS 舞台预录；DOHOON、YOUNGJAE 另有特别舞台。",
+    "source_url": "https://weverse.io/tws/notice/24458",
+    "historical": true
+  },
+  {
+    "id": "history-20241231-mbc-special",
+    "title": "SHINYU、DOHOON｜2024 MBC 歌谣大祭典特别舞台预录",
+    "status": "confirmed",
+    "sequence": 0,
+    "all_day": true,
+    "start": "2024-12-31",
+    "end": "2025-01-01",
+    "updated_at": "2026-11-19T13:00:00Z",
+    "location": "韩国一山 · MBC Dream Center",
+    "details": "SHINYU、DOHOON 参与特别舞台预录。",
+    "source_url": "https://weverse.io/tws/notice/24461",
+    "historical": true
+  },
+  {
+    "id": "history-20250104-gda",
+    "title": "TWS｜第39届 Golden Disc Awards",
+    "status": "confirmed",
+    "sequence": 0,
+    "all_day": true,
+    "start": "2025-01-04",
+    "end": "2025-01-05",
+    "updated_at": "2026-11-19T13:00:00Z",
+    "location": "日本福冈 · 福冈巨蛋",
+    "details": "TWS 参加第39届金唱片颁奖礼。",
+    "source_url": "https://www.soompi.com/article/1714038wpp/watch-performances-from-2025-golden-disc-awards-day-1",
+    "historical": true
+  },
+  {
+    "id": "history-20251231-mbc-2025",
+    "title": "TWS｜2025 MBC 歌谣大祭典",
+    "status": "confirmed",
+    "sequence": 0,
+    "all_day": true,
+    "start": "2025-12-31",
+    "end": "2026-01-01",
+    "updated_at": "2026-11-19T13:00:00Z",
+    "location": "韩国一山 · MBC Dream Center",
+    "details": "TWS 出演年末舞台。",
+    "source_url": "https://weverse.io/tws/notice/32834",
+    "historical": true
   }
 ]
 
