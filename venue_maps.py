@@ -2,6 +2,7 @@
 from urllib.parse import quote_plus
 
 VENUES = {
+    '国立代々木競技場 第一体育館・東京都渋谷区神南2丁目1-1': 'Yoyogi National Stadium First Gymnasium Tokyo',
     '首尔 高尺天空巨蛋': 'Gocheok Sky Dome Seoul',
     '韩国首尔 · 蚕室室内体育馆': 'Jamsil Indoor Stadium Seoul',
     '韩国首尔 · 奥林匹克手球竞技场': 'Olympic Handball Gymnasium Seoul',

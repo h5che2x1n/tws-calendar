@@ -209,7 +209,8 @@ def build(events, original=None):
         if e.get('time_tbd'):
             if not e['all_day']:
                 raise ValueError('time_tbd requires date-only event')
-            desc = '具体时间待公布（日期占位）\n' + desc
+            note = '具体时间未记录（日期占位）' if e.get('historical') else '具体时间待公布（日期占位）'
+            desc = note + '\n' + desc
         if not e.get('historical'):
             desc += '\n官方公告: ' + e['source_url']
         if e.get('watch_url') and not e.get('historical'):
