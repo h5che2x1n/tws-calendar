@@ -2,7 +2,7 @@ import json
 import re
 from datetime import date, datetime, timezone, timedelta
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import urlparse, quote_plus
 from venue_maps import map_location
 
 
@@ -225,6 +225,12 @@ def build(events, original=None):
             location = ''
         if location and not e.get('geo'):
             location = map_location(location)
+            if e.get('map_query'):
+                query = e['map_query']
+                if not isinstance(query, str) or not query.strip() or len(query) > 300:
+                    raise ValueError('invalid map query')
+                if 'https://maps.apple.com/' not in location:
+                    location += '\nhttps://maps.apple.com/?q=' + quote_plus(query)
         if e.get('watch_url') and not e.get('historical') and e['watch_url'] not in location:
             location = '\n'.join(filter(None, (location, e['watch_url'])))
         if location:

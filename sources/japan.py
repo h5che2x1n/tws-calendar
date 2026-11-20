@@ -9,8 +9,11 @@ TZ = timezone(timedelta(hours=9))
 
 
 class Listing(HTMLParser):
-    def __init__(self):
+    def __init__(self, section='schedule'):
         super().__init__(convert_charrefs=True)
+        if section not in ('schedule', 'news'):
+            raise ValueError('unsupported Japan listing')
+        self.section = section
         self.in_item = False
         self.collect = None
         self.bits = []
@@ -39,7 +42,7 @@ class Listing(HTMLParser):
             if tag == 'a':
                 if len(self.fields) < 4 or not self.href:
                     raise ValueError('Japan schedule entry is missing fields')
-                if urlparse(self.href).netloc != 'tws-official.jp' or not re.fullmatch(r'/schedule/[a-zA-Z0-9]+', urlparse(self.href).path):
+                if urlparse(self.href).netloc != 'tws-official.jp' or not re.fullmatch('/' + self.section + r'/[a-zA-Z0-9]+', urlparse(self.href).path):
                     raise ValueError('unexpected Japan schedule link')
                 self.rows.append({'date': date.fromisoformat(self.fields[0].replace('.', '-')),
                                   'kind': self.fields[2], 'title': self.fields[-1], 'url': self.href})
@@ -83,13 +86,15 @@ def clock(day, hh, mm):
 
 
 def extract(row, body):
-    """Return a verified single broadcast or a reason for manual review."""
-    if row['kind'] not in ('TV', 'RADIO'):
+    """Return a verified single broadcast or live event, or a review reason."""
+    if row['kind'] not in ('TV', 'RADIO', 'EVENT & LIVE'):
         return None, 'unsupported category'
     if re.search(r'中止|延期|変更のお知らせ|放送休止', row['title'] + body):
         return None, 'cancellation or change requires review'
     if re.search(r'SHINYU|DOHOON|YOUNGJAE|HANJIN|JIHOON|KYUNGMIN|シニュ|ドフン|ヨンジェ|ハンジン|ジフン|ギョンミン|신유|도훈|영재|한진|지훈|경민|一部メンバー|ソロ|ユニット', row['title'] + ' ' + body, re.I):
         return None, 'member participation requires review'
+    if row['kind'] == 'EVENT & LIVE':
+        return extract_live(row, body)
     lines = [x for x in body.splitlines() if '放送日時' in x or '放送日程' in x]
     if len(lines) != 1:
         return None, 'single broadcast time not found'
@@ -124,5 +129,59 @@ def extract(row, body):
         if end - start > timedelta(hours=12):
             return None, 'implausible broadcast duration'
         event['end'] = end.isoformat()
+    return event, None
+
+
+def extract_live(row, body):
+    title = row['title']
+    if re.search(r'POP.?UP|STORE|グッズ|チケット|抽選|発売|販売|応募|お渡し|特典', title, re.I):
+        return None, 'event may be a sale or promotion'
+    if not re.search(r'LIVE|CONCERT|TOUR|SHOWCASE|FAN\s?MEETING|FESTIVAL|コンサート|ライブ|ファンミーティング', title, re.I):
+        return None, 'live event type requires review'
+    event_lines = [line for line in body.splitlines() if re.search(r'開演', line)]
+    # Multiple performances need individual stable identities and explicit matching.
+    if len(event_lines) != 1:
+        return None, 'multiple or missing live showtimes'
+    line = event_lines[0]
+    dates = re.findall(r'(?:(\d{4})年)?\s*(\d{1,2})月\s*(\d{1,2})日', line)
+    if len(dates) != 1:
+        return None, 'live show date requires review'
+    year, month, day = dates[0]
+    stated = date(int(year or row['date'].year), int(month), int(day))
+    if stated != row['date']:
+        return None, 'listing date differs from live date'
+    starts = re.findall(r'(?:開演\s*[:：]?\s*(\d{1,2})\s*[:：]\s*(\d{2})|'
+                        r'(\d{1,2})\s*[:：]\s*(\d{2})\s*開演)', line)
+    if len(starts) != 1:
+        return None, 'live start time requires review'
+    hh, mm, hh_before, mm_before = starts[0]
+    start = clock(stated, hh or hh_before, mm or mm_before)
+    if re.search(r'SHOWCASE|ミニライブ|めざまし', title, re.I):
+        minutes = 60
+    elif re.search(r'FESTIVAL', title, re.I):
+        minutes = 240
+    elif re.search(r'TOUR|CONCERT|FAN\s?MEETING|コンサート|ファンミーティング', title, re.I):
+        minutes = 150
+    else:
+        minutes = 90
+    event = {'id': 'jp-' + row['url'].rsplit('/', 1)[-1],
+             'title': '🎤 TWS｜' + title, 'status': 'confirmed', 'all_day': False,
+             'start': start.isoformat(), 'end': (start + timedelta(minutes=minutes)).isoformat(),
+             'end_estimated': True, 'location': '', 'details': 'TWS 演出。',
+             'source_url': row['url']}
+    # Only attach a map when the announcement contains one specific street address.
+    lines = body.splitlines()
+    venues = []
+    for i, item in enumerate(lines):
+        match = re.match(r'^■会場\s*[:：]?\s*(.*)$', item)
+        if match:
+            value = match.group(1) or (lines[i + 1] if i + 1 < len(lines) else '')
+            found = re.fullmatch(r'([^()（）\n]+)[(（]([^()（）\n]+)[)）]', value.strip())
+            if found and re.search(r'(東京都|北海道|(?:京都|大阪)府|.{2,3}県)', found.group(2)) and re.search(r'\d', found.group(2)):
+                venues.append((found.group(1).strip(), found.group(2).strip()))
+    if len(venues) == 1:
+        venue, address = venues[0]
+        event['location'] = venue + ' · ' + address
+        event['map_query'] = address
     return event, None
 

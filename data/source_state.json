@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "known_sources": {
+    "https://tws-official.jp/news/1e2178c41c36": "7102df509ac488c4837e81c12a7cc93e1925e660d4702b12c763822677c2d1ab",
+    "https://tws-official.jp/news/86f987f2f9fc": "f1e8bb3ea5bfbca496770c99cdd0f5eaebf9cbf6ab6c0371cc2dcb4b4b250276",
+    "https://tws-official.jp/news/a5553d9b710b": "73c6ecbaae59be52795e39934bfc93edf870a57c8d10144e6aadce2a5b420d92",
+    "https://weverse.io/tws/notice/40787": "7ab8639d53ef11945fd0ceabff7162b79733e4ed7eb9fbe14816690e1c838cd0",
+    "https://weverse.io/tws/notice/41164": "95669aa2c49e3c95fb1fa05aab8b825645bf9639f60f321954b71ba664ec8c23",
+    "https://tws-official.jp/news/87a9275a33af": "624061eae8886abb6a8f72601d05876bd1ac3b1f9658a6cb8112c1f4f0114101",
+    "https://tws-official.jp/news/a0f421a07b66": "b5c98ce70104f3b6ce1a66c33a32dff2f93bd431c2f4a85f0e234e19467c6b2e",
+    "https://tws-official.jp/news/b9d42fb68e05": "af1dc34f9d4af3c6aa1b4527bccdd29337104b2613301b0b047ce57677f88949",
+    "https://weverse.io/tws/notice/40651": "3794ee6bcf8ea38b733bb25e1baac3340a05e35cef7e79591bec43d4ab1884df",
+    "https://weverse.io/tws/notice/40695": "a7b5aeb53271f9ada0f7d151f4d271774e907388faecefdeba9627b706215bdd"
+  },
+  "pending": {},
+  "news_last_success": "2026-11-20",
+  "resolved_news": {
+    "https://tws-official.jp/news/420cfd9206a3": "a60203c480ce2e0e7e472620e5d38f301495cfdef996dbad1292fe092dfcb2ad",
+    "https://tws-official.jp/news/504224248cf3": "5745a53860eb972a1eb157242296ab02d4af9b21147566fe8785a67885b69582"
+  }
+}
+
