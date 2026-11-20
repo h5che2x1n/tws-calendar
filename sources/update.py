@@ -111,7 +111,7 @@ def ics_stamp(value):
 def refresh(events, auto, original, fetch, today, now):
     report = {'checked_at': now, 'added': [], 'updated': [], 'pending_review': [],
               'coverage': {'japan_schedule': 'scanned',
-                           'weverse': 'known MC notice URLs only; new-notice discovery unavailable',
+                           'weverse': 'known Inkigayo and Music Core MC notice URLs only; new-notice discovery unavailable',
                            'pledis': 'manual; notice list unavailable',
                            'x': 'manual; no permitted stable feed configured'}}
     originals, original_starts = original_index(original)
@@ -182,7 +182,8 @@ def refresh(events, auto, original, fetch, today, now):
     # Independently recheck only notices with a unique, already-curated identity.
     for event in events:
         u = urlparse(event.get('source_url', ''))
-        if u.netloc != 'weverse.io' or '人气歌谣' not in event['title'] or not any(n in event['title'] for n in ('申惟', 'SHINYU')):
+        mc_type = ('人气歌谣' in event['title'] and any(n in event['title'] for n in ('申惟', 'SHINYU'))) or ('音乐中心' in event['title'] and any(n in event['title'] for n in ('道勋', 'DOHOON')))
+        if u.netloc != 'weverse.io' or not mc_type:
             continue
         if date.fromisoformat(event['start'][:10]) < today:
             continue

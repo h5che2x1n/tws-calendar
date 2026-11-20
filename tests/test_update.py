@@ -4,6 +4,7 @@ from datetime import date
 
 from sources.japan import Listing, Detail, extract
 from sources.update import refresh
+from sources.weverse import extract_mc
 
 
 LIST = '''<div class="news__container"><div><p class="news__text">2030.01.05</p>
@@ -33,6 +34,11 @@ def fetch(url):
 
 
 class RefreshTest(unittest.TestCase):
+    def test_music_core_mc_uses_broadcast_not_checkin(self):
+        event = dict(OLD, title='道勋｜MBC《音乐中心》MC')
+        html = '<meta name="description" content="[MBC 쇼! 음악중심 - MC 도훈] 방송 일시 : 2030년 1월 6일(토) 3:15 PM (KST) [인원체크 시간] 1:30 PM">'
+        self.assertEqual(extract_mc(event, html).isoformat(), '2030-01-06T15:15:00+09:00')
+
     def test_new_broadcast_and_mc_change_are_idempotent(self):
         events, auto = [copy.deepcopy(OLD)], []
         result = refresh(events, auto, ORIGINAL, fetch, date(2030, 1, 1), NOW)
