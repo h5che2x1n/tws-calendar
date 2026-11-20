@@ -259,6 +259,7 @@ def build(events, original=None):
 if __name__ == '__main__':
     events = json.loads(Path('data/events.json').read_text(encoding='utf-8'))
     events += json.loads(Path('data/history.json').read_text(encoding='utf-8'))
+    events += json.loads(Path('data/auto_events.json').read_text(encoding='utf-8'))
     if not isinstance(events, list):
         raise ValueError('events must be an array')
     Path('site').mkdir(exist_ok=True)

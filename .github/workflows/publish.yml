@@ -3,10 +3,11 @@ on:
   push:
     branches: [main]
   schedule:
+    - cron: '0 1 * * *'
     - cron: '23 1 * * *'
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 concurrency:
@@ -24,7 +25,28 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m unittest discover -s tests -v
+      - name: Check supported official sources
+        run: python -m sources.update
       - run: python calendar_build.py
+      - name: Save validated calendar updates
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/events.json data/auto_events.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update verified TWS calendar events'
+            git push origin HEAD:refs/heads/main
+          fi
+      - name: Summarize source coverage
+        if: always()
+        run: python scripts/source_summary.py
+      - name: Save source report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-review
+          path: source-report.json
+          if-no-files-found: ignore
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
