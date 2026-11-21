@@ -356,5 +356,21 @@
     "all_day": true,
     "time_tbd": true,
     "updated_at": "2026-11-21T02:39:00Z"
+  },
+  {
+    "id": "20261125-hanjin-sbs-what-an-idol",
+    "title": "📺 韩振｜《순간뽀짝 세상에 이런 아이돌이》",
+    "status": "confirmed",
+    "sequence": 0,
+    "all_day": false,
+    "start": "2026-11-25T18:00:00+09:00",
+    "end": "2026-11-25T19:00:00+09:00",
+    "end_estimated": true,
+    "duration_category": "variety",
+    "updated_at": "2026-11-21T03:15:27Z",
+    "location": "https://www.youtube.com/@SBSKPOP",
+    "details": "韩振出演 SBSKPOP X INKIGAYO 线上综艺《순간뽀짝 세상에 이런 아이돌이》。",
+    "source_url": "https://www.youtube.com/watch?v=OFPlLz8XPJ8",
+    "remind_at_start": true
   }
 ]
