@@ -14,6 +14,7 @@ from urllib.robotparser import RobotFileParser
 
 from sources.japan import BASE, Detail, Listing, extract
 from sources.weverse import Description, extract_mc, extract_video_fansign
+from sources.sbskpop import CHANNEL as SBS_CHANNEL, scan as scan_sbs
 
 AGENT = 'TWSCalendarBot/1.0'
 MAX_BYTES = 2_000_000
@@ -54,7 +55,7 @@ class Fetcher:
         if url in self.cache:
             return self.cache[url]
         u = urlparse(url)
-        if u.scheme != 'https' or u.netloc not in ('tws-official.jp', 'weverse.io'):
+        if u.scheme != 'https' or u.netloc not in ('tws-official.jp', 'weverse.io', 'www.youtube.com'):
             raise ValueError('unapproved source host')
         if u.netloc not in self.rules:
             robots = RobotFileParser()
@@ -349,7 +350,16 @@ def main():
         auto = json.loads(auto_path.read_text(encoding='utf-8'))
         state = json.loads(state_path.read_text(encoding='utf-8'))
         original = Path('data/original.ics').read_text(encoding='utf-8')
-        report = refresh(events, auto, original, Fetcher(), today, updated, state)
+        fetcher = Fetcher()
+        report = refresh(events, auto, original, fetcher, today, updated, state)
+        try:
+            sbs = scan_sbs(fetcher, events, original, today, updated, auto=auto)
+            for key in ('added', 'updated', 'pending_review'):
+                report[key].extend(sbs[key])
+            report['coverage']['sbskpop'] = 'recent public videos scanned; only supported previews auto-added'
+        except Exception as exc:
+            report['coverage']['sbskpop'] = 'unavailable; manual check required'
+            report['pending_review'].append({'url': SBS_CHANNEL, 'reason': 'SBSKPOP channel could not be checked: ' + str(exc)})
         # Validate the full calendar before persisting any updates.
         from calendar_build import build
         history = json.loads(Path('data/history.json').read_text(encoding='utf-8'))

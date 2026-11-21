@@ -14,6 +14,11 @@ if file.exists():
                   '日本官网：检查未来日程，识别格式明确的电视、电台及单场演出，并扫描新公告标题。', '',
                   'Weverse：只重查已知、格式受支持的音乐节目 MC 和视频签售公告，无法自动发现新公告。', '',
                   'PLEDIS 与 X：需要人工核查。', '']
+        sbs = report.get('coverage', {}).get('sbskpop', 'not checked')
+        if sbs.startswith('recent public videos scanned'):
+            lines += ['SBSKPOP：检查频道最近的视频；只自动识别《순간뽀짝 세상에 이런 아이돌이》中格式明确的 TWS 成员预告，其他预告需人工核对。', '']
+        else:
+            lines += ['**SBSKPOP 本次未能完成检查，请人工核对。**', '']
         if report['pending_review']:
             lines += ['### 待人工核查', '']
             explanations = {
