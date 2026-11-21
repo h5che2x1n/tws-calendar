@@ -1,6 +1,6 @@
 import json
 import re
-from datetime import date, datetime, timezone, timedelta
+from datetime import date, datetime, time, timezone, timedelta
 from pathlib import Path
 from urllib.parse import urlparse, quote_plus
 from venue_maps import map_location
@@ -30,6 +30,68 @@ def timestamp(value):
 
 def fmt(value):
     return value.strftime('%Y%m%dT%H%M%SZ')
+
+
+LONG_EVENT_THRESHOLD = timedelta(hours=12)
+ORIGINAL_TIMEZONE = timezone(timedelta(hours=8))  # Original calendar: Asia/Shanghai.
+ORIGINAL_LONG_DISPLAY_REVISION = '20261121T033000Z'
+
+
+def long_event_span(start, end):
+    """Return inclusive start and exclusive end dates in the start's timezone."""
+    local_end = end.astimezone(start.tzinfo)
+    exclusive_end = local_end.date() + (timedelta(days=0) if local_end.time() == time.min else timedelta(days=1))
+    return start.date(), exclusive_end
+
+
+def long_event_details(start, end):
+    local_end = end.astimezone(start.tzinfo)
+    def display(value):
+        pattern = '%Y-%m-%d %H:%M:%S' if value.second or value.microsecond else '%Y-%m-%d %H:%M'
+        return value.strftime(pattern)
+    offset = start.strftime('%z')
+    zone = {'+0800': '北京时间', '+0900': '韩国／日本时间'}.get(offset, 'UTC' + offset[:3] + ':' + offset[3:])
+    return '活动时间：' + display(start) + '—' + display(local_end) + '（' + zone + '）。'
+
+
+def convert_original_long_event(block):
+    """Convert long UTC events from the fixed Asia/Shanghai source calendar."""
+    starts = [line for line in block if line.startswith('DTSTART:')]
+    ends = [line for line in block if line.startswith('DTEND:')]
+    if len(starts) != 1 or len(ends) != 1:
+        return block
+    try:
+        start = datetime.strptime(starts[0][8:], '%Y%m%dT%H%M%SZ').replace(tzinfo=timezone.utc)
+        end = datetime.strptime(ends[0][6:], '%Y%m%dT%H%M%SZ').replace(tzinfo=timezone.utc)
+    except ValueError:
+        return block
+    if end - start <= LONG_EVENT_THRESHOLD:
+        return block
+    if any(line == 'BEGIN:VALARM' for line in block):
+        raise ValueError('long imported event with an alarm requires review')
+    local_start = start.astimezone(ORIGINAL_TIMEZONE)
+    first, exclusive_end = long_event_span(local_start, end)
+    output, has_description, has_sequence = [], False, False
+    for line in block:
+        if line == starts[0]:
+            line = 'DTSTART;VALUE=DATE:' + first.strftime('%Y%m%d')
+        elif line == ends[0]:
+            line = 'DTEND;VALUE=DATE:' + exclusive_end.strftime('%Y%m%d')
+        elif line.startswith('DESCRIPTION:'):
+            line += '\\n' + escape(long_event_details(local_start, end))
+            has_description = True
+        elif line.startswith('SEQUENCE:'):
+            line = 'SEQUENCE:' + str(int(line.split(':', 1)[1]) + 1)
+            has_sequence = True
+        elif line.startswith(('DTSTAMP:', 'LAST-MODIFIED:')):
+            line = line.split(':', 1)[0] + ':' + ORIGINAL_LONG_DISPLAY_REVISION
+        elif line == 'END:VEVENT':
+            if not has_description:
+                output.append('DESCRIPTION:' + escape(long_event_details(local_start, end)))
+            if not has_sequence:
+                output.append('SEQUENCE:1')
+        output.append(line)
+    return output
 
 
 DEFAULT_MINUTES = {'video_fansign': 60, 'offline_fansign': 120,
@@ -165,7 +227,7 @@ def clean_original(block):
             if line.startswith('DESCRIPTION:'):
                 result[i] += '\\n结束时间为估计，实际以官方安排为准。'
                 break
-    return result
+    return convert_original_long_event(result)
 
 
 def build(events, original=None):
@@ -185,6 +247,8 @@ def build(events, original=None):
             if url.scheme != 'https' or not url.netloc:
                 raise ValueError('source must be an HTTPS URL')
         updated = timestamp(e['updated_at'])
+        display_all_day = e['all_day'] is True
+        local_start = local_end = None
         if e['all_day'] is True:
             start, end = date.fromisoformat(e['start']), date.fromisoformat(e['end'])
             startline, endline = 'DTSTART;VALUE=DATE:' + start.strftime('%Y%m%d'), 'DTEND;VALUE=DATE:' + end.strftime('%Y%m%d')
@@ -203,7 +267,16 @@ def build(events, original=None):
             raise ValueError('end must follow start')
         if e.get('end_estimated') and (e['all_day'] or end is None):
             raise ValueError('estimated end requires a timed event with end')
+        if not e['all_day'] and end is not None and end - start > LONG_EVENT_THRESHOLD:
+            local_start = datetime.fromisoformat(e['start'].replace('Z', '+00:00'))
+            local_end = end.astimezone(local_start.tzinfo)
+            first, exclusive_end = long_event_span(local_start, local_end)
+            startline = 'DTSTART;VALUE=DATE:' + first.strftime('%Y%m%d')
+            endline = 'DTEND;VALUE=DATE:' + exclusive_end.strftime('%Y%m%d')
+            display_all_day = True
         desc = e.get('details', e.get('description', ''))
+        if local_start is not None:
+            desc = '\n'.join(filter(None, (desc, long_event_details(local_start, local_end))))
         if e.get('end_estimated') or (not e['all_day'] and default_estimated):
             desc += '\n结束时间为估计，实际以官方安排为准。'
         if e.get('time_tbd'):
@@ -252,7 +325,8 @@ def build(events, original=None):
             if e['all_day']:
                 raise ValueError('start reminder requires a confirmed time')
             if e['status'] != 'cancelled':
-                lines += ['BEGIN:VALARM', 'TRIGGER:PT0S', 'ACTION:DISPLAY', 'DESCRIPTION:' + escape(e['title'] + ' 开始'), 'END:VALARM']
+                trigger = 'TRIGGER;VALUE=DATE-TIME:' + fmt(start) if display_all_day else 'TRIGGER:PT0S'
+                lines += ['BEGIN:VALARM', trigger, 'ACTION:DISPLAY', 'DESCRIPTION:' + escape(e['title'] + ' 开始'), 'END:VALARM']
         lines.append('END:VEVENT')
     if original is not None:
         for uid, block in original_events(original):
