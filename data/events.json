@@ -327,5 +327,34 @@
     "location": "",
     "details": "TWS 全员迷你谈话会及个人合影、全员合影或 Heart Touch 欢送会；具体时间和会场另行通知参与者。",
     "source_url": "https://tws-official.jp/news/318413c6fbec"
+  },
+  {
+    "id": "20261129-ktown4u-video-fansign",
+    "title": "🤝 TWS｜Ktown4u《TO US》个人视频签售（时区待确认）",
+    "start": "2026-11-29",
+    "end": "2026-11-30",
+    "location": "",
+    "details": "六位成员分别进行一对一视频签售。公告列18:00，活动时区待确认。",
+    "source_url": "https://weverse.io/tws/notice/40592",
+    "status": "confirmed",
+    "sequence": 0,
+    "all_day": true,
+    "time_tbd": true,
+    "updated_at": "2026-11-21T02:39:00Z"
+  },
+  {
+    "id": "20261120-shinyu-ytn-behind",
+    "title": "📺 申惟｜YTN 一日天气主播幕后（上线时刻待确认）",
+    "start": "2026-11-20",
+    "end": "2026-11-21",
+    "location": "https://www.youtube.com/watch?v=NOd_pmyYnLE",
+    "details": "申惟担任 YTN 一日天气主播的拍摄幕后。",
+    "source_url": "https://weverse.io/tws/media",
+    "watch_url": "https://www.youtube.com/watch?v=NOd_pmyYnLE",
+    "status": "confirmed",
+    "sequence": 0,
+    "all_day": true,
+    "time_tbd": true,
+    "updated_at": "2026-11-21T02:39:00Z"
   }
 ]
