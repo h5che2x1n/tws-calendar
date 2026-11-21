@@ -10,10 +10,11 @@
     "https://tws-official.jp/news/a0f421a07b66": "b5c98ce70104f3b6ce1a66c33a32dff2f93bd431c2f4a85f0e234e19467c6b2e",
     "https://tws-official.jp/news/b9d42fb68e05": "af1dc34f9d4af3c6aa1b4527bccdd29337104b2613301b0b047ce57677f88949",
     "https://weverse.io/tws/notice/40651": "3794ee6bcf8ea38b733bb25e1baac3340a05e35cef7e79591bec43d4ab1884df",
-    "https://weverse.io/tws/notice/40695": "a7b5aeb53271f9ada0f7d151f4d271774e907388faecefdeba9627b706215bdd"
+    "https://weverse.io/tws/notice/40695": "a7b5aeb53271f9ada0f7d151f4d271774e907388faecefdeba9627b706215bdd",
+    "https://tws-official.jp/news/318413c6fbec": "78e59f14afe666f657c86ecf4d1eb73bd08f1f18a07c6afc9fec31cf70a9f77c"
   },
   "pending": {},
-  "news_last_success": "2026-11-20",
+  "news_last_success": "2026-11-21",
   "resolved_news": {
     "https://tws-official.jp/news/420cfd9206a3": "a60203c480ce2e0e7e472620e5d38f301495cfdef996dbad1292fe092dfcb2ad",
     "https://tws-official.jp/news/504224248cf3": "5745a53860eb972a1eb157242296ab02d4af9b21147566fe8785a67885b69582"
