@@ -417,5 +417,20 @@
     "location": "",
     "details": "TWS《TO US》一直娱视频签售第2场，限中签者参加。",
     "source_url": "https://x.com/withfansyizhiyu/status/2122162748125532224"
+  },
+  {
+    "id": "20261121-dohoon-mbc-hangout-ep353",
+    "title": "📺 道勋｜MBC《闲着干嘛呢？》第353期",
+    "status": "confirmed",
+    "sequence": 0,
+    "all_day": false,
+    "start": "2026-11-21T18:30:00+09:00",
+    "end": "2026-11-21T19:55:00+09:00",
+    "duration_category": "variety",
+    "updated_at": "2026-11-22T01:14:50Z",
+    "location": "",
+    "details": "道勋出演《闲着干嘛呢？》“95 MBC 首尔歌谣祭”。\n播出时段：https://www.mbceg.co.kr/schedule/cp_depart?a=g&d=2026-11-21&g=tv",
+    "source_url": "https://enews.imbc.com/m/Detail/525549",
+    "watch_url": "https://m.imbc.com/VOD/VodView?broadcastID=1004711101379100000&progCode=1004711100000100000&type=Vod"
   }
 ]
