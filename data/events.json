@@ -432,5 +432,20 @@
     "details": "道勋出演《闲着干嘛呢？》“95 MBC 首尔歌谣祭”。\n播出时段：https://www.mbceg.co.kr/schedule/cp_depart?a=g&d=2026-11-21&g=tv",
     "source_url": "https://enews.imbc.com/m/Detail/525549",
     "watch_url": "https://m.imbc.com/VOD/VodView?broadcastID=1004711101379100000&progCode=1004711100000100000&type=Vod"
+  },
+  {
+    "id": "20261120-tws-studio-choom-behind",
+    "title": "📺 TWS｜STUDIO CHOOM《Call My Name》拍摄幕后（上线时刻待确认）",
+    "status": "confirmed",
+    "sequence": 0,
+    "all_day": true,
+    "time_tbd": true,
+    "start": "2026-11-20",
+    "end": "2026-11-21",
+    "updated_at": "2026-11-22T02:20:00Z",
+    "location": "https://www.youtube.com/watch?v=LMqWTEwddCw",
+    "watch_url": "https://www.youtube.com/watch?v=LMqWTEwddCw",
+    "details": "TWS《Call My Name》STUDIO CHOOM ORIGINAL 拍摄幕后。",
+    "source_url": "https://www.youtube.com/watch?v=LMqWTEwddCw"
   }
 ]
