@@ -123,16 +123,16 @@
     "id": "20261122-inkigayo-shinyu-mc",
     "title": "🎤 申惟｜SBS《人气歌谣》MC",
     "status": "confirmed",
-    "sequence": 8,
+    "sequence": 9,
     "all_day": false,
     "start": "2026-11-22T13:55:00+09:00",
-    "updated_at": "2026-11-22T01:08:46Z",
-    "location": "SBS 登村洞公开厅 · 서울특별시 강서구 양천로 442\nhttps://maps.apple.com/?q=%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B0%95%EC%84%9C%EA%B5%AC%20%EC%96%91%EC%B2%9C%EB%A1%9C%20442",
+    "updated_at": "2026-11-23T02:24:00Z",
+    "location": "SBS 登村洞公开厅 · 서울특별시 강서구 양천로 442\nhttps://maps.apple.com/?q=%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B0%95%EC%84%9C%EA%B5%AC%20%EC%96%91%EC%B2%9C%EB%A1%9C%20442\nhttps://programs.sbs.co.kr/programTemplate/amp/vod/gayo1991/22000640115",
     "details": "SHINYU 担任 SBS《人气歌谣》MC。SBS 节目页公布13:55开始，TWS 公告标注14:00（韩国时间）。\nTWS 公告：https://weverse.io/tws/notice/41164",
     "source_url": "https://programs.sbs.co.kr/programTemplate/amp/vod/gayo1991/22000640115",
     "end": "2026-11-22T15:05:00+09:00",
     "end_estimated": true,
-    "watch_url": "https://www.sbs.co.kr/live",
+    "watch_url": "https://programs.sbs.co.kr/programTemplate/amp/vod/gayo1991/22000640115",
     "geo": [
       37.56319,
       126.85021
@@ -447,5 +447,20 @@
     "watch_url": "https://www.youtube.com/watch?v=LMqWTEwddCw",
     "details": "TWS《Call My Name》STUDIO CHOOM ORIGINAL 拍摄幕后。",
     "source_url": "https://www.youtube.com/watch?v=LMqWTEwddCw"
+  },
+  {
+    "id": "20261122-youngjae-247-vlog",
+    "title": "📺 英宰｜24/7 LOG《영재의 뜨겁고 행복했던 날들》（上线时刻待确认）",
+    "status": "confirmed",
+    "sequence": 0,
+    "all_day": true,
+    "time_tbd": true,
+    "start": "2026-11-22",
+    "end": "2026-11-23",
+    "updated_at": "2026-11-23T02:24:00Z",
+    "location": "https://weverse.io/tws/media/3-244115999",
+    "watch_url": "https://weverse.io/tws/media/3-244115999",
+    "source_url": "https://weverse.io/tws/media/3-244115999",
+    "details": "英宰的官方个人 Vlog。"
   }
 ]
