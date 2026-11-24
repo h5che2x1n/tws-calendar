@@ -3642,19 +3642,23 @@
   },
   {
     "id": "archive-9e22392a52c090e6f3",
-    "title": "🤝 TWS｜日本专辑线上签售",
+    "title": "🤝 TWS｜《NO TRAGEDY》个人视频签售及小分队线上谈话",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2026-06-15",
     "end": "2026-06-16",
-    "updated_at": "2026-11-19T14:30:00Z",
+    "updated_at": "2026-11-24T12:47:17Z",
     "location": "",
-    "details": "",
-    "source_url": "https://www.sina.cn/news/detail/5250295636691566.html",
-    "source_type": "community_archive",
+    "details": "可选 90 秒小分队谈话或 60 秒指定成员个人视频签售。官方来源 https://www.universal-music.co.jp/tws/news/2026-03-30-2/",
+    "source_url": "https://www.universal-music.co.jp/tws/news/2026-03-30-2/",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "time_tbd": true,
+    "official_sources": [
+      "https://www.universal-music.co.jp/tws/news/2026-03-30-2/"
+    ],
+    "original_timezone": "Asia/Tokyo"
   },
   {
     "id": "archive-bfa1099d0ec99340e1",
