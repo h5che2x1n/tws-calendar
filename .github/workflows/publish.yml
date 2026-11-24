@@ -17,7 +17,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
+      url: ${{ steps.deploy.outputs.page_url || steps.deploy_retry.outputs.page_url || steps.deploy_final.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -53,8 +53,22 @@ jobs:
           path: site
       - id: deploy
         uses: actions/deploy-pages@v4
+        continue-on-error: true
+      - name: Wait before deployment retry
+        if: steps.deploy.outcome == 'failure'
+        run: sleep 10
+      - id: deploy_retry
+        if: steps.deploy.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+      - name: Wait before final deployment retry
+        if: steps.deploy.outcome == 'failure' && steps.deploy_retry.outcome == 'failure'
+        run: sleep 20
+      - id: deploy_final
+        if: steps.deploy.outcome == 'failure' && steps.deploy_retry.outcome == 'failure'
+        uses: actions/deploy-pages@v4
       - name: Verify public calendar
         env:
-          PAGE_URL: ${{ steps.deploy.outputs.page_url }}
+          PAGE_URL: ${{ steps.deploy.outputs.page_url || steps.deploy_retry.outputs.page_url || steps.deploy_final.outputs.page_url }}
         run: python scripts/verify_deployment.py
 
