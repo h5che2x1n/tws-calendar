@@ -174,31 +174,43 @@
     "id": "history-20250315-013",
     "title": "🎤 TWS｜1st FANMEETING 〈42:CLUB〉日本 · 午场",
     "status": "confirmed",
-    "sequence": 3,
+    "sequence": 4,
     "all_day": false,
     "start": "2025-03-15T12:30:00+09:00",
     "end": "2025-03-15T14:30:00+09:00",
-    "updated_at": "2026-11-19T15:15:32Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "日本东京 · 武藏野之森综合体育广场",
-    "details": "TWS 演出。",
-    "source_url": "https://weverse.io/tws/notice/24306",
+    "details": "TWS 演出。\n日本场公演开演时间（JST）。\n官方来源 https://tws-official.jp/schedule/332ce500aa4c",
+    "source_url": "https://tws-official.jp/schedule/332ce500aa4c",
     "historical": true,
-    "end_estimated": true
+    "end_estimated": true,
+    "source_type": "official",
+    "archive_category": "巡演／见面会",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/332ce500aa4c"
+    ]
   },
   {
     "id": "history-20250316-014",
     "title": "🎤 TWS｜1st FANMEETING 〈42:CLUB〉日本",
     "status": "confirmed",
-    "sequence": 3,
+    "sequence": 4,
     "all_day": false,
     "start": "2025-03-16T17:00:00+09:00",
     "end": "2025-03-16T19:00:00+09:00",
-    "updated_at": "2026-11-19T15:15:32Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "日本东京 · 武藏野之森综合体育广场",
-    "details": "TWS 演出。",
-    "source_url": "https://weverse.io/tws/notice/24306",
+    "details": "TWS 演出。\n日本场公演开演时间（JST）。\n官方来源 https://tws-official.jp/schedule/332ce500aa4c",
+    "source_url": "https://tws-official.jp/schedule/332ce500aa4c",
     "historical": true,
-    "end_estimated": true
+    "end_estimated": true,
+    "source_type": "official",
+    "archive_category": "巡演／见面会",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/332ce500aa4c"
+    ]
   },
   {
     "id": "history-20250620-015",
@@ -249,199 +261,277 @@
     "id": "history-20250711-018",
     "title": "🎤 TWS｜TOUR 24/7:WITH:US · 广岛",
     "status": "confirmed",
-    "sequence": 2,
+    "sequence": 3,
     "all_day": false,
     "start": "2025-07-11T18:30:00+09:00",
     "end": "2025-07-11T21:00:00+09:00",
-    "updated_at": "2026-11-19T15:15:32Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "日本 · 广岛文化学园 HBG Hall",
-    "details": "TWS 演出。",
+    "details": "TWS 演出。\n日本场公演开演时间（JST）。\n官方来源 https://tws-official.jp/schedule/2f534dd5cb65",
     "source_url": "https://tws-official.jp/schedule/2f534dd5cb65",
     "historical": true,
-    "end_estimated": true
+    "end_estimated": true,
+    "source_type": "official",
+    "archive_category": "巡演／见面会",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/2f534dd5cb65"
+    ]
   },
   {
     "id": "history-20250713-019",
     "title": "🎤 TWS｜TOUR 24/7:WITH:US · 爱知",
     "status": "confirmed",
-    "sequence": 2,
+    "sequence": 3,
     "all_day": false,
     "start": "2025-07-13T18:30:00+09:00",
     "end": "2025-07-13T21:00:00+09:00",
-    "updated_at": "2026-11-19T15:15:32Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "日本 · Niterra 日本特殊陶业市民会馆 Forest Hall",
-    "details": "TWS 演出。",
+    "details": "TWS 演出。\n日本场公演开演时间（JST）。\n官方来源 https://tws-official.jp/schedule/2f534dd5cb65",
     "source_url": "https://tws-official.jp/schedule/2f534dd5cb65",
     "historical": true,
-    "end_estimated": true
+    "end_estimated": true,
+    "source_type": "official",
+    "archive_category": "巡演／见面会",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/2f534dd5cb65"
+    ]
   },
   {
     "id": "history-20250714-020",
     "title": "🎤 TWS｜TOUR 24/7:WITH:US · 爱知",
     "status": "confirmed",
-    "sequence": 2,
+    "sequence": 3,
     "all_day": false,
     "start": "2025-07-14T18:30:00+09:00",
     "end": "2025-07-14T21:00:00+09:00",
-    "updated_at": "2026-11-19T15:15:32Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "日本 · Niterra 日本特殊陶业市民会馆 Forest Hall",
-    "details": "TWS 演出。",
+    "details": "TWS 演出。\n日本场公演开演时间（JST）。\n官方来源 https://tws-official.jp/schedule/2f534dd5cb65",
     "source_url": "https://tws-official.jp/schedule/2f534dd5cb65",
     "historical": true,
-    "end_estimated": true
+    "end_estimated": true,
+    "source_type": "official",
+    "archive_category": "巡演／见面会",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/2f534dd5cb65"
+    ]
   },
   {
     "id": "history-20250715-021",
     "title": "🎤 TWS｜TOUR 24/7:WITH:US · 爱知",
     "status": "confirmed",
-    "sequence": 2,
+    "sequence": 3,
     "all_day": false,
     "start": "2025-07-15T18:30:00+09:00",
     "end": "2025-07-15T21:00:00+09:00",
-    "updated_at": "2026-11-19T15:15:32Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "日本 · Niterra 日本特殊陶业市民会馆 Forest Hall",
-    "details": "TWS 演出。",
+    "details": "TWS 演出。\n日本场公演开演时间（JST）。\n官方来源 https://tws-official.jp/schedule/2f534dd5cb65",
     "source_url": "https://tws-official.jp/schedule/2f534dd5cb65",
     "historical": true,
-    "end_estimated": true
+    "end_estimated": true,
+    "source_type": "official",
+    "archive_category": "巡演／见面会",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/2f534dd5cb65"
+    ]
   },
   {
     "id": "history-20250717-022",
     "title": "🎤 TWS｜TOUR 24/7:WITH:US · 福冈",
     "status": "confirmed",
-    "sequence": 2,
+    "sequence": 3,
     "all_day": false,
     "start": "2025-07-17T18:30:00+09:00",
     "end": "2025-07-17T21:00:00+09:00",
-    "updated_at": "2026-11-19T15:15:32Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "日本 · 福冈 Sunpalace",
-    "details": "TWS 演出。",
+    "details": "TWS 演出。\n日本场公演开演时间（JST）。\n官方来源 https://tws-official.jp/schedule/2f534dd5cb65",
     "source_url": "https://tws-official.jp/schedule/2f534dd5cb65",
     "historical": true,
-    "end_estimated": true
+    "end_estimated": true,
+    "source_type": "official",
+    "archive_category": "巡演／见面会",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/2f534dd5cb65"
+    ]
   },
   {
     "id": "history-20250718-023",
     "title": "🎤 TWS｜TOUR 24/7:WITH:US · 福冈",
     "status": "confirmed",
-    "sequence": 3,
+    "sequence": 4,
     "all_day": false,
     "start": "2025-07-18T18:30:00+09:00",
     "end": "2025-07-18T21:00:00+09:00",
-    "updated_at": "2026-11-19T16:20:00Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "日本 · 福冈 Sunpalace",
-    "details": "申惟、英宰、韩振、志勋、炅潣演出；道勋因健康原因缺席。",
+    "details": "申惟、英宰、韩振、志勋、炅潣演出；道勋因健康原因缺席。\n日本场公演开演时间（JST）。\n官方来源 https://tws-official.jp/schedule/2f534dd5cb65",
     "source_url": "https://tws-official.jp/schedule/2f534dd5cb65",
     "historical": true,
     "end_estimated": true,
     "additional_sources": [
       "https://tws-official.jp/news/629a3d570920"
+    ],
+    "source_type": "official",
+    "archive_category": "巡演／见面会",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/2f534dd5cb65"
     ]
   },
   {
     "id": "history-20250725-024",
     "title": "🎤 TWS｜TOUR 24/7:WITH:US · 宫城",
     "status": "confirmed",
-    "sequence": 2,
+    "sequence": 3,
     "all_day": false,
     "start": "2025-07-25T18:30:00+09:00",
     "end": "2025-07-25T21:00:00+09:00",
-    "updated_at": "2026-11-19T15:15:32Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "日本 · 仙台 Sunplaza Hall",
-    "details": "TWS 演出。",
+    "details": "TWS 演出。\n日本场公演开演时间（JST）。\n官方来源 https://tws-official.jp/schedule/2f534dd5cb65",
     "source_url": "https://tws-official.jp/schedule/2f534dd5cb65",
     "historical": true,
-    "end_estimated": true
+    "end_estimated": true,
+    "source_type": "official",
+    "archive_category": "巡演／见面会",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/2f534dd5cb65"
+    ]
   },
   {
     "id": "history-20250726-025",
     "title": "🎤 TWS｜TOUR 24/7:WITH:US · 宫城",
     "status": "confirmed",
-    "sequence": 2,
+    "sequence": 3,
     "all_day": false,
     "start": "2025-07-26T16:00:00+09:00",
     "end": "2025-07-26T18:30:00+09:00",
-    "updated_at": "2026-11-19T15:15:32Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "日本 · 仙台 Sunplaza Hall",
-    "details": "TWS 演出。",
+    "details": "TWS 演出。\n日本场公演开演时间（JST）。\n官方来源 https://tws-official.jp/schedule/2f534dd5cb65",
     "source_url": "https://tws-official.jp/schedule/2f534dd5cb65",
     "historical": true,
-    "end_estimated": true
+    "end_estimated": true,
+    "source_type": "official",
+    "archive_category": "巡演／见面会",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/2f534dd5cb65"
+    ]
   },
   {
     "id": "history-20250728-026",
     "title": "🎤 TWS｜TOUR 24/7:WITH:US · 大阪",
     "status": "confirmed",
-    "sequence": 2,
+    "sequence": 3,
     "all_day": false,
     "start": "2025-07-28T18:30:00+09:00",
     "end": "2025-07-28T21:00:00+09:00",
-    "updated_at": "2026-11-19T15:15:32Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "日本 · Orix Theater",
-    "details": "TWS 演出。",
+    "details": "TWS 演出。\n日本场公演开演时间（JST）。\n官方来源 https://tws-official.jp/schedule/2f534dd5cb65",
     "source_url": "https://tws-official.jp/schedule/2f534dd5cb65",
     "historical": true,
-    "end_estimated": true
+    "end_estimated": true,
+    "source_type": "official",
+    "archive_category": "巡演／见面会",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/2f534dd5cb65"
+    ]
   },
   {
     "id": "history-20250729-027",
     "title": "🎤 TWS｜TOUR 24/7:WITH:US · 大阪",
     "status": "confirmed",
-    "sequence": 2,
+    "sequence": 3,
     "all_day": false,
     "start": "2025-07-29T18:30:00+09:00",
     "end": "2025-07-29T21:00:00+09:00",
-    "updated_at": "2026-11-19T15:15:32Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "日本 · Orix Theater",
-    "details": "TWS 演出。",
+    "details": "TWS 演出。\n日本场公演开演时间（JST）。\n官方来源 https://tws-official.jp/schedule/2f534dd5cb65",
     "source_url": "https://tws-official.jp/schedule/2f534dd5cb65",
     "historical": true,
-    "end_estimated": true
+    "end_estimated": true,
+    "source_type": "official",
+    "archive_category": "巡演／见面会",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/2f534dd5cb65"
+    ]
   },
   {
     "id": "history-20250730-028",
     "title": "🎤 TWS｜TOUR 24/7:WITH:US · 大阪",
     "status": "confirmed",
-    "sequence": 2,
+    "sequence": 3,
     "all_day": false,
     "start": "2025-07-30T18:30:00+09:00",
     "end": "2025-07-30T21:00:00+09:00",
-    "updated_at": "2026-11-19T15:15:32Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "日本 · Orix Theater",
-    "details": "TWS 演出。",
+    "details": "TWS 演出。\n日本场公演开演时间（JST）。\n官方来源 https://tws-official.jp/schedule/2f534dd5cb65",
     "source_url": "https://tws-official.jp/schedule/2f534dd5cb65",
     "historical": true,
-    "end_estimated": true
+    "end_estimated": true,
+    "source_type": "official",
+    "archive_category": "巡演／见面会",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/2f534dd5cb65"
+    ]
   },
   {
     "id": "history-20250809-029",
     "title": "🎤 TWS｜TOUR 24/7:WITH:US · 神奈川",
     "status": "confirmed",
-    "sequence": 2,
+    "sequence": 3,
     "all_day": false,
     "start": "2025-08-09T18:00:00+09:00",
     "end": "2025-08-09T20:30:00+09:00",
-    "updated_at": "2026-11-19T15:15:32Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "日本 · K-Arena Yokohama",
-    "details": "TWS 演出。",
+    "details": "TWS 演出。\n日本场公演开演时间（JST）。\n官方来源 https://tws-official.jp/schedule/2f534dd5cb65",
     "source_url": "https://tws-official.jp/schedule/2f534dd5cb65",
     "historical": true,
-    "end_estimated": true
+    "end_estimated": true,
+    "source_type": "official",
+    "archive_category": "巡演／见面会",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/2f534dd5cb65"
+    ]
   },
   {
     "id": "history-20250810-030",
     "title": "🎤 TWS｜TOUR 24/7:WITH:US · 神奈川",
     "status": "confirmed",
-    "sequence": 2,
+    "sequence": 3,
     "all_day": false,
     "start": "2025-08-10T16:00:00+09:00",
     "end": "2025-08-10T18:30:00+09:00",
-    "updated_at": "2026-11-19T15:15:32Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "日本 · K-Arena Yokohama",
-    "details": "TWS 演出。",
+    "details": "TWS 演出。\n日本场公演开演时间（JST）。\n官方来源 https://tws-official.jp/schedule/2f534dd5cb65",
     "source_url": "https://tws-official.jp/schedule/2f534dd5cb65",
     "historical": true,
-    "end_estimated": true
+    "end_estimated": true,
+    "source_type": "official",
+    "archive_category": "巡演／见面会",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/2f534dd5cb65"
+    ]
   },
   {
     "id": "history-20260124-031",
@@ -549,31 +639,43 @@
     "id": "history-20260408-038",
     "title": "🎤 TWS｜2nd FANMEETING 〈42:CLUB〉日本",
     "status": "confirmed",
-    "sequence": 3,
+    "sequence": 4,
     "all_day": false,
     "start": "2026-04-08T18:00:00+09:00",
     "end": "2026-04-08T20:00:00+09:00",
-    "updated_at": "2026-11-19T15:15:32Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "日本神奈川 · ぴあアリーナMM",
-    "details": "TWS 演出。",
-    "source_url": "https://weverse.io/tws/notice/33820",
+    "details": "TWS 演出。\n日本场公演开演时间（JST）。\n官方来源 https://tws-official.jp/schedule/e43af333d984",
+    "source_url": "https://tws-official.jp/schedule/e43af333d984",
     "historical": true,
-    "end_estimated": true
+    "end_estimated": true,
+    "source_type": "official",
+    "archive_category": "巡演／见面会",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/e43af333d984"
+    ]
   },
   {
     "id": "history-20260409-039",
     "title": "🎤 TWS｜2nd FANMEETING 〈42:CLUB〉日本 · 午场",
     "status": "confirmed",
-    "sequence": 3,
+    "sequence": 4,
     "all_day": false,
     "start": "2026-04-09T12:30:00+09:00",
     "end": "2026-04-09T14:30:00+09:00",
-    "updated_at": "2026-11-19T15:15:32Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "日本神奈川 · ぴあアリーナMM",
-    "details": "TWS 演出。",
-    "source_url": "https://weverse.io/tws/notice/33820",
+    "details": "TWS 演出。\n日本场公演开演时间（JST）。\n官方来源 https://tws-official.jp/schedule/e43af333d984",
+    "source_url": "https://tws-official.jp/schedule/e43af333d984",
     "historical": true,
-    "end_estimated": true
+    "end_estimated": true,
+    "source_type": "official",
+    "archive_category": "巡演／见面会",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/e43af333d984"
+    ]
   },
   {
     "id": "history-20260627-040",
@@ -607,121 +709,169 @@
     "id": "history-20260828-042",
     "title": "🎤 TWS｜TOUR 24/7:FOR:YOU · 福冈",
     "status": "confirmed",
-    "sequence": 2,
+    "sequence": 3,
     "all_day": false,
     "start": "2026-08-28T18:30:00+09:00",
     "end": "2026-08-28T21:50:00+09:00",
-    "updated_at": "2026-11-19T15:15:32Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "福冈国际中心",
-    "details": "TWS 演出。",
-    "source_url": "https://weverse.io/tws/notice/36045",
+    "details": "TWS 演出。\n日本场公演开演时间（JST）。\n官方来源 https://tws-official.jp/schedule/c30078c3a575",
+    "source_url": "https://tws-official.jp/schedule/c30078c3a575",
     "historical": true,
-    "end_estimated": true
+    "end_estimated": true,
+    "source_type": "official",
+    "archive_category": "巡演／见面会",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/c30078c3a575"
+    ]
   },
   {
     "id": "history-20260829-043",
     "title": "🎤 TWS｜TOUR 24/7:FOR:YOU · 福冈",
     "status": "confirmed",
-    "sequence": 2,
+    "sequence": 3,
     "all_day": false,
     "start": "2026-08-29T17:00:00+09:00",
     "end": "2026-08-29T20:20:00+09:00",
-    "updated_at": "2026-11-19T15:15:32Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "福冈国际中心",
-    "details": "TWS 演出。",
-    "source_url": "https://weverse.io/tws/notice/36045",
+    "details": "TWS 演出。\n日本场公演开演时间（JST）。\n官方来源 https://tws-official.jp/schedule/c30078c3a575",
+    "source_url": "https://tws-official.jp/schedule/c30078c3a575",
     "historical": true,
-    "end_estimated": true
+    "end_estimated": true,
+    "source_type": "official",
+    "archive_category": "巡演／见面会",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/c30078c3a575"
+    ]
   },
   {
     "id": "history-20260830-044",
     "title": "🎤 TWS｜TOUR 24/7:FOR:YOU · 福冈",
     "status": "confirmed",
-    "sequence": 2,
+    "sequence": 3,
     "all_day": false,
     "start": "2026-08-30T15:00:00+09:00",
     "end": "2026-08-30T18:20:00+09:00",
-    "updated_at": "2026-11-19T15:15:32Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "福冈国际中心",
-    "details": "TWS 演出。",
-    "source_url": "https://weverse.io/tws/notice/36045",
+    "details": "TWS 演出。\n日本场公演开演时间（JST）。\n官方来源 https://tws-official.jp/schedule/c30078c3a575",
+    "source_url": "https://tws-official.jp/schedule/c30078c3a575",
     "historical": true,
-    "end_estimated": true
+    "end_estimated": true,
+    "source_type": "official",
+    "archive_category": "巡演／见面会",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/c30078c3a575"
+    ]
   },
   {
     "id": "history-20260904-045",
     "title": "🎤 TWS｜TOUR 24/7:FOR:YOU · 兵库",
     "status": "confirmed",
-    "sequence": 2,
+    "sequence": 3,
     "all_day": false,
     "start": "2026-09-04T18:30:00+09:00",
     "end": "2026-09-04T21:50:00+09:00",
-    "updated_at": "2026-11-19T15:15:32Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "神户 World Hall",
-    "details": "TWS 演出。",
-    "source_url": "https://weverse.io/tws/notice/36045",
+    "details": "TWS 演出。\n日本场公演开演时间（JST）。\n官方来源 https://tws-official.jp/schedule/c30078c3a575",
+    "source_url": "https://tws-official.jp/schedule/c30078c3a575",
     "historical": true,
-    "end_estimated": true
+    "end_estimated": true,
+    "source_type": "official",
+    "archive_category": "巡演／见面会",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/c30078c3a575"
+    ]
   },
   {
     "id": "history-20260905-046",
     "title": "🎤 TWS｜TOUR 24/7:FOR:YOU · 兵库",
     "status": "confirmed",
-    "sequence": 2,
+    "sequence": 3,
     "all_day": false,
     "start": "2026-09-05T17:00:00+09:00",
     "end": "2026-09-05T20:20:00+09:00",
-    "updated_at": "2026-11-19T15:15:32Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "神户 World Hall",
-    "details": "TWS 演出。",
-    "source_url": "https://weverse.io/tws/notice/36045",
+    "details": "TWS 演出。\n日本场公演开演时间（JST）。\n官方来源 https://tws-official.jp/schedule/c30078c3a575",
+    "source_url": "https://tws-official.jp/schedule/c30078c3a575",
     "historical": true,
-    "end_estimated": true
+    "end_estimated": true,
+    "source_type": "official",
+    "archive_category": "巡演／见面会",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/c30078c3a575"
+    ]
   },
   {
     "id": "history-20260906-047",
     "title": "🎤 TWS｜TOUR 24/7:FOR:YOU · 兵库",
     "status": "confirmed",
-    "sequence": 2,
+    "sequence": 3,
     "all_day": false,
     "start": "2026-09-06T15:00:00+09:00",
     "end": "2026-09-06T18:20:00+09:00",
-    "updated_at": "2026-11-19T15:15:32Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "神户 World Hall",
-    "details": "TWS 演出。",
-    "source_url": "https://weverse.io/tws/notice/36045",
+    "details": "TWS 演出。\n日本场公演开演时间（JST）。\n官方来源 https://tws-official.jp/schedule/c30078c3a575",
+    "source_url": "https://tws-official.jp/schedule/c30078c3a575",
     "historical": true,
-    "end_estimated": true
+    "end_estimated": true,
+    "source_type": "official",
+    "archive_category": "巡演／见面会",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/c30078c3a575"
+    ]
   },
   {
     "id": "history-20260912-048",
     "title": "🎤 TWS｜TOUR 24/7:FOR:YOU · 神奈川",
     "status": "confirmed",
-    "sequence": 2,
+    "sequence": 3,
     "all_day": false,
     "start": "2026-09-12T17:00:00+09:00",
     "end": "2026-09-12T20:20:00+09:00",
-    "updated_at": "2026-11-19T15:15:32Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "K-Arena Yokohama",
-    "details": "TWS 演出。",
-    "source_url": "https://weverse.io/tws/notice/36045",
+    "details": "TWS 演出。\n日本场公演开演时间（JST）。\n官方来源 https://tws-official.jp/schedule/c30078c3a575",
+    "source_url": "https://tws-official.jp/schedule/c30078c3a575",
     "historical": true,
-    "end_estimated": true
+    "end_estimated": true,
+    "source_type": "official",
+    "archive_category": "巡演／见面会",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/c30078c3a575"
+    ]
   },
   {
     "id": "history-20260913-049",
     "title": "🎤 TWS｜TOUR 24/7:FOR:YOU · 神奈川",
     "status": "confirmed",
-    "sequence": 2,
+    "sequence": 3,
     "all_day": false,
     "start": "2026-09-13T15:00:00+09:00",
     "end": "2026-09-13T18:20:00+09:00",
-    "updated_at": "2026-11-19T15:15:32Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "K-Arena Yokohama",
-    "details": "TWS 演出。",
-    "source_url": "https://weverse.io/tws/notice/36045",
+    "details": "TWS 演出。\n日本场公演开演时间（JST）。\n官方来源 https://tws-official.jp/schedule/c30078c3a575",
+    "source_url": "https://tws-official.jp/schedule/c30078c3a575",
     "historical": true,
-    "end_estimated": true
+    "end_estimated": true,
+    "source_type": "official",
+    "archive_category": "巡演／见面会",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/c30078c3a575"
+    ]
   },
   {
     "id": "history-20260919-050",
@@ -979,15 +1129,21 @@
     "id": "history-20241204-fns",
     "title": "🏆 TWS｜2024 FNS 歌谣祭",
     "status": "confirmed",
-    "sequence": 1,
-    "all_day": true,
-    "start": "2024-12-04",
-    "end": "2024-12-05",
-    "updated_at": "2026-11-19T14:07:37Z",
+    "sequence": 2,
+    "all_day": false,
+    "start": "2024-12-04T18:30:00+09:00",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "",
-    "details": "TWS 出演。",
-    "source_url": "https://www.concertarchives.org/bands/tws?year=2024",
-    "historical": true
+    "details": "TWS 出演。\n日本节目播出（JST）。 节目主页 https://www.fujitv.co.jp/FNS/\n官方来源 https://tws-official.jp/schedule/1442b0d9d3f8",
+    "source_url": "https://tws-official.jp/schedule/1442b0d9d3f8",
+    "historical": true,
+    "source_type": "official",
+    "end": "2024-12-04T23:28:00+09:00",
+    "archive_category": "电视",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/1442b0d9d3f8"
+    ]
   },
   {
     "id": "history-20250104-golden-disc",
@@ -1021,15 +1177,20 @@
     "id": "history-20251203-fns",
     "title": "🏆 TWS｜2025 FNS 歌谣祭",
     "status": "confirmed",
-    "sequence": 1,
-    "all_day": true,
-    "start": "2025-12-03",
-    "end": "2025-12-04",
-    "updated_at": "2026-11-19T14:07:37Z",
+    "sequence": 2,
+    "all_day": false,
+    "start": "2025-12-03T18:30:00+09:00",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "",
-    "details": "TWS 出演。",
-    "source_url": "https://biz.chosun.com/en/en-entertainment/2025/11/10/25HTR2B6EBD3ZFMZKD7V33LHJE/",
-    "historical": true
+    "details": "TWS 出演。\n日本节目播出（JST）。 节目主页 https://www.fujitv.co.jp/FNS/\n官方来源 https://tws-official.jp/schedule/48c2715ea8a0",
+    "source_url": "https://tws-official.jp/schedule/48c2715ea8a0",
+    "historical": true,
+    "source_type": "official",
+    "archive_category": "电视",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/48c2715ea8a0"
+    ]
   },
   {
     "id": "history-20240825-macau-showcase",
@@ -1049,43 +1210,61 @@
     "id": "history-20241114-best-hit",
     "title": "🏆 TWS｜Best Hit 歌谣祭 2024",
     "status": "confirmed",
-    "sequence": 1,
-    "all_day": true,
-    "start": "2024-11-14",
-    "end": "2024-11-15",
-    "updated_at": "2026-11-19T14:07:37Z",
+    "sequence": 2,
+    "all_day": false,
+    "start": "2024-11-14T19:00:00+09:00",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "",
-    "details": "TWS 出演年末音乐节目。",
-    "source_url": "https://zh.wikipedia.org/wiki/TWS%E6%BC%94%E5%94%B1%E6%9C%83%E5%88%97%E8%A1%A8",
-    "historical": true
+    "details": "TWS 出演年末音乐节目。\n日本节目播出（JST）。 节目主页 https://www.ytv.co.jp/besthits/\n官方来源 https://tws-official.jp/schedule/3bda18f3ed6a",
+    "source_url": "https://tws-official.jp/schedule/3bda18f3ed6a",
+    "historical": true,
+    "source_type": "official",
+    "archive_category": "电视",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/3bda18f3ed6a"
+    ]
   },
   {
     "id": "history-20250702-japan-showcase",
     "title": "🎤 TWS｜はじめまして 日本出道纪念 Showcase",
     "status": "confirmed",
-    "sequence": 1,
+    "sequence": 2,
     "all_day": true,
     "start": "2025-07-02",
     "end": "2025-07-03",
-    "updated_at": "2026-11-19T14:07:37Z",
-    "location": "",
-    "details": "TWS 日本出道纪念 Showcase。",
-    "source_url": "https://zh.wikipedia.org/wiki/TWS%E6%BC%94%E5%94%B1%E6%9C%83%E5%88%97%E8%A1%A8",
-    "historical": true
+    "updated_at": "2026-11-24T12:38:56Z",
+    "location": "Spotify O-EAST",
+    "details": "TWS 日本出道纪念 Showcase。\n日本单曲发行纪念 mini live 与 talk（JST）。\n官方来源 https://tws-official.jp/schedule/cc0017f5e2cd",
+    "source_url": "https://tws-official.jp/schedule/cc0017f5e2cd",
+    "historical": true,
+    "source_type": "official",
+    "time_tbd": true,
+    "archive_category": "Showcase",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/cc0017f5e2cd"
+    ]
   },
   {
     "id": "history-20251227-countdown-japan",
     "title": "🏆 TWS｜COUNTDOWN JAPAN 25/26",
     "status": "confirmed",
-    "sequence": 1,
+    "sequence": 2,
     "all_day": true,
     "start": "2025-12-27",
     "end": "2025-12-28",
-    "updated_at": "2026-11-19T14:07:37Z",
-    "location": "",
-    "details": "TWS 出演年末音乐节。",
-    "source_url": "https://zh.wikipedia.org/wiki/TWS%E6%BC%94%E5%94%B1%E6%9C%83%E5%88%97%E8%A1%A8",
-    "historical": true
+    "updated_at": "2026-11-24T12:38:56Z",
+    "location": "千叶 幕张展览馆",
+    "details": "TWS 出演年末音乐节。\nTWS 出演该日阵容。\n官方来源 https://tws-official.jp/schedule/8d807fef9b5f",
+    "source_url": "https://tws-official.jp/schedule/8d807fef9b5f",
+    "historical": true,
+    "source_type": "official",
+    "time_tbd": true,
+    "archive_category": "舞台",
+    "official_sources": [
+      "https://tws-official.jp/schedule/8d807fef9b5f"
+    ]
   },
   {
     "id": "history-20260110-golden-disc",
@@ -1105,31 +1284,43 @@
     "id": "history-20250315-fanmeeting-evening",
     "title": "🎤 TWS｜1st FANMEETING 〈42:CLUB〉日本 · 晚场",
     "status": "confirmed",
-    "sequence": 1,
+    "sequence": 2,
     "all_day": false,
     "start": "2025-03-15T18:00:00+09:00",
     "end": "2025-03-15T20:00:00+09:00",
-    "updated_at": "2026-11-19T15:15:32Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "日本东京 · 武藏野之森综合体育广场",
-    "details": "TWS 演出。",
-    "source_url": "https://weverse.io/tws/notice/24306",
+    "details": "TWS 演出。\n日本场公演开演时间（JST）。\n官方来源 https://tws-official.jp/schedule/332ce500aa4c",
+    "source_url": "https://tws-official.jp/schedule/332ce500aa4c",
     "historical": true,
-    "end_estimated": true
+    "end_estimated": true,
+    "source_type": "official",
+    "archive_category": "巡演／见面会",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/332ce500aa4c"
+    ]
   },
   {
     "id": "history-20260409-fanmeeting-evening",
     "title": "🎤 TWS｜2nd FANMEETING 〈42:CLUB〉日本 · 晚场",
     "status": "confirmed",
-    "sequence": 1,
+    "sequence": 2,
     "all_day": false,
     "start": "2026-04-09T18:00:00+09:00",
     "end": "2026-04-09T20:00:00+09:00",
-    "updated_at": "2026-11-19T15:15:32Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "日本神奈川 · ぴあアリーナMM",
-    "details": "TWS 演出。",
-    "source_url": "https://weverse.io/tws/notice/33820",
+    "details": "TWS 演出。\n日本场公演开演时间（JST）。\n官方来源 https://tws-official.jp/schedule/e43af333d984",
+    "source_url": "https://tws-official.jp/schedule/e43af333d984",
     "historical": true,
-    "end_estimated": true
+    "end_estimated": true,
+    "source_type": "official",
+    "archive_category": "巡演／见面会",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/e43af333d984"
+    ]
   },
   {
     "id": "archive-36fb57fade23457157",
@@ -1247,17 +1438,25 @@
     "id": "archive-b526ad320378755715",
     "title": "🎵 TWS｜M Countdown",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-02-08",
     "end": "2024-02-09",
-    "updated_at": "2026-11-19T14:30:00Z",
-    "location": "",
-    "details": "",
-    "source_url": "https://zh.wikipedia.org/wiki/TWS%E5%BD%B1%E8%A6%96%E4%BD%9C%E5%93%81%E5%88%97%E8%A1%A8",
-    "source_type": "community_archive",
+    "updated_at": "2026-11-24T12:38:56Z",
+    "location": "https://www.youtube.com/watch?v=4bVQQoa_xQI",
+    "details": "⭐️샤인멍또캣 VS TWS⭐️ 설맞이 플레이리스트 정복! #엠카운트다운 EP.828 | Mnet 240208 방송。",
+    "source_url": "https://www.youtube.com/watch?v=4bVQQoa_xQI",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "time_tbd": true,
+    "watch_url": "https://www.youtube.com/watch?v=4bVQQoa_xQI",
+    "archive_category": "打歌",
+    "media_links": {
+      "https://www.youtube.com/watch?v=4bVQQoa_xQI": "舞台／节目片段"
+    },
+    "official_sources": [
+      "https://www.youtube.com/watch?v=4bVQQoa_xQI"
+    ]
   },
   {
     "id": "archive-a824f9291fe0763993",
@@ -1358,65 +1557,79 @@
     "id": "archive-a8412b936dac413192",
     "title": "📺 TWS｜BREAK OUT",
     "status": "confirmed",
-    "sequence": 1,
+    "sequence": 2,
     "all_day": false,
     "start": "2024-04-04T01:32:00+09:00",
     "end": "2024-04-04T02:32:00+09:00",
-    "updated_at": "2026-11-19T16:20:00Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "",
-    "details": "",
+    "details": "日本节目播出（JST）。 节目主页 http://break-out.jp\n官方来源 https://tws-official.jp/schedule/7d371335625e",
     "source_url": "https://tws-official.jp/media",
     "source_type": "official",
     "historical": true,
-    "end_estimated": true
+    "end_estimated": true,
+    "archive_category": "电视",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/7d371335625e"
+    ]
   },
   {
     "id": "archive-ff15e1f21674257382",
     "title": "📺 TWS｜M:ZINE",
     "status": "confirmed",
-    "sequence": 0,
-    "all_day": true,
-    "start": "2024-05-10",
-    "end": "2024-05-11",
-    "updated_at": "2026-11-19T14:30:00Z",
+    "sequence": 1,
+    "all_day": false,
+    "start": "2024-05-11T01:30:00+09:00",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "",
-    "details": "",
-    "source_url": "https://zh.wikipedia.org/wiki/TWS%E5%BD%B1%E8%A6%96%E4%BD%9C%E5%93%81%E5%88%97%E8%A1%A8",
-    "source_type": "community_archive",
+    "details": "日本节目播出（JST）。 节目主页 https://www.tv-asahi.co.jp/mzine/\n官方来源 https://tws-official.jp/schedule/26236cecd8ce",
+    "source_url": "https://tws-official.jp/schedule/26236cecd8ce",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "archive_category": "电视",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/26236cecd8ce"
+    ]
   },
   {
     "id": "archive-2e20393aca8dd24bf8",
     "title": "📺 TWS｜M:ZINE",
     "status": "confirmed",
-    "sequence": 0,
-    "all_day": true,
-    "start": "2024-05-17",
-    "end": "2024-05-18",
-    "updated_at": "2026-11-19T14:30:00Z",
+    "sequence": 1,
+    "all_day": false,
+    "start": "2024-05-18T01:30:00+09:00",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "",
-    "details": "",
-    "source_url": "https://zh.wikipedia.org/wiki/TWS%E5%BD%B1%E8%A6%96%E4%BD%9C%E5%93%81%E5%88%97%E8%A1%A8",
-    "source_type": "community_archive",
+    "details": "日本节目播出（JST）。 节目主页 https://www.tv-asahi.co.jp/mzine/\n官方来源 https://tws-official.jp/schedule/26236cecd8ce",
+    "source_url": "https://tws-official.jp/schedule/26236cecd8ce",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "archive_category": "电视",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/26236cecd8ce"
+    ]
   },
   {
     "id": "archive-920000ec11883b15b6",
     "title": "📺 TWS｜M:ZINE",
     "status": "confirmed",
-    "sequence": 0,
-    "all_day": true,
-    "start": "2024-05-24",
-    "end": "2024-05-25",
-    "updated_at": "2026-11-19T14:30:00Z",
+    "sequence": 1,
+    "all_day": false,
+    "start": "2024-05-25T01:30:00+09:00",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "",
-    "details": "",
-    "source_url": "https://zh.wikipedia.org/wiki/TWS%E5%BD%B1%E8%A6%96%E4%BD%9C%E5%93%81%E5%88%97%E8%A1%A8",
-    "source_type": "community_archive",
+    "details": "日本节目播出（JST）。 节目主页 https://www.tv-asahi.co.jp/mzine/\n官方来源 https://tws-official.jp/schedule/26236cecd8ce",
+    "source_url": "https://tws-official.jp/schedule/26236cecd8ce",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "archive_category": "电视",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/26236cecd8ce"
+    ]
   },
   {
     "id": "archive-1462ad553650a70ce1",
@@ -1644,19 +1857,27 @@
   },
   {
     "id": "archive-0489632c011f3c44b7",
-    "title": "🎤 申惟、英宰｜音乐银行特别 MC",
+    "title": "🎤 申惟、英宰｜音乐银行特别 MC／TWS 打歌",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-06-28",
     "end": "2024-06-29",
-    "updated_at": "2026-11-19T14:30:00Z",
-    "location": "",
-    "details": "",
-    "source_url": "https://zh.wikipedia.org/wiki/TWS%E5%BD%B1%E8%A6%96%E4%BD%9C%E5%93%81%E5%88%97%E8%A1%A8",
-    "source_type": "community_archive",
+    "updated_at": "2026-11-24T12:38:56Z",
+    "location": "https://www.youtube.com/watch?v=XeQfwbUBveA",
+    "details": "If I'm S, Can You Be My N? - TWS トゥアス 투어스 [Music Bank] | KBS WORLD TV 240628。 （音乐银行）",
+    "source_url": "https://www.youtube.com/watch?v=XeQfwbUBveA",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "time_tbd": true,
+    "watch_url": "https://www.youtube.com/watch?v=XeQfwbUBveA",
+    "archive_category": "打歌",
+    "media_links": {
+      "https://www.youtube.com/watch?v=XeQfwbUBveA": "舞台／节目片段"
+    },
+    "official_sources": [
+      "https://www.youtube.com/watch?v=XeQfwbUBveA"
+    ]
   },
   {
     "id": "archive-bb3136e5e4f0494c03",
@@ -1806,17 +2027,22 @@
     "id": "archive-3a5f7b9a1bb01dc21e",
     "title": "📺 TWS｜BREAK OUT",
     "status": "confirmed",
-    "sequence": 1,
+    "sequence": 2,
     "all_day": false,
     "start": "2024-07-25T01:58:00+09:00",
     "end": "2024-07-25T02:58:00+09:00",
-    "updated_at": "2026-11-19T16:20:00Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "",
-    "details": "",
+    "details": "日本节目播出（JST）。 节目主页 https://break-out.jp/\n官方来源 https://tws-official.jp/schedule/4e9ac42f6698",
     "source_url": "https://tws-official.jp/news/3f29a0e6a340",
     "source_type": "official",
     "historical": true,
-    "end_estimated": true
+    "end_estimated": true,
+    "archive_category": "电视",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/4e9ac42f6698"
+    ]
   },
   {
     "id": "archive-374c0a5bcdd236b2d6",
@@ -2094,17 +2320,20 @@
     "id": "archive-5d4c361f1f6dec935a",
     "title": "📺 TWS｜M:ZINE",
     "status": "confirmed",
-    "sequence": 0,
-    "all_day": true,
-    "start": "2025-01-24",
-    "end": "2025-01-25",
-    "updated_at": "2026-11-19T14:30:00Z",
+    "sequence": 1,
+    "all_day": false,
+    "start": "2025-01-25T01:30:00+09:00",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "",
-    "details": "",
-    "source_url": "https://zh.wikipedia.org/wiki/TWS%E5%BD%B1%E8%A6%96%E4%BD%9C%E5%93%81%E5%88%97%E8%A1%A8",
-    "source_type": "community_archive",
+    "details": "日本节目播出（JST）。 节目主页 https://www.tv-asahi.co.jp/mzine/\n官方来源 https://tws-official.jp/schedule/fbee842c86cc",
+    "source_url": "https://tws-official.jp/schedule/fbee842c86cc",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "archive_category": "电视",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/fbee842c86cc"
+    ]
   },
   {
     "id": "archive-7532376f385d64c4f3",
@@ -2350,49 +2579,60 @@
     "id": "archive-239a91f3f067adb89c",
     "title": "📺 TWS｜Night Brunch",
     "status": "confirmed",
-    "sequence": 0,
-    "all_day": true,
-    "start": "2025-07-23",
-    "end": "2025-07-24",
-    "updated_at": "2026-11-19T14:30:00Z",
+    "sequence": 1,
+    "all_day": false,
+    "start": "2025-07-23T23:56:00+09:00",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "",
-    "details": "",
-    "source_url": "https://zh.wikipedia.org/wiki/TWS%E5%BD%B1%E8%A6%96%E4%BD%9C%E5%93%81%E5%88%97%E8%A1%A8",
-    "source_type": "community_archive",
+    "details": "日本节目播出（JST）。 节目主页 http://www.tbs.co.jp/night_brunch/\n官方来源 https://tws-official.jp/schedule/cb7c218ff377",
+    "source_url": "https://tws-official.jp/schedule/cb7c218ff377",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "archive_category": "电视",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/cb7c218ff377"
+    ]
   },
   {
     "id": "archive-af03c753f5545e2626",
     "title": "📺 TWS｜音道乐√",
     "status": "confirmed",
-    "sequence": 1,
+    "sequence": 2,
     "all_day": false,
     "start": "2025-08-30T01:35:00+09:00",
     "end": "2025-08-30T02:35:00+09:00",
-    "updated_at": "2026-11-19T16:20:00Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "",
-    "details": "",
+    "details": "日本节目播出（JST）。 节目主页 https://www.ytv.co.jp/otodoraku_root/\n官方来源 https://tws-official.jp/schedule/a46801974e68",
     "source_url": "https://tws-official.jp/news/d3c2cbf66481",
     "source_type": "official",
     "historical": true,
-    "end_estimated": true
+    "end_estimated": true,
+    "archive_category": "电视",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/a46801974e68"
+    ]
   },
   {
     "id": "archive-cb49f28980e803c6eb",
     "title": "📺 TWS｜仙台放送周日预告",
     "status": "confirmed",
-    "sequence": 0,
-    "all_day": true,
-    "start": "2025-08-31",
-    "end": "2025-09-01",
-    "updated_at": "2026-11-19T14:30:00Z",
+    "sequence": 1,
+    "all_day": false,
+    "start": "2025-08-31T14:00:00+09:00",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "",
-    "details": "",
-    "source_url": "https://zh.wikipedia.org/wiki/TWS%E5%BD%B1%E8%A6%96%E4%BD%9C%E5%93%81%E5%88%97%E8%A1%A8",
-    "source_type": "community_archive",
+    "details": "日本节目播出（JST）。 节目主页 https://www.ox-tv.jp/arakashi/\n官方来源 https://tws-official.jp/schedule/2744d5d496fe",
+    "source_url": "https://tws-official.jp/schedule/2744d5d496fe",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "archive_category": "电视",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/2744d5d496fe"
+    ]
   },
   {
     "id": "archive-67200a59570140f99f",
@@ -2414,17 +2654,22 @@
     "id": "archive-b1984b34970de0a2f3",
     "title": "📺 TWS｜浪花男子的逆袭男子",
     "status": "confirmed",
-    "sequence": 1,
+    "sequence": 2,
     "all_day": false,
     "start": "2025-09-06T15:30:00+09:00",
     "end": "2025-09-06T16:30:00+09:00",
-    "updated_at": "2026-11-19T16:20:00Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "",
-    "details": "",
+    "details": "日本节目播出（JST）。 节目主页 https://www.tv-asahi.co.jp/mada_update/\n官方来源 https://tws-official.jp/schedule/4349f176bc15",
     "source_url": "https://tws-official.jp/news/6043e1ea0a88",
     "source_type": "official",
     "historical": true,
-    "end_estimated": true
+    "end_estimated": true,
+    "archive_category": "电视",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/4349f176bc15"
+    ]
   },
   {
     "id": "archive-c1d5ff8cec9dda26e1",
@@ -2509,79 +2754,117 @@
     "id": "archive-5c197f6978681beed2",
     "title": "🎵 TWS｜M Countdown 打歌",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2026-02-12",
     "end": "2026-02-13",
-    "updated_at": "2026-11-19T14:30:00Z",
-    "location": "",
-    "details": "",
-    "source_url": "https://www.sina.cn/news/detail/5250295636691566.html",
-    "source_type": "community_archive",
+    "updated_at": "2026-11-24T12:38:56Z",
+    "location": "https://www.youtube.com/watch?v=aZjMA5UujqA",
+    "details": "'COMEBACK' TWS (투어스) - 다시 만난 오늘 #엠카운트다운 EP.916 | Mnet 260212 방송。",
+    "source_url": "https://www.youtube.com/watch?v=aZjMA5UujqA",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "time_tbd": true,
+    "watch_url": "https://www.youtube.com/watch?v=aZjMA5UujqA",
+    "archive_category": "打歌",
+    "media_links": {
+      "https://www.youtube.com/watch?v=aZjMA5UujqA": "舞台／节目片段"
+    },
+    "official_sources": [
+      "https://www.youtube.com/watch?v=aZjMA5UujqA"
+    ]
   },
   {
     "id": "archive-1a8d25aacf1a1c3c5a",
     "title": "🎵 TWS｜音乐银行打歌",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2026-02-13",
     "end": "2026-02-14",
-    "updated_at": "2026-11-19T14:30:00Z",
-    "location": "",
-    "details": "",
-    "source_url": "https://www.sina.cn/news/detail/5250295636691566.html",
-    "source_type": "community_archive",
+    "updated_at": "2026-11-24T12:38:56Z",
+    "location": "https://www.youtube.com/watch?v=OrnWRiO9yUI\nhttps://www.youtube.com/watch?v=9qoq-hsySLw\nhttps://www.youtube.com/watch?v=a35d1yPoBPw",
+    "details": "(ENG)[MusicBank Interview Cam] 투어스 (TWS  Interview) l @MusicBank KBS 260213。\n다시 만난 오늘 - TWS (투어스) [뮤직뱅크/Music Bank] | KBS 260213 방송。\n[COMEBACK🎉] TWS トゥアス 투어스 - Nice to see you again (Korean Ver.) [Music Bank] | KBS WORLD TV 260213。 （音乐银行）\n官方来源 https://www.youtube.com/watch?v=9qoq-hsySLw\n官方来源 https://www.youtube.com/watch?v=a35d1yPoBPw",
+    "source_url": "https://www.youtube.com/watch?v=OrnWRiO9yUI",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "time_tbd": true,
+    "watch_url": "https://www.youtube.com/watch?v=OrnWRiO9yUI",
+    "archive_category": "打歌",
+    "media_links": {
+      "https://www.youtube.com/watch?v=OrnWRiO9yUI": "舞台／节目片段",
+      "https://www.youtube.com/watch?v=9qoq-hsySLw": "舞台／节目片段",
+      "https://www.youtube.com/watch?v=a35d1yPoBPw": "舞台／节目片段"
+    },
+    "official_sources": [
+      "https://www.youtube.com/watch?v=OrnWRiO9yUI",
+      "https://www.youtube.com/watch?v=9qoq-hsySLw",
+      "https://www.youtube.com/watch?v=a35d1yPoBPw"
+    ]
   },
   {
     "id": "archive-30c7a1e1ed9362caa6",
     "title": "🎵 TWS｜MBC《音乐中心》打歌／道勋 MC",
     "status": "confirmed",
-    "sequence": 1,
+    "sequence": 2,
     "all_day": false,
     "start": "2026-02-14T15:20:00+09:00",
-    "updated_at": "2026-11-19T15:45:00Z",
-    "location": "https://onair.imbc.com/",
-    "details": "",
+    "updated_at": "2026-11-24T12:38:56Z",
+    "location": "https://onair.imbc.com/\nhttps://www.youtube.com/watch?v=bRarpq2LzUg",
+    "details": "[#음중풀캠8K] TWS (투어스) – 다시 만난 오늘 FullCam | 쇼! 음악중심 | MBC260214。 （Show! 音乐中心）",
     "source_url": "https://weverse.io/tws/notice/33758",
     "source_type": "official",
     "historical": true,
-    "duration_category": "music_core"
+    "duration_category": "music_core",
+    "watch_url": "https://www.youtube.com/watch?v=bRarpq2LzUg",
+    "archive_category": "打歌",
+    "media_links": {
+      "https://www.youtube.com/watch?v=bRarpq2LzUg": "舞台／节目片段"
+    },
+    "official_sources": [
+      "https://www.youtube.com/watch?v=bRarpq2LzUg"
+    ]
   },
   {
     "id": "archive-c29bfbb885c730d0cc",
     "title": "🤝 TWS｜Weverse 公开签售",
     "status": "confirmed",
-    "sequence": 0,
-    "all_day": true,
-    "start": "2026-02-14",
-    "end": "2026-02-15",
-    "updated_at": "2026-11-19T14:30:00Z",
-    "location": "",
-    "details": "",
-    "source_url": "https://www.sina.cn/news/detail/5250295636691566.html",
-    "source_type": "community_archive",
+    "sequence": 1,
+    "all_day": false,
+    "start": "2026-02-14T19:00:00+09:00",
+    "updated_at": "2026-11-24T12:38:56Z",
+    "location": "영등포 타임스퀘어 1층 아트리움",
+    "details": "TWS 成员参加，限中签者。韩国时间（KST）。\n官方来源 https://weverse.io/tws/notice/33547",
+    "source_url": "https://weverse.io/tws/notice/33547",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "archive_category": "线下签售",
+    "official_sources": [
+      "https://weverse.io/tws/notice/33547"
+    ]
   },
   {
     "id": "archive-96233e607b6a792101",
     "title": "🎵 TWS｜SBS《人气歌谣》打歌／申惟 MC",
     "status": "confirmed",
-    "sequence": 1,
+    "sequence": 2,
     "all_day": false,
     "start": "2026-02-15T15:25:00+09:00",
-    "updated_at": "2026-11-19T15:45:00Z",
-    "location": "https://www.sbs.co.kr/live",
-    "details": "",
+    "updated_at": "2026-11-24T12:38:56Z",
+    "location": "https://www.sbs.co.kr/live\nhttps://www.youtube.com/watch?v=18_emKbxvUc",
+    "details": "[안방1열 풀캠4K] 투어스 '다시 만난 오늘' (TWS FullCam) @SBS Inkigayo 260215。 （人气歌谣）",
     "source_url": "https://weverse.io/tws/notice/33791",
     "source_type": "official",
     "historical": true,
-    "duration_category": "inkigayo"
+    "duration_category": "inkigayo",
+    "watch_url": "https://www.youtube.com/watch?v=18_emKbxvUc",
+    "archive_category": "打歌",
+    "media_links": {
+      "https://www.youtube.com/watch?v=18_emKbxvUc": "舞台／节目片段"
+    },
+    "official_sources": [
+      "https://www.youtube.com/watch?v=18_emKbxvUc"
+    ]
   },
   {
     "id": "archive-4e9d99b8061a420522",
@@ -2822,33 +3105,38 @@
     "id": "archive-e6e0caad817caa21a9",
     "title": "📺 TWS｜CDTV LIVE! LIVE!",
     "status": "confirmed",
-    "sequence": 0,
-    "all_day": true,
-    "start": "2026-04-27",
-    "end": "2026-04-28",
-    "updated_at": "2026-11-19T14:30:00Z",
+    "sequence": 1,
+    "all_day": false,
+    "start": "2026-04-27T19:00:00+09:00",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "",
-    "details": "",
-    "source_url": "https://www.sina.cn/news/detail/5250295636691566.html",
-    "source_type": "community_archive",
+    "details": "日本节目播出（JST）。 节目主页 https://www.tbs.co.jp/cdtv_livelive/\n官方来源 https://tws-official.jp/schedule/10d301e2a8ed",
+    "source_url": "https://tws-official.jp/schedule/10d301e2a8ed",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "archive_category": "电视",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/10d301e2a8ed"
+    ]
   },
   {
     "id": "archive-673b5c50ac5482f6f9",
     "title": "🎤 TWS｜NO TRAGEDY 回归 Showcase",
     "status": "confirmed",
-    "sequence": 0,
-    "all_day": true,
-    "start": "2026-04-27",
-    "end": "2026-04-28",
-    "updated_at": "2026-11-19T14:30:00Z",
-    "location": "",
-    "details": "",
-    "source_url": "https://www.sina.cn/news/detail/5250295636691566.html",
-    "source_type": "community_archive",
+    "sequence": 1,
+    "all_day": false,
+    "start": "2026-04-27T20:00:00+09:00",
+    "updated_at": "2026-11-24T12:38:56Z",
+    "location": "YES24 LIVE HALL",
+    "details": "韩国时间（KST）。\n官方来源 https://weverse.io/tws/notice/34834",
+    "source_url": "https://weverse.io/tws/notice/34834",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "archive_category": "Showcase",
+    "official_sources": [
+      "https://weverse.io/tws/notice/34834"
+    ]
   },
   {
     "id": "archive-9d192ab02052d6401d",
@@ -2886,17 +3174,25 @@
     "id": "archive-d1455b7f6979d115fc",
     "title": "🎵 TWS｜M Countdown 打歌",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2026-04-30",
     "end": "2026-05-01",
-    "updated_at": "2026-11-19T14:30:00Z",
-    "location": "",
-    "details": "",
-    "source_url": "https://www.sina.cn/news/detail/5250295636691566.html",
-    "source_type": "community_archive",
+    "updated_at": "2026-11-24T12:38:56Z",
+    "location": "https://www.youtube.com/watch?v=an2xn1qNqu0",
+    "details": "'COMEBACK' TWS (투어스) - 널 따라가 (You, You) #엠카운트다운 EP.926 | Mnet 260430 방송。",
+    "source_url": "https://www.youtube.com/watch?v=an2xn1qNqu0",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "time_tbd": true,
+    "watch_url": "https://www.youtube.com/watch?v=an2xn1qNqu0",
+    "archive_category": "打歌",
+    "media_links": {
+      "https://www.youtube.com/watch?v=an2xn1qNqu0": "舞台／节目片段"
+    },
+    "official_sources": [
+      "https://www.youtube.com/watch?v=an2xn1qNqu0"
+    ]
   },
   {
     "id": "archive-ae9488ddb00ac0160b",
@@ -2934,32 +3230,52 @@
     "id": "archive-a40d7718c8addf7455",
     "title": "🎵 TWS｜音乐银行打歌",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2026-05-01",
     "end": "2026-05-02",
-    "updated_at": "2026-11-19T14:30:00Z",
-    "location": "",
-    "details": "",
-    "source_url": "https://www.sina.cn/news/detail/5250295636691566.html",
-    "source_type": "community_archive",
+    "updated_at": "2026-11-24T12:38:56Z",
+    "location": "https://www.youtube.com/watch?v=_GUHye9fHDg\nhttps://www.youtube.com/watch?v=xC8w5MQWFEo",
+    "details": "(ENG)[MusicBank Interview Cam] 투어스 (TWS Interview) l @MusicBank KBS 260501。\n널 따라가 (You, You) - TWS (투어스) [뮤직뱅크/Music Bank] | KBS 260501 방송。 （音乐银行）\n官方来源 https://www.youtube.com/watch?v=xC8w5MQWFEo",
+    "source_url": "https://www.youtube.com/watch?v=_GUHye9fHDg",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "time_tbd": true,
+    "watch_url": "https://www.youtube.com/watch?v=_GUHye9fHDg",
+    "archive_category": "打歌",
+    "media_links": {
+      "https://www.youtube.com/watch?v=_GUHye9fHDg": "舞台／节目片段",
+      "https://www.youtube.com/watch?v=xC8w5MQWFEo": "舞台／节目片段"
+    },
+    "official_sources": [
+      "https://www.youtube.com/watch?v=_GUHye9fHDg",
+      "https://www.youtube.com/watch?v=xC8w5MQWFEo"
+    ]
   },
   {
     "id": "archive-c48470cd8e4b4402a7",
     "title": "🎵 TWS｜MBC《音乐中心》打歌／道勋 MC",
     "status": "confirmed",
-    "sequence": 1,
+    "sequence": 2,
     "all_day": false,
     "start": "2026-05-02T15:20:00+09:00",
-    "updated_at": "2026-11-19T16:10:00Z",
-    "location": "https://onair.imbc.com/",
-    "details": "",
+    "updated_at": "2026-11-24T12:38:56Z",
+    "location": "https://onair.imbc.com/\nhttps://www.youtube.com/watch?v=Yeq95CfLNRo\nhttps://www.youtube.com/watch?v=faIykN9Uv1c",
+    "details": "[#음중풀캠8K] TWS (투어스) – 너의 모든 가능성이 되어 줄게 FullCam | 쇼! 음악중심 | MBC260502。\n[#음중풀캠8K] TWS (투어스) – 널 따라가 (You, You) FullCam | 쇼! 음악중심 | MBC260502。 （Show! 音乐中心）\n官方来源 https://www.youtube.com/watch?v=faIykN9Uv1c",
     "source_url": "https://weverse.io/tws/notice/35507",
     "source_type": "official",
     "historical": true,
-    "duration_category": "music_core"
+    "duration_category": "music_core",
+    "watch_url": "https://www.youtube.com/watch?v=Yeq95CfLNRo",
+    "archive_category": "打歌",
+    "media_links": {
+      "https://www.youtube.com/watch?v=Yeq95CfLNRo": "舞台／节目片段",
+      "https://www.youtube.com/watch?v=faIykN9Uv1c": "舞台／节目片段"
+    },
+    "official_sources": [
+      "https://www.youtube.com/watch?v=Yeq95CfLNRo",
+      "https://www.youtube.com/watch?v=faIykN9Uv1c"
+    ]
   },
   {
     "id": "archive-756eb51d6805cdf6c5",
@@ -2981,16 +3297,26 @@
     "id": "archive-9b0e2c86852be15e6d",
     "title": "🎵 TWS｜SBS《人气歌谣》打歌／申惟 MC",
     "status": "confirmed",
-    "sequence": 1,
+    "sequence": 2,
     "all_day": false,
     "start": "2026-05-03T15:20:00+09:00",
-    "updated_at": "2026-11-19T16:10:00Z",
-    "location": "https://www.sbs.co.kr/live",
-    "details": "",
+    "updated_at": "2026-11-24T12:38:56Z",
+    "location": "https://www.sbs.co.kr/live\nhttps://www.youtube.com/watch?v=GN8Tuq5nsNA\nhttps://www.youtube.com/watch?v=CrMQ4BeuO1g",
+    "details": "[안방1열 풀캠4K] 투어스 '너의 모든 가능성이 되어 줄게' (TWS 'All the Possibilities' FullCam) @SBS Inkigayo 260503。\n[안방1열 풀캠4K] 투어스 '널 따라가 (You, You)' (TWS FullCam) @SBS Inkigayo 260503。 （人气歌谣）\n官方来源 https://www.youtube.com/watch?v=CrMQ4BeuO1g",
     "source_url": "https://weverse.io/tws/notice/35537",
     "source_type": "official",
     "historical": true,
-    "duration_category": "inkigayo"
+    "duration_category": "inkigayo",
+    "watch_url": "https://www.youtube.com/watch?v=GN8Tuq5nsNA",
+    "archive_category": "打歌",
+    "media_links": {
+      "https://www.youtube.com/watch?v=GN8Tuq5nsNA": "舞台／节目片段",
+      "https://www.youtube.com/watch?v=CrMQ4BeuO1g": "舞台／节目片段"
+    },
+    "official_sources": [
+      "https://www.youtube.com/watch?v=GN8Tuq5nsNA",
+      "https://www.youtube.com/watch?v=CrMQ4BeuO1g"
+    ]
   },
   {
     "id": "archive-8a295fb294f9edde64",
@@ -3076,17 +3402,19 @@
     "id": "archive-5026c821742e2efc9c",
     "title": "🤝 TWS｜Weverse 线上签售",
     "status": "confirmed",
-    "sequence": 0,
-    "all_day": true,
-    "start": "2026-05-11",
-    "end": "2026-05-12",
-    "updated_at": "2026-11-19T14:30:00Z",
+    "sequence": 1,
+    "all_day": false,
+    "start": "2026-05-11T20:00:00+09:00",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "",
-    "details": "",
-    "source_url": "https://www.sina.cn/news/detail/5250295636691566.html",
-    "source_type": "community_archive",
+    "details": "TWS 成员参加，限中签者。韩国时间（KST）。\n官方来源 https://weverse.io/tws/notice/34474",
+    "source_url": "https://weverse.io/tws/notice/34474",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "archive_category": "视频签售",
+    "official_sources": [
+      "https://weverse.io/tws/notice/34474"
+    ]
   },
   {
     "id": "archive-0a9675c5a0ebca1f50",
@@ -3124,65 +3452,75 @@
     "id": "archive-472c64040fffe07f4a",
     "title": "🤝 TWS｜BDM 签售",
     "status": "confirmed",
-    "sequence": 0,
-    "all_day": true,
-    "start": "2026-05-16",
-    "end": "2026-05-17",
-    "updated_at": "2026-11-19T14:30:00Z",
-    "location": "",
-    "details": "",
-    "source_url": "https://www.sina.cn/news/detail/5250295636691566.html",
-    "source_type": "community_archive",
+    "sequence": 1,
+    "all_day": false,
+    "start": "2026-05-16T18:30:00+09:00",
+    "updated_at": "2026-11-24T12:38:56Z",
+    "location": "대한민국 서울",
+    "details": "TWS 成员参加，限中签者。韩国时间（KST）。\n官方来源 https://weverse.io/tws/notice/35028",
+    "source_url": "https://weverse.io/tws/notice/35028",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "archive_category": "线下签售",
+    "official_sources": [
+      "https://weverse.io/tws/notice/35028"
+    ]
   },
   {
     "id": "archive-604fbe87f32c3a28ee",
     "title": "🤝 TWS｜K4 签售",
     "status": "confirmed",
-    "sequence": 0,
-    "all_day": true,
-    "start": "2026-05-18",
-    "end": "2026-05-19",
-    "updated_at": "2026-11-19T14:30:00Z",
-    "location": "",
-    "details": "",
-    "source_url": "https://www.sina.cn/news/detail/5250295636691566.html",
-    "source_type": "community_archive",
+    "sequence": 1,
+    "all_day": false,
+    "start": "2026-05-18T20:00:00+09:00",
+    "updated_at": "2026-11-24T12:38:56Z",
+    "location": "대한민국 서울",
+    "details": "TWS 成员参加，限中签者。韩国时间（KST）。\n官方来源 https://weverse.io/tws/notice/35250",
+    "source_url": "https://weverse.io/tws/notice/35250",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "archive_category": "线下签售",
+    "official_sources": [
+      "https://weverse.io/tws/notice/35250"
+    ]
   },
   {
     "id": "archive-618fd10d89f3b6be9d",
     "title": "🤝 TWS｜YES24 线上签售",
     "status": "confirmed",
-    "sequence": 0,
-    "all_day": true,
-    "start": "2026-05-24",
-    "end": "2026-05-25",
-    "updated_at": "2026-11-19T14:30:00Z",
+    "sequence": 1,
+    "all_day": false,
+    "start": "2026-05-24T19:00:00+09:00",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "",
-    "details": "",
-    "source_url": "https://www.sina.cn/news/detail/5250295636691566.html",
-    "source_type": "community_archive",
+    "details": "TWS 成员参加，限中签者。韩国时间（KST）。\n官方来源 https://weverse.io/tws/notice/35458",
+    "source_url": "https://weverse.io/tws/notice/35458",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "archive_category": "视频签售",
+    "official_sources": [
+      "https://weverse.io/tws/notice/35458"
+    ]
   },
   {
     "id": "archive-ab79c620b02b404ab2",
     "title": "🤝 TWS｜hellolive 签售",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2026-05-25",
     "end": "2026-05-26",
-    "updated_at": "2026-11-19T14:30:00Z",
-    "location": "",
-    "details": "",
-    "source_url": "https://www.sina.cn/news/detail/5250295636691566.html",
-    "source_type": "community_archive",
+    "updated_at": "2026-11-24T12:38:56Z",
+    "location": "대한민국 서울",
+    "details": "TWS 成员参加，限中签者。韩国时间（KST）。\n官方来源 https://weverse.io/tws/notice/35299",
+    "source_url": "https://weverse.io/tws/notice/35299",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "time_tbd": true,
+    "archive_category": "线下签售",
+    "official_sources": [
+      "https://weverse.io/tws/notice/35299"
+    ]
   },
   {
     "id": "archive-3c9a3bf22aa5ca3ddc",
@@ -3220,17 +3558,21 @@
     "id": "archive-db779a0489dd8c6220",
     "title": "🎤 TWS｜CEREMONY · 横滨",
     "status": "confirmed",
-    "sequence": 1,
+    "sequence": 2,
     "all_day": false,
     "start": "2026-06-11T18:00:00+09:00",
     "end": "2026-06-11T21:00:00+09:00",
-    "updated_at": "2026-11-19T15:45:00Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "K-Arena Yokohama",
-    "details": "活动全场时间。",
+    "details": "活动全场时间。\nTWS 出演该日阵容。\n官方来源 https://tws-official.jp/schedule/3fd1e6c9db3f",
     "source_url": "https://k-arena.com/schedule/20260611-1/",
     "source_type": "official",
     "historical": true,
-    "end_estimated": true
+    "end_estimated": true,
+    "archive_category": "舞台",
+    "official_sources": [
+      "https://tws-official.jp/schedule/3fd1e6c9db3f"
+    ]
   },
   {
     "id": "archive-e94c8457751254d1cb",
@@ -3268,17 +3610,19 @@
     "id": "archive-f0c634ed71dfa0e12c",
     "title": "🤝 TWS｜Beatroad 线上签售",
     "status": "confirmed",
-    "sequence": 0,
-    "all_day": true,
-    "start": "2026-06-13",
-    "end": "2026-06-14",
-    "updated_at": "2026-11-19T14:30:00Z",
+    "sequence": 1,
+    "all_day": false,
+    "start": "2026-06-13T19:00:00+09:00",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "",
-    "details": "",
-    "source_url": "https://www.sina.cn/news/detail/5250295636691566.html",
-    "source_type": "community_archive",
+    "details": "TWS 成员参加，限中签者。韩国时间（KST）。\n官方来源 https://weverse.io/tws/notice/35678",
+    "source_url": "https://weverse.io/tws/notice/35678",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "archive_category": "视频签售",
+    "official_sources": [
+      "https://weverse.io/tws/notice/35678"
+    ]
   },
   {
     "id": "archive-b2e4711399aa42df4a",
@@ -3316,64 +3660,80 @@
     "id": "archive-bfa1099d0ec99340e1",
     "title": "📺 TWS｜FNS 歌谣祭·夏",
     "status": "confirmed",
-    "sequence": 1,
+    "sequence": 2,
     "all_day": false,
     "start": "2026-07-01T18:30:00+09:00",
     "end": "2026-07-01T21:54:00+09:00",
-    "updated_at": "2026-11-19T16:20:00Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "",
-    "details": "节目全场时间。",
+    "details": "节目全场时间。\n日本节目播出（JST）。 节目主页 https://www.fujitv.co.jp/FNS/s/\n官方来源 https://tws-official.jp/schedule/8588e0c01648",
     "source_url": "https://tws-official.jp/news/0eb3866111d8",
     "source_type": "official",
-    "historical": true
+    "historical": true,
+    "archive_category": "电视",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/8588e0c01648"
+    ]
   },
   {
     "id": "archive-34638841adbc17df50",
     "title": "🤝 TWS｜小卡手渡会 · 横滨",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2026-07-02",
     "end": "2026-07-03",
-    "updated_at": "2026-11-19T14:30:00Z",
-    "location": "",
-    "details": "",
-    "source_url": "https://www.sina.cn/news/detail/5250295636691566.html",
-    "source_type": "community_archive",
+    "updated_at": "2026-11-24T12:38:56Z",
+    "location": "Pacifico 横滨",
+    "details": "日本时间。限获参加资格者。\n官方来源 https://tws-official.jp/news/88b9bb72b983",
+    "source_url": "https://tws-official.jp/news/88b9bb72b983",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "time_tbd": true,
+    "archive_category": "日本歌迷活动",
+    "official_sources": [
+      "https://tws-official.jp/news/88b9bb72b983"
+    ]
   },
   {
     "id": "archive-9bd3adbacfa239a9bd",
     "title": "📺 TWS｜THE MUSIC DAY 2026",
     "status": "confirmed",
-    "sequence": 0,
-    "all_day": true,
-    "start": "2026-07-04",
-    "end": "2026-07-05",
-    "updated_at": "2026-11-19T14:30:00Z",
+    "sequence": 1,
+    "all_day": false,
+    "start": "2026-07-04T13:30:00+09:00",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "",
-    "details": "",
-    "source_url": "https://www.sina.cn/news/detail/5250295636691566.html",
-    "source_type": "community_archive",
+    "details": "日本节目播出（JST）。 节目主页 https://www.ntv.co.jp/musicday/\n官方来源 https://tws-official.jp/schedule/b75e55b99ee3",
+    "source_url": "https://tws-official.jp/schedule/b75e55b99ee3",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "archive_category": "电视",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/b75e55b99ee3"
+    ]
   },
   {
     "id": "archive-ebe0612c2ac91a76eb",
     "title": "🤝 TWS｜Heart Touch · 千叶",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2026-07-05",
     "end": "2026-07-06",
-    "updated_at": "2026-11-19T14:30:00Z",
-    "location": "",
-    "details": "",
-    "source_url": "https://www.sina.cn/news/detail/5250295636691566.html",
-    "source_type": "community_archive",
+    "updated_at": "2026-11-24T12:38:56Z",
+    "location": "幕张展览馆",
+    "details": "日本时间。限获参加资格者。\n官方来源 https://tws-official.jp/news/88b9bb72b983",
+    "source_url": "https://tws-official.jp/news/88b9bb72b983",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "time_tbd": true,
+    "archive_category": "日本歌迷活动",
+    "official_sources": [
+      "https://tws-official.jp/news/88b9bb72b983"
+    ]
   },
   {
     "id": "archive-b11f8e2b826461823d",
@@ -3411,33 +3771,42 @@
     "id": "archive-5ab0f441a04a38e2c5",
     "title": "📺 TWS｜音楽の日 2026",
     "status": "confirmed",
-    "sequence": 1,
+    "sequence": 2,
     "all_day": false,
     "start": "2026-07-18T14:00:00+09:00",
     "end": "2026-07-18T22:00:00+09:00",
-    "updated_at": "2026-11-19T16:20:00Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "",
-    "details": "节目全场约 8 小时。",
+    "details": "节目全场约 8 小时。\n日本节目播出（JST）。 节目主页 https://www.tbs.co.jp/ongakunohi/\n官方来源 https://tws-official.jp/schedule/c0793e505022",
     "source_url": "https://tws-official.jp/news/bc22c20f89ee",
     "source_type": "official",
     "historical": true,
-    "end_estimated": true
+    "end_estimated": true,
+    "archive_category": "电视",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/c0793e505022"
+    ]
   },
   {
     "id": "archive-aa2b1f3980833c84e4",
     "title": "🤝 TWS｜Heart Touch · 大阪",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2026-07-20",
     "end": "2026-07-21",
-    "updated_at": "2026-11-19T14:30:00Z",
-    "location": "",
-    "details": "",
-    "source_url": "https://www.sina.cn/news/detail/5250295636691566.html",
-    "source_type": "community_archive",
+    "updated_at": "2026-11-24T12:38:56Z",
+    "location": "INTEX 大阪",
+    "details": "日本时间。限获参加资格者。\n官方来源 https://tws-official.jp/news/88b9bb72b983",
+    "source_url": "https://tws-official.jp/news/88b9bb72b983",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "time_tbd": true,
+    "archive_category": "日本歌迷活动",
+    "official_sources": [
+      "https://tws-official.jp/news/88b9bb72b983"
+    ]
   },
   {
     "id": "archive-5d421d4b2f7bd3b77c",
@@ -3555,81 +3924,101 @@
     "id": "archive-3e2697f87a17d4f518",
     "title": "🤝 TWS｜MP 签售",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2026-07-30",
     "end": "2026-07-31",
-    "updated_at": "2026-11-19T14:30:00Z",
-    "location": "",
-    "details": "",
-    "source_url": "https://www.sina.cn/news/detail/5250295636691566.html",
-    "source_type": "community_archive",
+    "updated_at": "2026-11-24T12:38:56Z",
+    "location": "대한민국 서울",
+    "details": "TWS 成员参加，限中签者。韩国时间（KST）。\n官方来源 https://weverse.io/tws/notice/35357",
+    "source_url": "https://weverse.io/tws/notice/35357",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "time_tbd": true,
+    "archive_category": "线下签售",
+    "official_sources": [
+      "https://weverse.io/tws/notice/35357"
+    ]
   },
   {
     "id": "archive-d9b253b0c69ba49e40",
     "title": "🎤 TWS｜SODA SODA Showcase",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2026-08-03",
     "end": "2026-08-04",
-    "updated_at": "2026-11-19T14:30:00Z",
-    "location": "",
-    "details": "",
-    "source_url": "https://www.sina.cn/news/detail/5250295636691566.html",
-    "source_type": "community_archive",
+    "updated_at": "2026-11-24T12:38:56Z",
+    "location": "Shibuya LOVEZ",
+    "details": "日本单曲发行纪念 mini live 与 talk（JST）。\n官方来源 https://tws-official.jp/schedule/26d8a1ac21ee",
+    "source_url": "https://tws-official.jp/schedule/26d8a1ac21ee",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "time_tbd": true,
+    "archive_category": "Showcase",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/26d8a1ac21ee"
+    ]
   },
   {
     "id": "archive-186c474f01f0030027",
     "title": "🎤 TWS｜Mezamashi Wangan Festival 2026",
     "status": "confirmed",
-    "sequence": 0,
-    "all_day": true,
-    "start": "2026-08-07",
-    "end": "2026-08-08",
-    "updated_at": "2026-11-19T14:30:00Z",
-    "location": "",
-    "details": "",
-    "source_url": "https://www.sina.cn/news/detail/5250295636691566.html",
-    "source_type": "community_archive",
+    "sequence": 1,
+    "all_day": false,
+    "start": "2026-08-07T19:00:00+09:00",
+    "updated_at": "2026-11-24T12:38:56Z",
+    "location": "东京 丰洲 PIT",
+    "details": "公演开场时间（JST），个人舞台时段未单列。\n官方来源 https://tws-official.jp/schedule/ad2ff646f4db",
+    "source_url": "https://tws-official.jp/schedule/ad2ff646f4db",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "archive_category": "舞台",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/ad2ff646f4db"
+    ]
   },
   {
     "id": "archive-3b7d597be6e39ed517",
     "title": "🎤 TWS｜SUMMER SONIC 2026 · 大阪",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2026-08-14",
     "end": "2026-08-15",
-    "updated_at": "2026-11-19T14:30:00Z",
-    "location": "",
-    "details": "",
-    "source_url": "https://www.sina.cn/news/detail/5250295636691566.html",
-    "source_type": "community_archive",
+    "updated_at": "2026-11-24T12:38:56Z",
+    "location": "大阪 万博纪念公园",
+    "details": "TWS 出演该日阵容。\n官方来源 https://tws-official.jp/schedule/d425f55573b4",
+    "source_url": "https://tws-official.jp/schedule/d425f55573b4",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "time_tbd": true,
+    "archive_category": "舞台",
+    "official_sources": [
+      "https://tws-official.jp/schedule/d425f55573b4"
+    ]
   },
   {
     "id": "archive-551a93f7719b12ead1",
     "title": "🎤 TWS｜SUMMER SONIC 2026 · 东京",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2026-08-16",
     "end": "2026-08-17",
-    "updated_at": "2026-11-19T14:30:00Z",
-    "location": "",
-    "details": "",
-    "source_url": "https://www.sina.cn/news/detail/5250295636691566.html",
-    "source_type": "community_archive",
+    "updated_at": "2026-11-24T12:38:56Z",
+    "location": "千叶 幕张展览馆／ZOZO Marine Stadium",
+    "details": "TWS 出演该日阵容。\n官方来源 https://tws-official.jp/schedule/d425f55573b4",
+    "source_url": "https://tws-official.jp/schedule/d425f55573b4",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "time_tbd": true,
+    "archive_category": "舞台",
+    "official_sources": [
+      "https://tws-official.jp/schedule/d425f55573b4"
+    ]
   },
   {
     "id": "archive-3f055ef4e3181ee629",
@@ -3667,17 +4056,21 @@
     "id": "archive-9e93d28acc7927910d",
     "title": "🤝 TWS｜Music Art 签售",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2026-08-21",
     "end": "2026-08-22",
-    "updated_at": "2026-11-19T14:30:00Z",
-    "location": "",
-    "details": "",
-    "source_url": "https://www.sina.cn/news/detail/5250295636691566.html",
-    "source_type": "community_archive",
+    "updated_at": "2026-11-24T12:38:56Z",
+    "location": "대한민국 서울",
+    "details": "TWS 成员参加，限中签者。韩国时间（KST）。\n官方来源 https://weverse.io/tws/notice/35401",
+    "source_url": "https://weverse.io/tws/notice/35401",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "time_tbd": true,
+    "archive_category": "线下签售",
+    "official_sources": [
+      "https://weverse.io/tws/notice/35401"
+    ]
   },
   {
     "id": "archive-278d2b6289711db88b",
@@ -3762,65 +4155,81 @@
     "id": "archive-19a7289b73731c32a6",
     "title": "🤝 TWS｜大阪线下签售",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2026-09-08",
     "end": "2026-09-09",
-    "updated_at": "2026-11-19T14:30:00Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "",
-    "details": "",
-    "source_url": "https://www.sina.cn/news/detail/5250295636691566.html",
-    "source_type": "community_archive",
+    "details": "日本时间。限获参加资格者。\n官方来源 https://tws-official.jp/news/29e600c5d53b",
+    "source_url": "https://tws-official.jp/news/29e600c5d53b",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "time_tbd": true,
+    "archive_category": "日本歌迷活动",
+    "official_sources": [
+      "https://tws-official.jp/news/29e600c5d53b"
+    ]
   },
   {
     "id": "archive-24ffa158513c0fdaf8",
     "title": "🤝 TWS｜东京线下签售",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2026-09-09",
     "end": "2026-09-10",
-    "updated_at": "2026-11-19T14:30:00Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "",
-    "details": "",
-    "source_url": "https://www.sina.cn/news/detail/5250295636691566.html",
-    "source_type": "community_archive",
+    "details": "日本时间。限获参加资格者。\n官方来源 https://tws-official.jp/news/29e600c5d53b",
+    "source_url": "https://tws-official.jp/news/29e600c5d53b",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "time_tbd": true,
+    "archive_category": "日本歌迷活动",
+    "official_sources": [
+      "https://tws-official.jp/news/29e600c5d53b"
+    ]
   },
   {
     "id": "archive-c63f192be53b0b5117",
     "title": "🤝 TWS｜日本专辑线上签售",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2026-09-10",
     "end": "2026-09-11",
-    "updated_at": "2026-11-19T14:30:00Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "",
-    "details": "",
-    "source_url": "https://www.sina.cn/news/detail/5250295636691566.html",
-    "source_type": "community_archive",
+    "details": "日本时间。限获参加资格者。\n官方来源 https://tws-official.jp/news/29e600c5d53b",
+    "source_url": "https://tws-official.jp/news/29e600c5d53b",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "time_tbd": true,
+    "archive_category": "日本歌迷活动",
+    "official_sources": [
+      "https://tws-official.jp/news/29e600c5d53b"
+    ]
   },
   {
     "id": "archive-74a38c940fa4f0f515",
     "title": "🤝 TWS｜Joeunmusic 签售",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2026-09-16",
     "end": "2026-09-17",
-    "updated_at": "2026-11-19T14:30:00Z",
-    "location": "",
-    "details": "",
-    "source_url": "https://www.sina.cn/news/detail/5250295636691566.html",
-    "source_type": "community_archive",
+    "updated_at": "2026-11-24T12:38:56Z",
+    "location": "대한민국 서울",
+    "details": "TWS 成员参加，限中签者。韩国时间（KST）。\n官方来源 https://weverse.io/tws/notice/35457",
+    "source_url": "https://weverse.io/tws/notice/35457",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "time_tbd": true,
+    "archive_category": "线下签售",
+    "official_sources": [
+      "https://weverse.io/tws/notice/35457"
+    ]
   },
   {
     "id": "archive-20240302-tgc-2024ss",
@@ -3885,32 +4294,48 @@
   {
     "id": "official-20250510-music_core",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "historical": true,
     "title": "🎵 TWS｜MBC《音乐中心》录播舞台／道勋 MC",
     "all_day": false,
     "start": "2025-05-10T15:15:00+09:00",
     "duration_category": "music_core",
-    "location": "https://onair.imbc.com/",
-    "details": "团体舞台为预录播出，现场由道勋主持。",
+    "location": "https://onair.imbc.com/\nhttps://www.youtube.com/watch?v=i1OLf5tv9lc",
+    "details": "团体舞台为预录播出，现场由道勋主持。\n[#음중풀캠] TWS (투어스) – 마음 따라 뛰는 건 멋지지 않아? FullCam | 쇼! 음악중심 | MBC250510。 （Show! 音乐中心）",
     "source_url": "https://weverse.io/tws/notice/27075",
     "source_type": "official",
-    "updated_at": "2026-11-19T15:45:00Z"
+    "updated_at": "2026-11-24T12:38:56Z",
+    "watch_url": "https://www.youtube.com/watch?v=i1OLf5tv9lc",
+    "archive_category": "打歌",
+    "media_links": {
+      "https://www.youtube.com/watch?v=i1OLf5tv9lc": "舞台／节目片段"
+    },
+    "official_sources": [
+      "https://www.youtube.com/watch?v=i1OLf5tv9lc"
+    ]
   },
   {
     "id": "official-20250517-music_core",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "historical": true,
     "title": "🎵 TWS｜MBC《音乐中心》打歌／道勋 MC",
     "all_day": false,
     "start": "2025-05-17T15:15:00+09:00",
     "duration_category": "music_core",
-    "location": "https://onair.imbc.com/",
-    "details": "",
+    "location": "https://onair.imbc.com/\nhttps://www.youtube.com/watch?v=S2X1bKS-OjM",
+    "details": "[#음중풀캠] TWS (투어스) – Lucky To Be Loved FullCam | 쇼! 음악중심 | MBC250517。 （Show! 音乐中心）",
     "source_url": "https://weverse.io/tws/notice/27230",
     "source_type": "official",
-    "updated_at": "2026-11-19T15:45:00Z"
+    "updated_at": "2026-11-24T12:38:56Z",
+    "watch_url": "https://www.youtube.com/watch?v=S2X1bKS-OjM",
+    "archive_category": "打歌",
+    "media_links": {
+      "https://www.youtube.com/watch?v=S2X1bKS-OjM": "舞台／节目片段"
+    },
+    "official_sources": [
+      "https://www.youtube.com/watch?v=S2X1bKS-OjM"
+    ]
   },
   {
     "id": "official-20250524-music_core",
@@ -3990,32 +4415,50 @@
   {
     "id": "official-20251018-music_core",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "historical": true,
-    "title": "🎤 道勋｜MBC《音乐中心》MC",
+    "title": "🎤 道勋｜MBC《音乐中心》MC／TWS 打歌",
     "all_day": false,
     "start": "2025-10-18T15:15:00+09:00",
     "duration_category": "music_core",
-    "location": "https://onair.imbc.com/",
-    "details": "",
+    "location": "https://onair.imbc.com/\nhttps://www.youtube.com/watch?v=JBYh2vnkpKE\nhttps://www.youtube.com/watch?v=kaBmmZsmtq8",
+    "details": "[#음중풀캠8K] TWS (투어스) – Head Shoulders Knees Toes FullCam | 쇼! 음악중심 | MBC251018。\n[#음중풀캠] TWS (투어스) – OVERDRIVE FullCam | 쇼! 음악중심 | MBC251018。 （Show! 音乐中心）\n官方来源 https://www.youtube.com/watch?v=kaBmmZsmtq8",
     "source_url": "https://weverse.io/tws/notice/30894",
     "source_type": "official",
-    "updated_at": "2026-11-19T15:45:00Z"
+    "updated_at": "2026-11-24T12:38:56Z",
+    "watch_url": "https://www.youtube.com/watch?v=JBYh2vnkpKE",
+    "archive_category": "打歌",
+    "media_links": {
+      "https://www.youtube.com/watch?v=JBYh2vnkpKE": "舞台／节目片段",
+      "https://www.youtube.com/watch?v=kaBmmZsmtq8": "舞台／节目片段"
+    },
+    "official_sources": [
+      "https://www.youtube.com/watch?v=JBYh2vnkpKE",
+      "https://www.youtube.com/watch?v=kaBmmZsmtq8"
+    ]
   },
   {
     "id": "official-20251101-music_core",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "historical": true,
-    "title": "🎤 道勋｜MBC《音乐中心》MC",
+    "title": "🎤 道勋｜MBC《音乐中心》MC／TWS 打歌",
     "all_day": false,
     "start": "2025-11-01T13:30:00+09:00",
     "duration_category": "music_core",
-    "location": "https://onair.imbc.com/",
-    "details": "",
+    "location": "https://onair.imbc.com/\nhttps://www.youtube.com/watch?v=51Xs2WPoL_A",
+    "details": "[#음중풀캠] TWS (투어스) – OVERDRIVE FullCam | 쇼! 음악중심 | MBC251101。 （Show! 音乐中心）",
     "source_url": "https://weverse.io/tws/notice/31308",
     "source_type": "official",
-    "updated_at": "2026-11-19T15:45:00Z"
+    "updated_at": "2026-11-24T12:38:56Z",
+    "watch_url": "https://www.youtube.com/watch?v=51Xs2WPoL_A",
+    "archive_category": "打歌",
+    "media_links": {
+      "https://www.youtube.com/watch?v=51Xs2WPoL_A": "舞台／节目片段"
+    },
+    "official_sources": [
+      "https://www.youtube.com/watch?v=51Xs2WPoL_A"
+    ]
   },
   {
     "id": "official-20251115-music_core",
@@ -4080,17 +4523,25 @@
   {
     "id": "official-20251026-inkigayo",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "historical": true,
-    "title": "🎤 申惟｜SBS《人气歌谣》MC",
+    "title": "🎤 申惟｜SBS《人气歌谣》MC／TWS 打歌",
     "all_day": false,
     "start": "2025-10-26T15:00:00+09:00",
     "duration_category": "inkigayo",
-    "location": "https://www.sbs.co.kr/live",
-    "details": "",
+    "location": "https://www.sbs.co.kr/live\nhttps://www.youtube.com/watch?v=3zjSwhOXOF4",
+    "details": "[안방1열 풀캠4K] 투어스 'OVERDRIVE' (TWS FullCam) @SBS Inkigayo 251026。 （人气歌谣）",
     "source_url": "https://weverse.io/tws/notice/31152",
     "source_type": "official",
-    "updated_at": "2026-11-19T15:45:00Z"
+    "updated_at": "2026-11-24T12:38:56Z",
+    "watch_url": "https://www.youtube.com/watch?v=3zjSwhOXOF4",
+    "archive_category": "打歌",
+    "media_links": {
+      "https://www.youtube.com/watch?v=3zjSwhOXOF4": "舞台／节目片段"
+    },
+    "official_sources": [
+      "https://www.youtube.com/watch?v=3zjSwhOXOF4"
+    ]
   },
   {
     "id": "official-20251109-inkigayo",
@@ -4186,17 +4637,25 @@
     "id": "official-20240125-mcountdown",
     "title": "🎵 TWS｜M Countdown 打歌",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "historical": true,
     "all_day": false,
     "start": "2024-01-25T18:00:00+09:00",
     "end": "2024-01-25T19:30:00+09:00",
     "end_estimated": true,
-    "updated_at": "2026-11-19T15:45:00Z",
-    "location": "",
-    "details": "",
+    "updated_at": "2026-11-24T12:38:56Z",
+    "location": "https://www.youtube.com/watch?v=VR7E_zUQ1o8",
+    "details": "'HOT DEBUT' TWS (투어스) - Oh Mymy : 7s #엠카운트다운 EP.826 | Mnet 240125 방송。",
     "source_type": "official",
-    "source_url": "https://weverse.io/tws/notice/17411"
+    "source_url": "https://weverse.io/tws/notice/17411",
+    "watch_url": "https://www.youtube.com/watch?v=VR7E_zUQ1o8",
+    "archive_category": "打歌",
+    "media_links": {
+      "https://www.youtube.com/watch?v=VR7E_zUQ1o8": "舞台／节目片段"
+    },
+    "official_sources": [
+      "https://www.youtube.com/watch?v=VR7E_zUQ1o8"
+    ]
   },
   {
     "id": "official-20240704-mcountdown",
@@ -4250,17 +4709,25 @@
     "id": "official-20260514-mcountdown",
     "title": "🎵 TWS｜M Countdown 打歌",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "historical": true,
     "all_day": false,
     "start": "2026-05-14T18:00:00+09:00",
     "end": "2026-05-14T19:30:00+09:00",
     "end_estimated": true,
-    "updated_at": "2026-11-19T15:45:00Z",
-    "location": "",
-    "details": "",
+    "updated_at": "2026-11-24T12:38:56Z",
+    "location": "https://www.youtube.com/watch?v=6XsB6jJc4L8",
+    "details": "TWS (투어스) - 널 따라가 (You, You) #엠카운트다운 EP.928 | Mnet 260514 방송。",
     "source_type": "official",
-    "source_url": "https://weverse.io/tws/notice/35820"
+    "source_url": "https://weverse.io/tws/notice/35820",
+    "watch_url": "https://www.youtube.com/watch?v=6XsB6jJc4L8",
+    "archive_category": "打歌",
+    "media_links": {
+      "https://www.youtube.com/watch?v=6XsB6jJc4L8": "舞台／节目片段"
+    },
+    "official_sources": [
+      "https://www.youtube.com/watch?v=6XsB6jJc4L8"
+    ]
   },
   {
     "id": "official-20240706-music_core",
@@ -4280,17 +4747,27 @@
   {
     "id": "official-20251024-music_bank",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "historical": true,
     "title": "🎵 TWS｜KBS《音乐银行》打歌",
     "all_day": false,
     "start": "2025-10-24T17:05:00+09:00",
     "duration_category": "music_bank",
-    "location": "https://onair.kbs.co.kr/index.html?ch_code=12&ch_type=globalList&sname=onair&stype=live",
-    "details": "",
+    "location": "https://onair.kbs.co.kr/index.html?ch_code=12&ch_type=globalList&sname=onair&stype=live\nhttps://www.youtube.com/watch?v=Yyz2aNY3G_k\nhttps://www.youtube.com/watch?v=N9cs4KGieuA",
+    "details": "OVERDRIVE - TWS (투어스) [뮤직뱅크/Music Bank] | KBS 251024 방송。\nTWS トゥアス 투어스 - OVERDRIVE [Music Bank] | KBS WORLD TV 251024。 （音乐银行）\n官方来源 https://www.youtube.com/watch?v=N9cs4KGieuA",
     "source_url": "https://weverse.io/tws/notice/31069",
     "source_type": "official",
-    "updated_at": "2026-11-19T15:45:00Z"
+    "updated_at": "2026-11-24T12:38:56Z",
+    "watch_url": "https://www.youtube.com/watch?v=Yyz2aNY3G_k",
+    "archive_category": "打歌",
+    "media_links": {
+      "https://www.youtube.com/watch?v=Yyz2aNY3G_k": "舞台／节目片段",
+      "https://www.youtube.com/watch?v=N9cs4KGieuA": "舞台／节目片段"
+    },
+    "official_sources": [
+      "https://www.youtube.com/watch?v=Yyz2aNY3G_k",
+      "https://www.youtube.com/watch?v=N9cs4KGieuA"
+    ]
   },
   {
     "id": "official-20240410-karena",
@@ -4312,32 +4789,45 @@
     "id": "official-20240414-karena",
     "title": "🎤 TWS｜The Performance",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "historical": true,
     "all_day": false,
     "start": "2024-04-14T17:00:00+09:00",
     "end": "2024-04-14T20:00:00+09:00",
     "end_estimated": true,
-    "updated_at": "2026-11-19T15:45:00Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "K-Arena Yokohama",
-    "details": "活动全场时间。",
+    "details": "活动全场时间。\n公演开场时间（JST），个人舞台时段未单列。\n官方来源 https://tws-official.jp/schedule/a7fa98f259f5",
     "source_url": "https://k-arena.com/schedule/20240414-1/",
-    "source_type": "official"
+    "source_type": "official",
+    "archive_category": "舞台",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/a7fa98f259f5"
+    ]
   },
   {
     "id": "official-20250503-music_core",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "historical": true,
     "title": "🎵 TWS｜MBC《音乐中心》打歌／道勋、英宰 MC",
     "all_day": false,
     "start": "2025-05-03T14:15:00+09:00",
     "duration_category": "music_core",
-    "location": "https://onair.imbc.com/",
-    "details": "",
+    "location": "https://onair.imbc.com/\nhttps://www.youtube.com/watch?v=VfgEkgxJOqU",
+    "details": "[#음중풀캠] TWS (투어스) – 마음 따라 뛰는 건 멋지지 않아? FullCam | 쇼! 음악중심 | MBC250503。 （Show! 音乐中心）",
     "source_url": "https://weverse.io/tws/notice/26933",
     "source_type": "official",
-    "updated_at": "2026-11-19T15:45:00Z"
+    "updated_at": "2026-11-24T12:38:56Z",
+    "watch_url": "https://www.youtube.com/watch?v=VfgEkgxJOqU",
+    "archive_category": "打歌",
+    "media_links": {
+      "https://www.youtube.com/watch?v=VfgEkgxJOqU": "舞台／节目片段"
+    },
+    "official_sources": [
+      "https://www.youtube.com/watch?v=VfgEkgxJOqU"
+    ]
   },
   {
     "id": "official-20250308-music_core",
@@ -4356,18 +4846,28 @@
   },
   {
     "id": "official-20250426-music_core",
-    "sequence": 0,
+    "sequence": 1,
     "status": "confirmed",
     "historical": true,
     "title": "🎵 TWS｜MBC《音乐中心》打歌／道勋、炅潣 MC",
     "all_day": false,
     "start": "2025-04-26T15:15:00+09:00",
     "duration_category": "music_core",
-    "location": "https://onair.imbc.com/",
-    "details": "",
+    "location": "https://onair.imbc.com/\nhttps://www.youtube.com/watch?v=GQ5YagY0CZI\nhttps://www.youtube.com/watch?v=1hMYqIixS_M",
+    "details": "[#음중풀캠8K] TWS (투어스) – Lucky To Be Loved FullCam | 쇼! 음악중심 | MBC250426。\n[#음중풀캠8K] TWS (투어스) – 마음 따라 뛰는 건 멋지지 않아? FullCam | 쇼! 음악중심 | MBC250426。 （Show! 音乐中心）\n官方来源 https://www.youtube.com/watch?v=1hMYqIixS_M",
     "source_url": "https://weverse.io/tws/notice/26696",
     "source_type": "official",
-    "updated_at": "2026-11-19T16:10:00Z"
+    "updated_at": "2026-11-24T12:38:56Z",
+    "watch_url": "https://www.youtube.com/watch?v=GQ5YagY0CZI",
+    "archive_category": "打歌",
+    "media_links": {
+      "https://www.youtube.com/watch?v=GQ5YagY0CZI": "舞台／节目片段",
+      "https://www.youtube.com/watch?v=1hMYqIixS_M": "舞台／节目片段"
+    },
+    "official_sources": [
+      "https://www.youtube.com/watch?v=GQ5YagY0CZI",
+      "https://www.youtube.com/watch?v=1hMYqIixS_M"
+    ]
   },
   {
     "id": "official-20250816-music_core",
@@ -4401,18 +4901,26 @@
   },
   {
     "id": "official-20251025-music_core",
-    "sequence": 0,
+    "sequence": 1,
     "status": "confirmed",
     "historical": true,
-    "title": "🎤 道勋｜MBC《音乐中心》MC",
+    "title": "🎤 道勋｜MBC《音乐中心》MC／TWS 打歌",
     "all_day": false,
     "start": "2025-10-25T15:15:00+09:00",
     "duration_category": "music_core",
-    "location": "https://onair.imbc.com/",
-    "details": "",
+    "location": "https://onair.imbc.com/\nhttps://www.youtube.com/watch?v=qdB3jHlPTDQ",
+    "details": "[#음중풀캠] TWS (투어스) – OVERDRIVE FullCam | 쇼! 음악중심 | MBC251025。 （Show! 音乐中心）",
     "source_url": "https://weverse.io/tws/notice/31083",
     "source_type": "official",
-    "updated_at": "2026-11-19T16:10:00Z"
+    "updated_at": "2026-11-24T12:38:56Z",
+    "watch_url": "https://www.youtube.com/watch?v=qdB3jHlPTDQ",
+    "archive_category": "打歌",
+    "media_links": {
+      "https://www.youtube.com/watch?v=qdB3jHlPTDQ": "舞台／节目片段"
+    },
+    "official_sources": [
+      "https://www.youtube.com/watch?v=qdB3jHlPTDQ"
+    ]
   },
   {
     "id": "official-20251031-music_bank",
@@ -4431,18 +4939,26 @@
   },
   {
     "id": "official-20251102-inkigayo",
-    "sequence": 0,
+    "sequence": 1,
     "status": "confirmed",
     "historical": true,
-    "title": "🎤 申惟｜SBS《人气歌谣》MC",
+    "title": "🎤 申惟｜SBS《人气歌谣》MC／TWS 打歌",
     "all_day": false,
     "start": "2025-11-02T15:20:00+09:00",
     "duration_category": "inkigayo",
-    "location": "https://www.sbs.co.kr/live",
-    "details": "",
+    "location": "https://www.sbs.co.kr/live\nhttps://www.youtube.com/watch?v=1uMd2lK6FYM",
+    "details": "[안방1열 풀캠4K] 투어스 'OVERDRIVE' (TWS FullCam) @SBS Inkigayo 251102。 （人气歌谣）",
     "source_url": "https://weverse.io/tws/notice/31373",
     "source_type": "official",
-    "updated_at": "2026-11-19T16:10:00Z"
+    "updated_at": "2026-11-24T12:38:56Z",
+    "watch_url": "https://www.youtube.com/watch?v=1uMd2lK6FYM",
+    "archive_category": "打歌",
+    "media_links": {
+      "https://www.youtube.com/watch?v=1uMd2lK6FYM": "舞台／节目片段"
+    },
+    "official_sources": [
+      "https://www.youtube.com/watch?v=1uMd2lK6FYM"
+    ]
   },
   {
     "id": "official-20260315-inkigayo",
@@ -4521,63 +5037,95 @@
   },
   {
     "id": "official-20260510-inkigayo",
-    "sequence": 0,
+    "sequence": 1,
     "status": "confirmed",
     "historical": true,
     "title": "🎵 TWS｜SBS《人气歌谣》打歌／申惟 MC",
     "all_day": false,
     "start": "2026-05-10T15:20:00+09:00",
     "duration_category": "inkigayo",
-    "location": "https://www.sbs.co.kr/live",
-    "details": "",
+    "location": "https://www.sbs.co.kr/live\nhttps://www.youtube.com/watch?v=-7dQlnRbnSc",
+    "details": "[안방1열 풀캠4K] 투어스 '널 따라가 (You, You)' (TWS FullCam) @SBS Inkigayo 260510。 （人气歌谣）",
     "source_url": "https://weverse.io/tws/notice/35720",
     "source_type": "official",
-    "updated_at": "2026-11-19T16:10:00Z"
+    "updated_at": "2026-11-24T12:38:56Z",
+    "watch_url": "https://www.youtube.com/watch?v=-7dQlnRbnSc",
+    "archive_category": "打歌",
+    "media_links": {
+      "https://www.youtube.com/watch?v=-7dQlnRbnSc": "舞台／节目片段"
+    },
+    "official_sources": [
+      "https://www.youtube.com/watch?v=-7dQlnRbnSc"
+    ]
   },
   {
     "id": "official-20260515-music_bank",
-    "sequence": 0,
+    "sequence": 1,
     "status": "confirmed",
     "historical": true,
     "title": "🎵 TWS｜KBS《音乐银行》打歌",
     "all_day": false,
     "start": "2026-05-15T17:00:00+09:00",
     "duration_category": "music_bank",
-    "location": "https://onair.kbs.co.kr/index.html?ch_code=12&ch_type=globalList&sname=onair&stype=live",
-    "details": "",
+    "location": "https://onair.kbs.co.kr/index.html?ch_code=12&ch_type=globalList&sname=onair&stype=live\nhttps://www.youtube.com/watch?v=-Tv71r4ssyU",
+    "details": "널 따라가 (You, You) - TWS (투어스) [뮤직뱅크/Music Bank] | KBS 260515 방송。 （音乐银行）",
     "source_url": "https://weverse.io/tws/notice/35822",
     "source_type": "official",
-    "updated_at": "2026-11-19T16:10:00Z"
+    "updated_at": "2026-11-24T12:38:56Z",
+    "watch_url": "https://www.youtube.com/watch?v=-Tv71r4ssyU",
+    "archive_category": "打歌",
+    "media_links": {
+      "https://www.youtube.com/watch?v=-Tv71r4ssyU": "舞台／节目片段"
+    },
+    "official_sources": [
+      "https://www.youtube.com/watch?v=-Tv71r4ssyU"
+    ]
   },
   {
     "id": "official-20260516-music_core",
-    "sequence": 0,
+    "sequence": 1,
     "status": "confirmed",
     "historical": true,
-    "title": "🎤 道勋｜MBC《音乐中心》MC",
+    "title": "🎤 道勋｜MBC《音乐中心》MC／TWS 打歌",
     "all_day": false,
     "start": "2026-05-16T15:20:00+09:00",
     "duration_category": "music_core",
-    "location": "https://onair.imbc.com/",
-    "details": "",
+    "location": "https://onair.imbc.com/\nhttps://www.youtube.com/watch?v=--21RPahSsk",
+    "details": "[#음중풀캠] TWS (투어스) – 널 따라가 (You, You) FullCam | 쇼! 음악중심 | MBC260516。 （Show! 音乐中心）",
     "source_url": "https://weverse.io/tws/notice/35864",
     "source_type": "official",
-    "updated_at": "2026-11-19T16:10:00Z"
+    "updated_at": "2026-11-24T12:38:56Z",
+    "watch_url": "https://www.youtube.com/watch?v=--21RPahSsk",
+    "archive_category": "打歌",
+    "media_links": {
+      "https://www.youtube.com/watch?v=--21RPahSsk": "舞台／节目片段"
+    },
+    "official_sources": [
+      "https://www.youtube.com/watch?v=--21RPahSsk"
+    ]
   },
   {
     "id": "official-20260517-inkigayo",
-    "sequence": 0,
+    "sequence": 1,
     "status": "confirmed",
     "historical": true,
     "title": "🎵 TWS｜SBS《人气歌谣》打歌／申惟 MC",
     "all_day": false,
     "start": "2026-05-17T15:20:00+09:00",
     "duration_category": "inkigayo",
-    "location": "https://www.sbs.co.kr/live",
-    "details": "",
+    "location": "https://www.sbs.co.kr/live\nhttps://www.youtube.com/watch?v=DBIi2URm-Nc",
+    "details": "[안방1열 풀캠4K] 투어스 '널 따라가' (TWS 'You, You' FullCam) @SBS Inkigayo 260517。 （人气歌谣）",
     "source_url": "https://weverse.io/tws/notice/35943",
     "source_type": "official",
-    "updated_at": "2026-11-19T16:10:00Z"
+    "updated_at": "2026-11-24T12:38:56Z",
+    "watch_url": "https://www.youtube.com/watch?v=DBIi2URm-Nc",
+    "archive_category": "打歌",
+    "media_links": {
+      "https://www.youtube.com/watch?v=DBIi2URm-Nc": "舞台／节目片段"
+    },
+    "official_sources": [
+      "https://www.youtube.com/watch?v=DBIi2URm-Nc"
+    ]
   },
   {
     "id": "official-20260523-music_core",
@@ -4686,34 +5234,46 @@
   },
   {
     "id": "official-20261113-music_bank",
-    "sequence": 0,
+    "sequence": 1,
     "status": "confirmed",
     "historical": true,
     "title": "🎵 TWS｜KBS《音乐银行》打歌",
     "all_day": false,
     "start": "2026-11-13T17:10:00+09:00",
     "duration_category": "music_bank",
-    "location": "https://onair.kbs.co.kr/index.html?ch_code=12&ch_type=globalList&sname=onair&stype=live",
-    "details": "",
+    "location": "https://onair.kbs.co.kr/index.html?ch_code=12&ch_type=globalList&sname=onair&stype=live\nhttps://www.youtube.com/watch?v=8shh3_fGWH4\nhttps://www.youtube.com/watch?v=MhOtnO78nwE",
+    "details": "TWS トゥアス 투어스 - Call My Name [Music Bank] | KBS WORLD TV 261113。\n내 이름을 불러줘 - TWS [뮤직뱅크/Music Bank] | KBS 261113 방송。 （音乐银行）\n官方来源 https://www.youtube.com/watch?v=MhOtnO78nwE",
     "source_url": "https://weverse.io/tws/notice/40913",
     "source_type": "official",
-    "updated_at": "2026-11-19T16:10:00Z"
+    "updated_at": "2026-11-24T12:38:56Z",
+    "watch_url": "https://www.youtube.com/watch?v=8shh3_fGWH4",
+    "archive_category": "打歌",
+    "media_links": {
+      "https://www.youtube.com/watch?v=8shh3_fGWH4": "舞台／节目片段",
+      "https://www.youtube.com/watch?v=MhOtnO78nwE": "舞台／节目片段"
+    },
+    "official_sources": [
+      "https://www.youtube.com/watch?v=8shh3_fGWH4",
+      "https://www.youtube.com/watch?v=MhOtnO78nwE"
+    ]
   },
   {
     "id": "concert-065f39d09f83dfc2",
     "title": "🎤 TWS｜Sparkling Blue 出道 Showcase",
     "status": "confirmed",
-    "sequence": 0,
-    "all_day": true,
-    "start": "2024-01-22",
-    "end": "2024-01-23",
-    "updated_at": "2026-11-19T16:20:00Z",
+    "sequence": 1,
+    "all_day": false,
+    "start": "2024-01-22T21:00:00+09:00",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "首尔 Blue Square",
-    "details": "",
-    "source_url": "https://zh.wikipedia.org/wiki/TWS%E6%BC%94%E5%94%B1%E6%9C%83%E5%88%97%E8%A1%A8",
-    "source_type": "community_archive",
+    "details": "韩国时间（KST）。\n官方来源 https://weverse.io/tws/notice/17308",
+    "source_url": "https://weverse.io/tws/notice/17308",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "archive_category": "Showcase",
+    "official_sources": [
+      "https://weverse.io/tws/notice/17308"
+    ]
   },
   {
     "id": "concert-40928251a4581e9e",
@@ -4815,17 +5375,25 @@
     "id": "concert-c63556ddd7aeecf9",
     "title": "🎤 TWS｜延世大学 AKARAKA 校园演出",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-05-25",
     "end": "2024-05-26",
-    "updated_at": "2026-11-19T16:20:00Z",
-    "location": "首尔 延世大学露天剧场",
-    "details": "",
-    "source_url": "https://zh.wikipedia.org/wiki/TWS%E6%BC%94%E5%94%B1%E6%9C%83%E5%88%97%E8%A1%A8",
-    "source_type": "community_archive",
+    "updated_at": "2026-11-24T12:38:56Z",
+    "location": "首尔 延世大学露天剧场\nhttps://www.youtube.com/watch?v=IPOhcyzfSgw",
+    "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。舞台／节目片段。\n官方来源 https://weverse.io/tws/artist/0-142059716",
+    "source_url": "https://weverse.io/tws/artist/0-142059716",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "time_tbd": true,
+    "watch_url": "https://www.youtube.com/watch?v=IPOhcyzfSgw",
+    "archive_category": "校庆",
+    "media_links": {
+      "https://www.youtube.com/watch?v=IPOhcyzfSgw": "舞台／节目片段"
+    },
+    "official_sources": [
+      "https://weverse.io/tws/artist/0-142059716"
+    ]
   },
   {
     "id": "concert-1d1f06d7b7886df5",
@@ -4847,33 +5415,40 @@
     "id": "concert-798089e0a79ebc75",
     "title": "🎤 TWS｜Weverse Con Festival 2024",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-06-16",
     "end": "2024-06-17",
-    "updated_at": "2026-11-19T16:20:00Z",
-    "location": "",
-    "details": "",
-    "source_url": "https://zh.wikipedia.org/wiki/TWS%E6%BC%94%E5%94%B1%E6%9C%83%E5%88%97%E8%A1%A8",
-    "source_type": "community_archive",
+    "updated_at": "2026-11-24T12:38:56Z",
+    "location": "仁川 INSPIRE",
+    "details": "TWS 出演该日阵容。\n官方来源 https://tws-official.jp/schedule/efcfde7ba749",
+    "source_url": "https://tws-official.jp/schedule/efcfde7ba749",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "time_tbd": true,
+    "archive_category": "舞台",
+    "official_sources": [
+      "https://tws-official.jp/schedule/efcfde7ba749"
+    ]
   },
   {
     "id": "concert-7b2d8fdd327a90e6",
     "title": "🎤 TWS｜SUMMER BEAT! 回归 Showcase",
     "status": "confirmed",
-    "sequence": 0,
-    "all_day": true,
-    "start": "2024-06-24",
-    "end": "2024-06-25",
-    "updated_at": "2026-11-19T16:20:00Z",
+    "sequence": 1,
+    "all_day": false,
+    "start": "2024-06-24T21:00:00+09:00",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "首尔 Blue Square",
-    "details": "",
-    "source_url": "https://zh.wikipedia.org/wiki/TWS%E6%BC%94%E5%94%B1%E6%9C%83%E5%88%97%E8%A1%A8",
-    "source_type": "community_archive",
+    "details": "韩国时间（KST）。\n官方来源 https://weverse.io/tws/notice/19967\n官方来源 https://weverse.io/tws/notice/20373",
+    "source_url": "https://weverse.io/tws/notice/19967",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "archive_category": "Showcase",
+    "official_sources": [
+      "https://weverse.io/tws/notice/19967",
+      "https://weverse.io/tws/notice/20373"
+    ]
   },
   {
     "id": "concert-8fa54154cce75b61",
@@ -5167,33 +5742,37 @@
     "id": "concert-6de175a9d817bbf3",
     "title": "🎤 TWS｜TRY WITH US 回归 Showcase",
     "status": "confirmed",
-    "sequence": 0,
-    "all_day": true,
-    "start": "2025-04-21",
-    "end": "2025-04-22",
-    "updated_at": "2026-11-19T16:20:00Z",
+    "sequence": 1,
+    "all_day": false,
+    "start": "2025-04-21T20:00:00+09:00",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "首尔 Blue Square",
-    "details": "",
-    "source_url": "https://zh.wikipedia.org/wiki/TWS%E6%BC%94%E5%94%B1%E6%9C%83%E5%88%97%E8%A1%A8",
-    "source_type": "community_archive",
+    "details": "韩国时间（KST）。\n官方来源 https://weverse.io/tws/notice/26168",
+    "source_url": "https://weverse.io/tws/notice/26168",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "archive_category": "Showcase",
+    "official_sources": [
+      "https://weverse.io/tws/notice/26168"
+    ]
   },
   {
     "id": "concert-0c60264b44465309",
     "title": "🎤 TWS｜Seoul Spring Festa 2025",
     "status": "confirmed",
-    "sequence": 0,
-    "all_day": true,
-    "start": "2025-04-30",
-    "end": "2025-05-01",
-    "updated_at": "2026-11-19T16:20:00Z",
+    "sequence": 1,
+    "all_day": false,
+    "start": "2025-04-30T19:00:00+09:00",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "首尔世界杯竞技场",
-    "details": "",
-    "source_url": "https://zh.wikipedia.org/wiki/TWS%E6%BC%94%E5%94%B1%E6%9C%83%E5%88%97%E8%A1%A8",
-    "source_type": "community_archive",
+    "details": "官方公告列明的活动开始时间（KST）。\n官方来源 https://weverse.io/tws/notice/26832",
+    "source_url": "https://weverse.io/tws/notice/26832",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "archive_category": "舞台",
+    "official_sources": [
+      "https://weverse.io/tws/notice/26832"
+    ]
   },
   {
     "id": "concert-ee24a2686b490729",
@@ -5279,17 +5858,25 @@
     "id": "concert-bcc5a4eab70f67ad",
     "title": "🎤 TWS｜高丽大学校园演出",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2025-05-24",
     "end": "2025-05-25",
-    "updated_at": "2026-11-19T16:20:00Z",
-    "location": "",
-    "details": "",
-    "source_url": "https://zh.wikipedia.org/wiki/TWS%E6%BC%94%E5%94%B1%E6%9C%83%E5%88%97%E8%A1%A8",
-    "source_type": "community_archive",
+    "updated_at": "2026-11-24T12:38:56Z",
+    "location": "高丽大学\nhttps://www.youtube.com/watch?v=oJknOqGd4CQ",
+    "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。舞台／节目片段。\n官方来源 https://weverse.io/tws/artist/4-199723220",
+    "source_url": "https://weverse.io/tws/artist/4-199723220",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "time_tbd": true,
+    "watch_url": "https://www.youtube.com/watch?v=oJknOqGd4CQ",
+    "archive_category": "校庆",
+    "media_links": {
+      "https://www.youtube.com/watch?v=oJknOqGd4CQ": "舞台／节目片段"
+    },
+    "official_sources": [
+      "https://weverse.io/tws/artist/4-199723220"
+    ]
   },
   {
     "id": "concert-aef4e090d16cb940",
@@ -5327,49 +5914,60 @@
     "id": "concert-a28a792a4b887aa6",
     "title": "⚾ TWS｜千叶罗德海洋 韩国之夜",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2025-06-29",
     "end": "2025-06-30",
-    "updated_at": "2026-11-19T16:20:00Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "日本 千叶 ZOZO海洋球场",
-    "details": "",
-    "source_url": "https://zh.wikipedia.org/wiki/TWS%E6%BC%94%E5%94%B1%E6%9C%83%E5%88%97%E8%A1%A8",
-    "source_type": "community_archive",
+    "details": "赛事于日本时间 17:00 开始，成员环节时刻未单独公布。\n官方来源 https://tws-official.jp/schedule/1f9a4b0b476d",
+    "source_url": "https://tws-official.jp/schedule/1f9a4b0b476d",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "time_tbd": true,
+    "archive_category": "舞台",
+    "official_sources": [
+      "https://tws-official.jp/schedule/1f9a4b0b476d"
+    ]
   },
   {
     "id": "concert-2d514eaa5ad412d9",
     "title": "🎤 TWS｜The MusiQuest 2025",
     "status": "confirmed",
-    "sequence": 0,
-    "all_day": true,
-    "start": "2025-07-06",
-    "end": "2025-07-07",
-    "updated_at": "2026-11-19T16:20:00Z",
+    "sequence": 1,
+    "all_day": false,
+    "start": "2025-07-06T15:00:00+09:00",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "日本东京 · 代代木第一体育馆",
-    "details": "",
-    "source_url": "https://zh.wikipedia.org/wiki/TWS%E6%BC%94%E5%94%B1%E6%9C%83%E5%88%97%E8%A1%A8",
-    "source_type": "community_archive",
+    "details": "公演开场时间（JST），个人舞台时段未单列。\n官方来源 https://tws-official.jp/schedule/c58914087735",
+    "source_url": "https://tws-official.jp/schedule/c58914087735",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "archive_category": "舞台",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/c58914087735"
+    ]
   },
   {
     "id": "concert-18269c43c477806d",
     "title": "🎤 TWS｜ROCK IN JAPAN FESTIVAL 2025",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2025-09-15",
     "end": "2025-09-16",
-    "updated_at": "2026-11-19T16:20:00Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "日本 千叶 蘇我运动公园",
-    "details": "",
-    "source_url": "https://zh.wikipedia.org/wiki/TWS%E6%BC%94%E5%94%B1%E6%9C%83%E5%88%97%E8%A1%A8",
-    "source_type": "community_archive",
+    "details": "TWS 出演该日阵容。\n官方来源 https://tws-official.jp/schedule/b8d1b6405340",
+    "source_url": "https://tws-official.jp/schedule/b8d1b6405340",
+    "source_type": "official",
     "historical": true,
-    "time_tbd": true
+    "time_tbd": true,
+    "archive_category": "舞台",
+    "official_sources": [
+      "https://tws-official.jp/schedule/b8d1b6405340"
+    ]
   },
   {
     "id": "concert-ebec09e9a3f8c43f",
@@ -5533,156 +6131,205 @@
   {
     "id": "japan-1f0ea1c6bfca91fa",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "historical": true,
     "title": "📺 TWS｜THE MUSIC DAY 2025",
     "all_day": false,
     "start": "2025-07-05T15:00:00+09:00",
     "end": "2025-07-05T22:54:00+09:00",
-    "updated_at": "2026-11-19T16:20:00Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "",
-    "details": "节目全场时间。",
+    "details": "节目全场时间。\n日本节目播出（JST）。 节目主页 https://www.ntv.co.jp/musicday/\n官方来源 https://tws-official.jp/schedule/0ff985379d0f",
     "source_url": "https://tws-official.jp/news/5f84825ae00d",
-    "source_type": "official"
+    "source_type": "official",
+    "archive_category": "电视",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/0ff985379d0f"
+    ]
   },
   {
     "id": "japan-9906212dea5d7cce",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "historical": true,
     "title": "📺 TWS｜with MUSIC",
     "all_day": false,
     "start": "2024-04-27T19:56:00+09:00",
     "end": "2024-04-27T20:56:00+09:00",
-    "updated_at": "2026-11-19T16:20:00Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "",
-    "details": "",
+    "details": "日本节目播出（JST）。 节目主页 https://www.ntv.co.jp/withmusic/\n官方来源 https://tws-official.jp/schedule/c4fc0ee6dea5",
     "source_url": "https://tws-official.jp/news/d89add0364a3",
     "source_type": "official",
-    "end_estimated": true
+    "end_estimated": true,
+    "archive_category": "电视",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/c4fc0ee6dea5"
+    ]
   },
   {
     "id": "japan-bdc4e596e9e91b8c",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "historical": true,
     "title": "📺 TWS｜Buzz Rhythm 02",
     "all_day": false,
     "start": "2024-05-04T00:59:00+09:00",
     "end": "2024-05-04T01:59:00+09:00",
-    "updated_at": "2026-11-19T16:20:00Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "",
-    "details": "",
+    "details": "日本节目播出（JST）。 节目主页 https://www.ntv.co.jp/buzzrhythm/\n官方来源 https://tws-official.jp/schedule/47610a0e0e90",
     "source_url": "https://tws-official.jp/news/8c7288f15782",
     "source_type": "official",
-    "end_estimated": true
+    "end_estimated": true,
+    "archive_category": "电视",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/47610a0e0e90"
+    ]
   },
   {
     "id": "japan-e82e748c58217060",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "historical": true,
     "title": "📺 TWS｜with MUSIC",
     "all_day": false,
     "start": "2024-09-07T19:56:00+09:00",
     "end": "2024-09-07T20:56:00+09:00",
-    "updated_at": "2026-11-19T16:20:00Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "",
-    "details": "",
+    "details": "日本节目播出（JST）。 节目主页 https://www.ntv.co.jp/withmusic/\n官方来源 https://tws-official.jp/schedule/a1368f8b88ca",
     "source_url": "https://tws-official.jp/news/fd5113dca6de",
     "source_type": "official",
-    "end_estimated": true
+    "end_estimated": true,
+    "archive_category": "电视",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/a1368f8b88ca"
+    ]
   },
   {
     "id": "japan-83ac5fa54176a370",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "historical": true,
     "title": "🎤 TWS｜Mezamashi Live 2024",
     "all_day": false,
     "start": "2024-08-08T17:00:00+09:00",
     "end": "2024-08-08T18:00:00+09:00",
-    "updated_at": "2026-11-19T16:20:00Z",
-    "location": "",
-    "details": "",
+    "updated_at": "2026-11-24T12:38:56Z",
+    "location": "东京台场 SUMMER SPLASH! Stadium",
+    "details": "公演开场时间（JST），个人舞台时段未单列。\n官方来源 https://tws-official.jp/schedule/cd4696bd1eb2",
     "source_url": "https://tws-official.jp/news/b37c3cfb554c",
     "source_type": "official",
-    "end_estimated": true
+    "end_estimated": true,
+    "archive_category": "舞台",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/cd4696bd1eb2"
+    ]
   },
   {
     "id": "japan-9085400c7d58337f",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "historical": true,
     "title": "📻 TWS｜大沢あかね LUCKY 7",
     "all_day": false,
     "start": "2026-09-07T21:50:00+09:00",
     "end": "2026-09-07T21:57:00+09:00",
-    "updated_at": "2026-11-19T16:20:00Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "",
-    "details": "",
+    "details": "日本放送电台播出（JST）。节目主页 https://www.1242.com/lucky\n官方来源 https://tws-official.jp/schedule/4ae91c18cbb7",
     "source_url": "https://tws-official.jp/news/c525634d966f",
-    "source_type": "official"
+    "source_type": "official",
+    "archive_category": "电台",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/4ae91c18cbb7"
+    ]
   },
   {
     "id": "japan-402676d9f94feb83",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "historical": true,
     "title": "📻 TWS｜大沢あかね LUCKY 7",
     "all_day": false,
     "start": "2026-09-08T21:50:00+09:00",
     "end": "2026-09-08T21:57:00+09:00",
-    "updated_at": "2026-11-19T16:20:00Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "",
-    "details": "",
+    "details": "日本放送电台播出（JST）。节目主页 https://www.1242.com/lucky\n官方来源 https://tws-official.jp/schedule/4ae91c18cbb7",
     "source_url": "https://tws-official.jp/news/c525634d966f",
-    "source_type": "official"
+    "source_type": "official",
+    "archive_category": "电台",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/4ae91c18cbb7"
+    ]
   },
   {
     "id": "japan-e2ff310245e0ef25",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "historical": true,
     "title": "📻 TWS｜大沢あかね LUCKY 7",
     "all_day": false,
     "start": "2026-09-09T21:50:00+09:00",
     "end": "2026-09-09T21:57:00+09:00",
-    "updated_at": "2026-11-19T16:20:00Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "",
-    "details": "",
+    "details": "日本放送电台播出（JST）。节目主页 https://www.1242.com/lucky\n官方来源 https://tws-official.jp/schedule/4ae91c18cbb7",
     "source_url": "https://tws-official.jp/news/c525634d966f",
-    "source_type": "official"
+    "source_type": "official",
+    "archive_category": "电台",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/4ae91c18cbb7"
+    ]
   },
   {
     "id": "japan-d4610acad47d6448",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "historical": true,
     "title": "📻 TWS｜大沢あかね LUCKY 7",
     "all_day": false,
     "start": "2026-09-10T21:50:00+09:00",
     "end": "2026-09-10T21:57:00+09:00",
-    "updated_at": "2026-11-19T16:20:00Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "",
-    "details": "",
+    "details": "日本放送电台播出（JST）。节目主页 https://www.1242.com/lucky\n官方来源 https://tws-official.jp/schedule/4ae91c18cbb7",
     "source_url": "https://tws-official.jp/news/c525634d966f",
-    "source_type": "official"
+    "source_type": "official",
+    "archive_category": "电台",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/4ae91c18cbb7"
+    ]
   },
   {
     "id": "japan-762473be03214be4",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "historical": true,
     "title": "📻 TWS｜大沢あかね LUCKY 7",
     "all_day": false,
     "start": "2026-09-11T21:50:00+09:00",
     "end": "2026-09-11T21:57:00+09:00",
-    "updated_at": "2026-11-19T16:20:00Z",
+    "updated_at": "2026-11-24T12:38:56Z",
     "location": "",
-    "details": "",
+    "details": "日本放送电台播出（JST）。节目主页 https://www.1242.com/lucky\n官方来源 https://tws-official.jp/schedule/4ae91c18cbb7",
     "source_url": "https://tws-official.jp/news/c525634d966f",
-    "source_type": "official"
+    "source_type": "official",
+    "archive_category": "电台",
+    "original_timezone": "Asia/Tokyo",
+    "official_sources": [
+      "https://tws-official.jp/schedule/4ae91c18cbb7"
+    ]
   }
 ]
-
