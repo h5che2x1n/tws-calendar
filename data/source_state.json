@@ -17,15 +17,11 @@
     "https://tws-official.jp/news/e98bd416842d": "e6a67f5b3f3b239ed8f6a3263943ebf94e302d3aaf21fbfe2b4e13d79973a996",
     "https://weverse.io/tws/notice/41221": "70130926b9d6340f788caaddf864bf33af6238416087a952e92b4edd392b3392"
   },
-  "pending": {
-    "https://tws-official.jp/news/e98bd416842d": {
-      "reason": "new Japan news may contain an event; review required",
-      "title": "HYBE MUSIC GROUP MERCH POP-UP STORE開催決定！"
-    }
-  },
+  "pending": {},
   "news_last_success": "2026-11-24",
   "resolved_news": {
     "https://tws-official.jp/news/420cfd9206a3": "a60203c480ce2e0e7e472620e5d38f301495cfdef996dbad1292fe092dfcb2ad",
-    "https://tws-official.jp/news/504224248cf3": "5745a53860eb972a1eb157242296ab02d4af9b21147566fe8785a67885b69582"
+    "https://tws-official.jp/news/504224248cf3": "5745a53860eb972a1eb157242296ab02d4af9b21147566fe8785a67885b69582",
+    "https://tws-official.jp/news/e98bd416842d": "c8eb98f5d7567bf2bf8aceb6aa80ecdcc9cf564d18c6075b433df44f1cffe372"
   }
 }
