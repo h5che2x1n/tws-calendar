@@ -168,10 +168,8 @@ def clean_original(block):
         'M2U RECORD 线下签售': 'TWS《TO US》线下签售；具体会场另行通知。',
         '日本巡演全曲无删减电视首播': '2026 TWS 日本巡演全曲无删减版电视首播。',
     }
-    title_translation = {
-        'TWS｜2026 KGMA Music Day': '2026韩国音乐大奖音乐日',
-        'TWS｜MMA 2026 DAY 1': '2026 Melon音乐颁奖礼第一天',
-    }.get(title)
+    # These imported events previously received a translation; retire it with a new revision.
+    title_translation_revision = title in ('TWS｜2026 KGMA Music Day', 'TWS｜MMA 2026 DAY 1')
     for line in block:
         if line.startswith('URL:') or (line.startswith('DESCRIPTION:') and '生日' in title):
             continue
@@ -199,8 +197,6 @@ def clean_original(block):
             intro = re.sub(r'；17:00为台湾当地典礼时间，与北京时间相同。时间参考Soompi年末汇总；非单独舞台时刻。', '出演12月6日。', intro)
             sources = [p for p in parts if p.startswith('来源：')]
             desc = '\\n'.join(filter(None, [intro.strip()] + sources))
-            if title_translation:
-                desc = escape('（标题参考译文：' + title_translation + '）') + '\\n' + desc
             line = 'DESCRIPTION:' + desc
         elif line.startswith('LOCATION:'):
             value = line[len('LOCATION:'):]
@@ -220,13 +216,13 @@ def clean_original(block):
                 if mapped != value:
                     line = 'LOCATION:' + escape(mapped)
         elif line.startswith('SEQUENCE:'):
-            line = 'SEQUENCE:' + str(int(line.split(':', 1)[1]) + 6 + int(bool(title_translation)))
+            line = 'SEQUENCE:' + str(int(line.split(':', 1)[1]) + 6 + 2 * int(title_translation_revision))
         elif line.startswith('DTSTAMP:'):
-            line = 'DTSTAMP:' + ('20261125T062836Z' if title_translation else '20261119T145500Z')
+            line = 'DTSTAMP:' + ('20261125T074244Z' if title_translation_revision else '20261119T145500Z')
         result.append(line)
-    if title_translation:
+    if title_translation_revision:
         result = [x for x in result if not x.startswith('LAST-MODIFIED:')]
-        result.insert(-1, 'LAST-MODIFIED:20261125T062836Z')
+        result.insert(-1, 'LAST-MODIFIED:20261125T074244Z')
     starts = [x for x in result if x.startswith('DTSTART:')]
     if any('高尺天空巨蛋' in x for x in result if x.startswith('LOCATION:')):
         result.insert(-1, 'GEO:37.49817;126.86707')
@@ -236,7 +232,7 @@ def clean_original(block):
         start = datetime.strptime(starts[0][8:], '%Y%m%dT%H%M%SZ').replace(tzinfo=timezone.utc)
         result.insert(-1, 'DTEND:' + fmt(start + timedelta(minutes=DEFAULT_MINUTES[category])))
         for i, line in enumerate(result):
-            if line.startswith('DESCRIPTION:'):
+            if line.startswith('DESCRIPTION:') and not title_translation_revision:
                 result[i] += '\\n结束时间为估计，实际以官方安排为准。'
                 break
     return convert_original_long_event(result)
@@ -289,7 +285,7 @@ def build(events, original=None):
         desc = e.get('details', e.get('description', ''))
         if local_start is not None:
             desc = '\n'.join(filter(None, (desc, long_event_details(local_start, local_end))))
-        if e.get('end_estimated') or (not e['all_day'] and default_estimated):
+        if (e.get('end_estimated') or (not e['all_day'] and default_estimated)) and not e.get('concise_notes'):
             desc += '\n结束时间为估计，实际以官方安排为准。'
         if e.get('time_tbd'):
             if not e['all_day']:
