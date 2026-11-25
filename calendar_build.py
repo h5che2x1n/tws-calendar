@@ -96,7 +96,7 @@ def convert_original_long_event(block):
 
 DEFAULT_MINUTES = {'video_fansign': 60, 'offline_fansign': 120,
                    'year_end': 240, 'music_bank': 90, 'music_core': 80,
-                   'inkigayo': 70, 'radio': 120, 'variety': 60}
+                   'inkigayo': 70, 'radio': 120, 'variety': 60, 'vlog_behind': 30}
 
 
 def duration_category(title, explicit=None):
@@ -105,6 +105,9 @@ def duration_category(title, explicit=None):
             raise ValueError('unknown duration category')
         return explicit
     t = title.lower()
+    if not any(x in t for x in ('📷', '概念照', 'concept photo', 'photo sketch', '포토')) and any(
+            x in t for x in ('vlog', '幕后', '花絮', 'behind', '비하인드')):
+        return 'vlog_behind'
     if '预录' in t or '事前录制' in t:
         return None
     if any(x in t for x in ('签售', 'fansign', '팬사인회')):
@@ -282,8 +285,9 @@ def build(events, original=None):
         if e.get('time_tbd'):
             if not e['all_day']:
                 raise ValueError('time_tbd requires date-only event')
-            note = '具体时间未记录（日期占位）' if e.get('historical') else '具体时间待公布（日期占位）'
-            desc = note + '\n' + desc
+            if not (e.get('historical') and e.get('hide_time_tbd_note') is True):
+                note = '具体时间未记录（日期占位）' if e.get('historical') else '具体时间待公布（日期占位）'
+                desc = note + '\n' + desc
         if not e.get('historical'):
             desc += '\n官方公告: ' + e['source_url']
         if e.get('watch_url') and not e.get('historical'):

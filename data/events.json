@@ -385,9 +385,9 @@
     "source_url": "https://weverse.io/tws/media/4-243988046",
     "watch_url": "https://www.youtube.com/watch?v=NOd_pmyYnLE",
     "status": "confirmed",
-    "sequence": 1,
+    "sequence": 2,
     "all_day": false,
-    "updated_at": "2026-11-24T12:38:56Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "source_type": "official",
     "original_timezone": "UTC-08:00",
     "platform": "TWS · YouTube",
@@ -397,7 +397,8 @@
     "official_sources": [
       "https://weverse.io/tws/media/4-243988046",
       "https://www.youtube.com/watch?v=NOd_pmyYnLE"
-    ]
+    ],
+    "duration_category": "vlog_behind"
   },
   {
     "id": "20261125-hanjin-sbs-what-an-idol",
@@ -479,10 +480,10 @@
     "id": "20261120-tws-studio-choom-behind",
     "title": "📺 TWS｜STUDIO CHOOM《Call My Name》拍摄幕后",
     "status": "confirmed",
-    "sequence": 1,
+    "sequence": 2,
     "all_day": false,
     "start": "2026-11-20T22:00:13+09:00",
-    "updated_at": "2026-11-24T12:38:56Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=LMqWTEwddCw",
     "watch_url": "https://www.youtube.com/watch?v=LMqWTEwddCw",
     "details": "TWS《Call My Name》STUDIO CHOOM ORIGINAL 拍摄幕后。 YouTube 正片上线。",
@@ -496,16 +497,17 @@
     "platform": "STUDIO CHOOM [스튜디오 춤] · YouTube",
     "official_sources": [
       "https://www.youtube.com/watch?v=LMqWTEwddCw"
-    ]
+    ],
+    "duration_category": "vlog_behind"
   },
   {
     "id": "20261122-youngjae-247-vlog",
     "title": "📺 英宰｜24/7 LOG《영재의 뜨겁고 행복했던 날들》",
     "status": "confirmed",
-    "sequence": 1,
+    "sequence": 2,
     "all_day": false,
     "start": "2026-11-22T19:59:58+09:00",
-    "updated_at": "2026-11-24T12:38:56Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=MuatN39if24",
     "watch_url": "https://www.youtube.com/watch?v=MuatN39if24",
     "source_url": "https://weverse.io/tws/media/3-244115999",
@@ -519,7 +521,8 @@
     "official_sources": [
       "https://weverse.io/tws/media/3-244115999",
       "https://www.youtube.com/watch?v=MuatN39if24"
-    ]
+    ],
+    "duration_category": "vlog_behind"
   },
   {
     "id": "20261127-youngjae-kyungmin-would-you-record",
@@ -961,10 +964,10 @@
     "id": "archive-89b96822f8fccfc5ab",
     "title": "🎙️ TWS｜Bandwagon 出道专访",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-01-26",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "",
     "details": "六位成员的出道文字专访上线。\n官方来源 https://www.bandwagon.asia/articles/tws-debut-interview-shinyu-dohoon-youngjae-hanjin-jihoon-kyungmin-photos-sparkling-blue-plot-twist-pledis-entertainment-hybe-seventeen-january-2024",
     "source_url": "https://www.bandwagon.asia/articles/tws-debut-interview-shinyu-dohoon-youngjae-hanjin-jihoon-kyungmin-photos-sparkling-blue-plot-twist-pledis-entertainment-hybe-seventeen-january-2024",
@@ -975,16 +978,19 @@
     "archive_category": "媒体采访",
     "official_sources": [
       "https://www.bandwagon.asia/articles/tws-debut-interview-shinyu-dohoon-youngjae-hanjin-jihoon-kyungmin-photos-sparkling-blue-plot-twist-pledis-entertainment-hybe-seventeen-january-2024"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-18ba648cd0075a9927",
     "title": "🎵 TWS｜《音乐银行》打歌",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-01-26",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=gayxHGkfvpQ\nhttps://www.youtube.com/watch?v=zRI5kRNvSIk",
     "details": "첫 만남은 계획대로 되지 않아 - TWS [뮤직뱅크/Music Bank] | KBS 240126 방송。\nplot twist - TWS [Music Bank] | KBS WORLD TV 240126。 （音乐银行）\n官方来源 https://www.youtube.com/watch?v=zRI5kRNvSIk",
     "source_url": "https://www.youtube.com/watch?v=gayxHGkfvpQ",
@@ -1002,7 +1008,10 @@
     "official_sources": [
       "https://www.youtube.com/watch?v=gayxHGkfvpQ",
       "https://www.youtube.com/watch?v=zRI5kRNvSIk"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-5f09ed00bdd9346ac0",
@@ -1128,10 +1137,10 @@
     "id": "archive-c6f15dac5621399818",
     "title": "🎵 TWS｜《人气歌谣》打歌",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-01-28",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=Rq1U6PiF1tQ\nhttps://www.youtube.com/watch?v=QA6B-T7IxBY\nhttps://www.youtube.com/watch?v=M3t35ire-Kc",
     "details": "TWS (투어스) - plot twist @인기가요 inkigayo 20240128。\n[안방1열 풀캠4K] 투어스 '첫 만남은 계획대로 되지 않아' (TWS 'plot twist' FullCam)│@SBS Inkigayo 240128。\n[안방1열 풀캠4K] 투어스 'Oh Mymy : 7s' (TWS FullCam)│@SBS Inkigayo 240128。 （人气歌谣）\n官方来源 https://www.youtube.com/watch?v=QA6B-T7IxBY\n官方来源 https://www.youtube.com/watch?v=M3t35ire-Kc",
     "source_url": "https://www.youtube.com/watch?v=Rq1U6PiF1tQ",
@@ -1151,7 +1160,10 @@
       "https://www.youtube.com/watch?v=Rq1U6PiF1tQ",
       "https://www.youtube.com/watch?v=QA6B-T7IxBY",
       "https://www.youtube.com/watch?v=M3t35ire-Kc"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-43a8fdc5ddf7d2c1a3",
@@ -1195,10 +1207,10 @@
     "id": "archive-1565f68579fadd958d",
     "title": "📖 道勋｜Weverse Magazine · DOHOON：“我自信的源泉是成员们。”",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-01-29",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://magazine.weverse.io/article/view/1000?lang=zh-cn",
     "details": "电子杂志原文上线。",
     "source_url": "https://magazine.weverse.io/article/view/1000?lang=zh-cn",
@@ -1213,7 +1225,10 @@
     },
     "official_sources": [
       "https://magazine.weverse.io/article/view/1000?lang=zh-cn"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-92d0bad85583937301",
@@ -1269,10 +1284,10 @@
     "id": "archive-e5826f01d0dde69fb6",
     "title": "📖 申惟｜Weverse Magazine · SHINYU：“幸福不遥远，就在身边。”",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-01-30",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://magazine.weverse.io/article/view/1002?lang=zh-cn",
     "details": "电子杂志原文上线。",
     "source_url": "https://magazine.weverse.io/article/view/1002?lang=zh-cn",
@@ -1287,16 +1302,19 @@
     },
     "official_sources": [
       "https://magazine.weverse.io/article/view/1002?lang=zh-cn"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-a426bad30e1281c97a",
     "title": "📖 志薰｜Weverse Magazine · JIHOON：“我很期待未来的日子，应该会很快乐。”",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-01-31",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://magazine.weverse.io/article/view/1005?lang=zh-cn",
     "details": "电子杂志原文上线。",
     "source_url": "https://magazine.weverse.io/article/view/1005?lang=zh-cn",
@@ -1311,16 +1329,19 @@
     },
     "official_sources": [
       "https://magazine.weverse.io/article/view/1005?lang=zh-cn"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-c3539ef0f1c5e80e8a",
     "title": "📖 韩振｜Weverse Magazine · HANJIN：“我想成为一个坚持不懈，努力成长的人。”",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-02-01",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://magazine.weverse.io/article/view/1007?lang=zh-cn",
     "details": "电子杂志原文上线。",
     "source_url": "https://magazine.weverse.io/article/view/1007?lang=zh-cn",
@@ -1335,16 +1356,19 @@
     },
     "official_sources": [
       "https://magazine.weverse.io/article/view/1007?lang=zh-cn"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-0d87f1d02ca1976e51",
     "title": "🛍️ TWS｜新世界免税店音乐合作官宣",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-02-01",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "",
     "details": "品牌新闻稿发布。\n官方来源 https://www.shinsegaegroupnewsroom.com/shinsegae-duty-free-tws-music/",
     "source_url": "https://www.shinsegaegroupnewsroom.com/shinsegae-duty-free-tws-music/",
@@ -1355,16 +1379,19 @@
     "archive_category": "品牌",
     "official_sources": [
       "https://www.shinsegaegroupnewsroom.com/shinsegae-duty-free-tws-music/"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-e62aff9d6a7a9ecfed",
     "title": "🎵 TWS｜《音乐银行》采访",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-02-02",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=FwzqgY9MBEc\nhttps://www.youtube.com/watch?v=lYa_wQe3rDY",
     "details": "(Interview) Interview with TWS [Music Bank] | KBS WORLD TV 240202。\n첫 만남은 계획대로 되지 않아 - TWS [뮤직뱅크/Music Bank] | KBS 240202 방송。 （音乐银行）\n官方来源 https://www.youtube.com/watch?v=lYa_wQe3rDY",
     "source_url": "https://www.youtube.com/watch?v=FwzqgY9MBEc",
@@ -1382,16 +1409,19 @@
     "official_sources": [
       "https://www.youtube.com/watch?v=FwzqgY9MBEc",
       "https://www.youtube.com/watch?v=lYa_wQe3rDY"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-b5f5c3066abb9e3914",
     "title": "📖 英宰｜Weverse Magazine · YOUNGJAE：“我想成为用始终如一的面貌给予爱的人。”",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-02-02",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://magazine.weverse.io/article/view/1009?lang=zh-cn",
     "details": "电子杂志原文上线。",
     "source_url": "https://magazine.weverse.io/article/view/1009?lang=zh-cn",
@@ -1406,16 +1436,19 @@
     },
     "official_sources": [
       "https://magazine.weverse.io/article/view/1009?lang=zh-cn"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-c71e340603af5cfc4c",
     "title": "🤝 TWS｜《Sparkling Blue》Weverse 视频签售",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-02-02",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "",
     "details": "TWS 成员参加，限中签者。韩国时间（KST）。\n官方来源 https://weverse.io/tws/notice/17151",
     "source_url": "https://weverse.io/tws/notice/17151",
@@ -1426,16 +1459,19 @@
     "archive_category": "视频签售",
     "official_sources": [
       "https://weverse.io/tws/notice/17151"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-4373d20f3135f926f1",
     "title": "📖 炅潣｜Weverse Magazine · KYUNGMIN：“就是因为自己喜欢才开始的。”",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-02-03",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://magazine.weverse.io/article/view/1011?lang=zh-cn",
     "details": "电子杂志原文上线。",
     "source_url": "https://magazine.weverse.io/article/view/1011?lang=zh-cn",
@@ -1450,16 +1486,19 @@
     },
     "official_sources": [
       "https://magazine.weverse.io/article/view/1011?lang=zh-cn"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-0e1b397e90d37fa3d2",
     "title": "🎵 TWS｜《人气歌谣》打歌",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-02-04",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=0Ts1DwMuuOI\nhttps://www.youtube.com/watch?v=uWfjH1F3_lE",
     "details": "TWS (투어스) - plot twist @인기가요 inkigayo 20240204。\n[안방1열 풀캠4K] 투어스 '첫 만남은 계획대로 되지 않아' (TWS 'plot twist' FullCam)│@SBS Inkigayo 240204。 （人气歌谣）\n官方来源 https://www.youtube.com/watch?v=uWfjH1F3_lE",
     "source_url": "https://www.youtube.com/watch?v=0Ts1DwMuuOI",
@@ -1477,16 +1516,19 @@
     "official_sources": [
       "https://www.youtube.com/watch?v=0Ts1DwMuuOI",
       "https://www.youtube.com/watch?v=uWfjH1F3_lE"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-27f71d2a98a859518a",
     "title": "📖 TWS｜Weverse Magazine · TWS Other Cuts",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-02-04",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://magazine.weverse.io/article/view/1014?lang=zh-cn",
     "details": "电子杂志原文上线。",
     "source_url": "https://magazine.weverse.io/article/view/1014?lang=zh-cn",
@@ -1501,7 +1543,10 @@
     },
     "official_sources": [
       "https://magazine.weverse.io/article/view/1014?lang=zh-cn"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-6b930581c3fd725c7c",
@@ -1545,10 +1590,10 @@
     "id": "archive-1b73acc945213cfce4",
     "title": "🎬 TWS｜Under My Nose | TEASER",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-02-05",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=V3delHKVsPM",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。预告／试听。",
     "source_url": "https://www.youtube.com/watch?v=V3delHKVsPM",
@@ -1564,16 +1609,19 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=V3delHKVsPM"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-5d1135cd9a22b766d7",
     "title": "📖 TWS｜Weverse Magazine · TWS’ Playlist",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-02-05",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://magazine.weverse.io/article/view/1016?lang=zh-cn",
     "details": "电子杂志原文上线。",
     "source_url": "https://magazine.weverse.io/article/view/1016?lang=zh-cn",
@@ -1588,7 +1636,10 @@
     },
     "official_sources": [
       "https://magazine.weverse.io/article/view/1016?lang=zh-cn"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-065b10d684e8edbfe4",
@@ -1669,10 +1720,10 @@
     "id": "archive-fb61762a69c645e416",
     "title": "🎵 TWS｜《音乐银行》打歌",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-02-16",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=WutLO1FNtD8",
     "details": "plot twist - TWS [Music Bank] | KBS WORLD TV 240216。 （音乐银行）",
     "source_url": "https://www.youtube.com/watch?v=WutLO1FNtD8",
@@ -1688,7 +1739,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=WutLO1FNtD8"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-808a73866478ac2c2b",
@@ -1732,10 +1786,10 @@
     "id": "archive-b97191f8fec3c07dc4",
     "title": "🎵 TWS｜《人气歌谣》打歌",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-02-18",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=SH1Z58hyrg4",
     "details": "[안방1열 풀캠4K] 투어스 '첫 만남은 계획대로 되지 않아' (TWS 'plot twist' FullCam)│@SBS Inkigayo 240218。 （人气歌谣）",
     "source_url": "https://www.youtube.com/watch?v=SH1Z58hyrg4",
@@ -1751,7 +1805,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=SH1Z58hyrg4"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-c817e348de9515c757",
@@ -1871,10 +1928,10 @@
     "id": "archive-ddcb251ca3ad4932d7",
     "title": "🎵 TWS｜《M COUNTDOWN》打歌",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-02-22",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=t_VQ9Rb70-g",
     "details": "TWS (투어스) - BFF #엠카운트다운 EP.830 | Mnet 240222 방송。",
     "source_url": "https://www.youtube.com/watch?v=t_VQ9Rb70-g",
@@ -1890,7 +1947,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=t_VQ9Rb70-g"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-7f5db33d5d01857976",
@@ -1940,10 +2000,10 @@
     "id": "archive-97458f4494c3630f63",
     "title": "🎵 TWS｜《人气歌谣》打歌",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-02-25",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=yK7vbpPc4Q0\nhttps://www.youtube.com/watch?v=wsc7RSeOAW0\nhttps://www.youtube.com/watch?v=xgXMJrbP-Lc",
     "details": "TWS (투어스) – BFF @인기가요 inkigayo 20240225。\n[안방1열 풀캠4K] 투어스 '첫 만남은 계획대로 되지 않아' (TWS 'plot twist' FullCam)│@SBS Inkigayo 240225。\n[안방1열 풀캠4K] 투어스 'BFF' (TWS FullCam)│@SBS Inkigayo 240225。 （人气歌谣）\n官方来源 https://www.youtube.com/watch?v=wsc7RSeOAW0\n官方来源 https://www.youtube.com/watch?v=xgXMJrbP-Lc",
     "source_url": "https://www.youtube.com/watch?v=yK7vbpPc4Q0",
@@ -1963,7 +2023,10 @@
       "https://www.youtube.com/watch?v=yK7vbpPc4Q0",
       "https://www.youtube.com/watch?v=wsc7RSeOAW0",
       "https://www.youtube.com/watch?v=xgXMJrbP-Lc"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-c556ac2ad839aa1e16",
@@ -2157,10 +2220,10 @@
     "id": "archive-741aab24592cceb0a5",
     "title": "📺 TWS｜节目上线 · [TWS:CLUB] Opening Title Sequence",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-03-12",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=ivwpd2XVo9A",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=ivwpd2XVo9A",
@@ -2176,7 +2239,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=ivwpd2XVo9A"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-79e82d82b7810bebfb",
@@ -2220,10 +2286,10 @@
     "id": "archive-92f896af91bfb21495",
     "title": "📺 TWS｜节目上线 · [TWS:CLUB] HELLO! TWS:CLUB | Prologue",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-03-19",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=xGd4I6wMrLo",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=xGd4I6wMrLo",
@@ -2239,7 +2305,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=xGd4I6wMrLo"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-7d9076dddd2e35efe7",
@@ -2270,10 +2339,10 @@
     "id": "archive-56de0e1f76b9dec579",
     "title": "📺 TWS｜节目上线 · [TWS:CLUB] I Love Scary Things! #1 | EP.1",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-03-26",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=xql01M1Pmgc",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=xql01M1Pmgc",
@@ -2289,7 +2358,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=xql01M1Pmgc"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-ef18b8de37d64effc5",
@@ -2320,10 +2392,10 @@
     "id": "archive-07cc87779f18ef9515",
     "title": "📺 TWS｜节目上线 · [TWS:CLUB] I Love Scary Things! #2 | EP.2",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-04-02",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=6Nb9nszNrF8",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=6Nb9nszNrF8",
@@ -2339,7 +2411,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=6Nb9nszNrF8"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-a1b5025dca2e18749a",
@@ -2595,10 +2670,10 @@
     "id": "archive-255f9c2cc1f2ba16c3",
     "title": "🎵 TWS｜《M COUNTDOWN》打歌",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-05-09",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=dxgX2EjMeLg",
     "details": "[SHINE STAGE 특집] TWS (투어스) - 첫 만남은 계획대로 되지 않아 #엠카운트다운 EP.842 | Mnet 240509 방송。",
     "source_url": "https://www.youtube.com/watch?v=dxgX2EjMeLg",
@@ -2614,7 +2689,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=dxgX2EjMeLg"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-41f70d58612fd7269b",
@@ -2901,10 +2979,10 @@
     "id": "archive-eca912fcc88df79a64",
     "title": "🎵 TWS｜《人气歌谣》打歌",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-06-09",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=63fGKoWX64s",
     "details": "[K-WAVE CONCERT 4K] 투어스 '첫 만남은 계획대로 되지 않아' (TWS 'plot twist' FullCam)│@SBS Inkigayo 240609。 （人气歌谣）",
     "source_url": "https://www.youtube.com/watch?v=63fGKoWX64s",
@@ -2920,7 +2998,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=63fGKoWX64s"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-08c247dd1a4f853fe1",
@@ -4460,10 +4541,10 @@
     "id": "archive-8058c60c2acfc5f03c",
     "title": "🤝 TWS｜《SUMMER BEAT!》위버스샵 线下签售",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-06-29",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "대한민국 서울",
     "details": "TWS 成员参加，限中签者。韩国时间（KST）。\n官方来源 https://weverse.io/tws/notice/19789",
     "source_url": "https://weverse.io/tws/notice/19789",
@@ -4474,16 +4555,19 @@
     "archive_category": "线下签售",
     "official_sources": [
       "https://weverse.io/tws/notice/19789"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-6feb122c755a8f1a9b",
     "title": "🎵 TWS｜《人气歌谣》打歌",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-06-30",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=rKSKyBfkHOo\nhttps://www.youtube.com/watch?v=ssPnT679C2k\nhttps://www.youtube.com/watch?v=N0CzfxcQlpE",
     "details": "TWS (투어스) - If I'm S Can You Be My N (내가 S면 넌 나의 N이 되어줘) @인기가요 inkigayo 20240630。\n[안방1열 풀캠4K] 투어스 '내가 S면 넌 나의 N이 되어줘' (TWS 'If I'm S Can You Be My N' FullCam)│@SBS Inkigayo 240630。\n[안방1열 풀캠4K] 투어스 'Double Take' (TWS FullCam)│@SBS Inkigayo 240630。 （人气歌谣）\n官方来源 https://www.youtube.com/watch?v=ssPnT679C2k\n官方来源 https://www.youtube.com/watch?v=N0CzfxcQlpE",
     "source_url": "https://www.youtube.com/watch?v=rKSKyBfkHOo",
@@ -4503,7 +4587,10 @@
       "https://www.youtube.com/watch?v=rKSKyBfkHOo",
       "https://www.youtube.com/watch?v=ssPnT679C2k",
       "https://www.youtube.com/watch?v=N0CzfxcQlpE"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-0d30ada93858e17db8",
@@ -4624,10 +4711,10 @@
     "id": "archive-fc76a1bd0e4518c6a4",
     "title": "🛍️ TWS｜新世界免税店 TRAVEL WITH US 夏季宣传公开",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-07-02",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "",
     "details": "新世界免税店发布六位成员参与的第二次合作企划。\n官方来源 https://www.shinsegaegroupnewsroom.com/travel-with-us-project-seoul/",
     "source_url": "https://www.shinsegaegroupnewsroom.com/travel-with-us-project-seoul/",
@@ -4638,7 +4725,10 @@
     "archive_category": "品牌",
     "official_sources": [
       "https://www.shinsegaegroupnewsroom.com/travel-with-us-project-seoul/"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-6ec4e66bcde53165c8",
@@ -4839,26 +4929,29 @@
     "id": "archive-5bb0b2886e48d14e04",
     "title": "🎵 TWS｜《人气歌谣》打歌",
     "status": "confirmed",
-    "sequence": 0,
-    "all_day": true,
-    "start": "2024-07-07",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "sequence": 1,
+    "all_day": false,
+    "start": "2024-07-07T14:30:00+09:00",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=8bZU5Fm6sVg",
-    "details": "[안방1열 풀캠4K] 투어스 '내가 S면 넌 나의 N이 되어줘' (TWS 'If I'm S Can You Be My N' FullCam)│@SBS Inkigayo 240707。 （人气歌谣）",
-    "source_url": "https://www.youtube.com/watch?v=8bZU5Fm6sVg",
+    "details": "[안방1열 풀캠4K] 투어스 '내가 S면 넌 나의 N이 되어줘' (TWS 'If I'm S Can You Be My N' FullCam)│@SBS Inkigayo 240707。 （人气歌谣）\n节目开始时间：14:30 KST（UTC+9）。\n官方来源 https://weverse.io/tws/notice/20788",
+    "source_url": "https://weverse.io/tws/notice/20788",
     "source_type": "official",
     "historical": true,
-    "time_tbd": true,
-    "end": "2024-07-08",
+    "time_tbd": false,
     "watch_url": "https://www.youtube.com/watch?v=8bZU5Fm6sVg",
-    "platform": "SBSKPOP X INKIGAYO · YouTube",
+    "platform": "SBS",
     "archive_category": "打歌",
     "media_links": {
       "https://www.youtube.com/watch?v=8bZU5Fm6sVg": "舞台／节目片段"
     },
     "official_sources": [
-      "https://www.youtube.com/watch?v=8bZU5Fm6sVg"
-    ]
+      "https://www.youtube.com/watch?v=8bZU5Fm6sVg",
+      "https://weverse.io/tws/notice/20788"
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "verified",
+    "timezone": "Asia/Seoul"
   },
   {
     "id": "archive-a6c142e18be2de4a5a",
@@ -4959,26 +5052,29 @@
     "id": "archive-7a515fe05211340272",
     "title": "🎵 TWS｜《音乐银行》打歌",
     "status": "confirmed",
-    "sequence": 0,
-    "all_day": true,
-    "start": "2024-07-12",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "sequence": 1,
+    "all_day": false,
+    "start": "2024-07-12T17:10:00+09:00",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=h0XOMBCd6BM",
-    "details": "If I'm S, Can You Be My N? - TWS トゥアス 투어스 [Music Bank] | KBS WORLD TV 240712。 （音乐银行）",
-    "source_url": "https://www.youtube.com/watch?v=h0XOMBCd6BM",
+    "details": "If I'm S, Can You Be My N? - TWS トゥアス 투어스 [Music Bank] | KBS WORLD TV 240712。 （音乐银行）\n节目开始时间：17:10 KST（UTC+9）。\n官方来源 https://weverse.io/tws/notice/20933",
+    "source_url": "https://weverse.io/tws/notice/20933",
     "source_type": "official",
     "historical": true,
-    "time_tbd": true,
-    "end": "2024-07-13",
+    "time_tbd": false,
     "watch_url": "https://www.youtube.com/watch?v=h0XOMBCd6BM",
-    "platform": "KBS WORLD TV · YouTube",
+    "platform": "KBS2",
     "archive_category": "打歌",
     "media_links": {
       "https://www.youtube.com/watch?v=h0XOMBCd6BM": "舞台／节目片段"
     },
     "official_sources": [
-      "https://www.youtube.com/watch?v=h0XOMBCd6BM"
-    ]
+      "https://www.youtube.com/watch?v=h0XOMBCd6BM",
+      "https://weverse.io/tws/notice/20933"
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "verified",
+    "timezone": "Asia/Seoul"
   },
   {
     "id": "archive-4608d67030745ee498",
@@ -5009,35 +5105,38 @@
     "id": "archive-9a6fa20bc5eb6eadcf",
     "title": "🎵 TWS｜《人气歌谣》打歌",
     "status": "confirmed",
-    "sequence": 0,
-    "all_day": true,
-    "start": "2024-07-14",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "sequence": 1,
+    "all_day": false,
+    "start": "2024-07-14T14:00:00+09:00",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=04m85w7IW9M",
-    "details": "[안방1열 풀캠4K] 투어스 '내가 S면 넌 나의 N이 되어줘' (TWS 'If I'm S Can You Be My N' FullCam)│@SBS Inkigayo 240714。 （人气歌谣）",
-    "source_url": "https://www.youtube.com/watch?v=04m85w7IW9M",
+    "details": "[안방1열 풀캠4K] 투어스 '내가 S면 넌 나의 N이 되어줘' (TWS 'If I'm S Can You Be My N' FullCam)│@SBS Inkigayo 240714。 （人气歌谣）\n节目开始时间：14:00 KST（UTC+9）。\n官方来源 https://weverse.io/tws/notice/21001",
+    "source_url": "https://weverse.io/tws/notice/21001",
     "source_type": "official",
     "historical": true,
-    "time_tbd": true,
-    "end": "2024-07-15",
+    "time_tbd": false,
     "watch_url": "https://www.youtube.com/watch?v=04m85w7IW9M",
-    "platform": "SBSKPOP X INKIGAYO · YouTube",
+    "platform": "SBS",
     "archive_category": "打歌",
     "media_links": {
       "https://www.youtube.com/watch?v=04m85w7IW9M": "舞台／节目片段"
     },
     "official_sources": [
-      "https://www.youtube.com/watch?v=04m85w7IW9M"
-    ]
+      "https://www.youtube.com/watch?v=04m85w7IW9M",
+      "https://weverse.io/tws/notice/21001"
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "verified",
+    "timezone": "Asia/Seoul"
   },
   {
     "id": "archive-77ec70803d609b10f9",
     "title": "📺 TWS｜节目上线 · [TWS:CLUB] New Opening Title Sequence",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-07-16",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=WGDfOMAIU-c",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=WGDfOMAIU-c",
@@ -5053,16 +5152,19 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=WGDfOMAIU-c"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-5407b139cb4cc78b1d",
     "title": "🎵 TWS｜《M COUNTDOWN》打歌",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-07-18",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=37Os7VQq8Ro",
     "details": "'Special Stage' TWS (투어스) - Rock with you #엠카운트다운 EP.853 | Mnet 240718 방송。",
     "source_url": "https://www.youtube.com/watch?v=37Os7VQq8Ro",
@@ -5078,7 +5180,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=37Os7VQq8Ro"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-25fb4513eac517750a",
@@ -5180,10 +5285,10 @@
     "id": "archive-67b9fcf74438f5f0da",
     "title": "📺 TWS｜节目上线 · [TWS:CLUB] Overcoming Summer #1 | EP.8",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-08-06",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=wR2vx6K6QBU",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=wR2vx6K6QBU",
@@ -5199,7 +5304,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=wR2vx6K6QBU"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-10a3a70d66cbfa0b86",
@@ -5282,10 +5390,10 @@
     "id": "archive-131f75c7ea4e37e841",
     "title": "📺 炅潣｜节目上线 · [TWS:TUDIO] 'Loving You Girl - Peder Elias' l Covered by TWS KYUNGMIN",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-08-21",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=kfbJylW4wME",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=kfbJylW4wME",
@@ -5301,7 +5409,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=kfbJylW4wME"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-aca743f7cd28f90f24",
@@ -5422,10 +5533,10 @@
     "id": "archive-11cff6befa9e611963",
     "title": "📺 TWS｜节目上线 · [TWS:CLUB] Internet Café Escape Room #2 | EP.13",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-09-10",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=nLR77T1OfrA",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=nLR77T1OfrA",
@@ -5441,7 +5552,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=nLR77T1OfrA"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-791ea6216c797e0ddb",
@@ -5574,10 +5688,10 @@
     "id": "archive-e8ce008bb557439349",
     "title": "📺 申惟｜节目上线 · Get Ready TWS:TUDIO l 'Aqua Man - Beenzino' l Covered by TWS SHINYU",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-10-04",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=lrMPSg_DGYQ",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=lrMPSg_DGYQ",
@@ -5593,7 +5707,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=lrMPSg_DGYQ"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-7b0b38056aa18d2412",
@@ -5625,10 +5742,10 @@
     "id": "archive-56101033427e47e59b",
     "title": "📺 申惟｜节目上线 · [TWS:TUDIO] 'Aqua Man - Beenzino' l Covered by TWS SHINYU",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-10-05",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=fT3opSWeRpM",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=fT3opSWeRpM",
@@ -5644,7 +5761,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=fT3opSWeRpM"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-56e3e3e64e8e8db934",
@@ -5676,10 +5796,10 @@
     "id": "archive-4d23fdbe927ad025c3",
     "title": "📺 TWS｜节目上线 · [TWS:CLUB] TWS Theater #2 | EP.17",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-10-15",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=I6c4V9nIxrI",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=I6c4V9nIxrI",
@@ -5695,16 +5815,19 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=I6c4V9nIxrI"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-fa9ebcd19a3fd5a67f",
     "title": "📺 TWS｜节目上线 · [TWS:CLUB] O’Rocking to the Company Dinner #1 I EP.18",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-10-22",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=vroBDd3fBqY",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=vroBDd3fBqY",
@@ -5720,7 +5843,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=vroBDd3fBqY"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-08e9c9acb2ad1d4cad",
@@ -5751,10 +5877,10 @@
     "id": "archive-744a28ef0db365d8e0",
     "title": "📺 英宰｜节目上线 · Get Ready TWS:TUDIO l '左右盲 (좌우맹) - YORUSHIKA' l Covered by TWS YOUNGJAE",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-10-23",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=6LsF4NvQBnw",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=6LsF4NvQBnw",
@@ -5770,7 +5896,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=6LsF4NvQBnw"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-593ef8edf674b13ad6",
@@ -5801,10 +5930,10 @@
     "id": "archive-6ddf789aea444587db",
     "title": "📺 英宰｜节目上线 · [TWS:TUDIO] '左右盲 (좌우맹) - YORUSHIKA' l Covered by TWS YOUNGJAE",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-10-24",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=0e1vbMytbnw",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=0e1vbMytbnw",
@@ -5820,7 +5949,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=0e1vbMytbnw"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-99721724ea2b66ce0e",
@@ -6545,10 +6677,10 @@
     "id": "archive-7d3c0b08b6bde2547c",
     "title": "🎵 TWS｜《音乐银行》打歌",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-11-29",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=L8f_Dj8JW3I\nhttps://www.youtube.com/watch?v=gP32aJPYOA4",
     "details": "마지막 축제 - TWS (투어스) [뮤직뱅크/Music Bank] | KBS 241129 방송。\nLast Festival - TWS トゥアス 투어스 [Music Bank] | KBS WORLD TV 241129。 （音乐银行）\n官方来源 https://www.youtube.com/watch?v=gP32aJPYOA4",
     "source_url": "https://www.youtube.com/watch?v=L8f_Dj8JW3I",
@@ -6566,7 +6698,10 @@
     "official_sources": [
       "https://www.youtube.com/watch?v=L8f_Dj8JW3I",
       "https://www.youtube.com/watch?v=gP32aJPYOA4"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-596acec68861fadf0e",
@@ -6706,10 +6841,10 @@
     "id": "archive-b44f6f7ca0dfc6a1f9",
     "title": "🎵 TWS｜《人气歌谣》打歌",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-12-01",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=vLr9CjugJac\nhttps://www.youtube.com/watch?v=10StrjVC3BY",
     "details": "TWS  (투어스) - Last Festival @인기가요 inkigayo 20241201。\n[안방1열 풀캠4K] 투어스 '마지막 축제' (TWS 'Last Festival' FullCam)│@SBS Inkigayo 241201。 （人气歌谣）\n官方来源 https://www.youtube.com/watch?v=10StrjVC3BY",
     "source_url": "https://www.youtube.com/watch?v=vLr9CjugJac",
@@ -6727,7 +6862,10 @@
     "official_sources": [
       "https://www.youtube.com/watch?v=vLr9CjugJac",
       "https://www.youtube.com/watch?v=10StrjVC3BY"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-5a7a493850c4f7da9c",
@@ -6967,10 +7105,10 @@
     "id": "archive-cffd1722467badfed9",
     "title": "🎵 TWS｜《音乐银行》打歌",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2024-12-19",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=xENT0JmAgwA\nhttps://www.youtube.com/watch?v=kItH8MqnZz8\nhttps://www.youtube.com/watch?v=_kW2uX84bak\nhttps://www.youtube.com/watch?v=TjUCu6i-sHw\nhttps://www.youtube.com/watch?v=yL5R47waNEc\nhttps://www.youtube.com/watch?v=H8iY1yqSZsg\nhttps://www.youtube.com/watch?v=3lNPRs-PgYQ\nhttps://www.youtube.com/watch?v=y5z3Hrh_umk\nhttps://www.youtube.com/watch?v=LumaqwwTfUU",
     "details": "[FULL] 투어스(TWS) 2024 뮤직뱅크 글로벌 페스티벌 in Japan 완전판 | KBS 241219。\n[Full Set] TWS 투어스 @2024 Music Bank Global Festival in Japan | KBS WORLD TV 241219。\nhey! hey! - TWS (투어스) [뮤직뱅크 글로벌페스티벌 IN JAPAN] | KBS 241219 방송。\n마지막 축제 - TWS (투어스) [뮤직뱅크 글로벌페스티벌 IN JAPAN] | KBS 241219 방송。\nPerfume(NCTDOJAEJUNG)-HANBIN(ZB1)XHANJUN(n.SSign)XSHINYU(TWS)[2024 MUSIC BANK GFJ]KBSWORLDTV 241219。\n마지막 축제 (원곡: 서태지와 아이들) - TWS (투어스) [뮤직뱅크 글로벌페스티벌 IN JAPAN] | KBS 241219 방송。\nLast Festival  - TWS  투어스 [2024 MUSIC BANK GFJ]  KBS WORLD TV 241219。\nhey! hey! - TWS 투어스 [2024 MUSIC BANK GFJ]  KBS WORLD TV 241219。\nLast Festival (Taiji Boys)  - TWS 투어스 [2024 MUSIC BANK GFJ]  KBS WORLD TV 241219。 （音乐银行）\n官方来源 https://www.youtube.com/watch?v=kItH8MqnZz8\n官方来源 https://www.youtube.com/watch?v=_kW2uX84bak\n官方来源 https://www.youtube.com/watch?v=TjUCu6i-sHw\n官方来源 https://www.youtube.com/watch?v=yL5R47waNEc\n官方来源 https://www.youtube.com/watch?v=H8iY1yqSZsg\n官方来源 https://www.youtube.com/watch?v=3lNPRs-PgYQ\n官方来源 https://www.youtube.com/watch?v=y5z3Hrh_umk\n官方来源 https://www.youtube.com/watch?v=LumaqwwTfUU",
     "source_url": "https://www.youtube.com/watch?v=xENT0JmAgwA",
@@ -7002,7 +7140,10 @@
       "https://www.youtube.com/watch?v=3lNPRs-PgYQ",
       "https://www.youtube.com/watch?v=y5z3Hrh_umk",
       "https://www.youtube.com/watch?v=LumaqwwTfUU"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-240aac342c173dc7bc",
@@ -7199,10 +7340,10 @@
     "id": "archive-179f420931f11b9fa6",
     "title": "📺 TWS｜节目上线 · [TWS:CLUB] Opening Title Sequence",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2025-01-24",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=IJ2lRJCGP0Y",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=IJ2lRJCGP0Y",
@@ -7218,7 +7359,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=IJ2lRJCGP0Y"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-b83089f5b5de3ee753",
@@ -7344,10 +7488,10 @@
     "id": "archive-c5bbc8a8c92cedd764",
     "title": "🎵 TWS｜《M COUNTDOWN》打歌",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2025-01-30",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=M7nJogUq_dg",
     "details": "[새해 목표 특집] TWS(투어스) - 내가 S면 넌 나의 N이 되어줘 #엠카운트다운 EP.873 | Mnet 250130 방송。",
     "source_url": "https://www.youtube.com/watch?v=M7nJogUq_dg",
@@ -7363,7 +7507,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=M7nJogUq_dg"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-2e680f69f67d9dfd53",
@@ -7602,10 +7749,10 @@
     "id": "archive-9f85e37a1f6feed40b",
     "title": "📺 道勋｜节目上线 · Get Ready TWS:TUDIO l 'Yes or No - 정국 (Jung Kook)' l Covered by TWS DOHOON",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2025-03-06",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=LLSdhxN37GI",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=LLSdhxN37GI",
@@ -7621,16 +7768,19 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=LLSdhxN37GI"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-533f6a9c9d2c2eb7c0",
     "title": "📺 道勋｜节目上线 · [TWS:TUDIO] 'Yes or No - 정국 (Jung Kook)' l Covered by TWS DOHOON",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2025-03-07",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=6iQWTvqe3ZA",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=6iQWTvqe3ZA",
@@ -7646,7 +7796,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=6iQWTvqe3ZA"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-cee042b04ffa0fd94b",
@@ -7725,10 +7878,10 @@
     "id": "archive-13306af181153004b2",
     "title": "🎬 TWS｜GLOBAL OFFICIAL FANCLUB 42 MEMBERSHIP RENEWAL CONCEPT TEASER",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2025-03-22",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=XnnQ0njS2Uo",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。预告／试听。",
     "source_url": "https://www.youtube.com/watch?v=XnnQ0njS2Uo",
@@ -7744,7 +7897,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=XnnQ0njS2Uo"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-be587df91231622253",
@@ -8412,10 +8568,10 @@
     "id": "archive-fb58979ae2706ce2cf",
     "title": "🎵 TWS｜《M COUNTDOWN》打歌",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2025-04-24",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=6Lbb9FF4XhU\nhttps://www.youtube.com/watch?v=pRlOZHe5aeM",
     "details": "'최초 공개' TWS (투어스) - 마음 따라 뛰는 건 멋지지 않아? #엠카운트다운 EP.885 | Mnet 250424 방송。\n'최초 공개' TWS (투어스) - Lucky to be loved #엠카운트다운 EP.885 | Mnet 250424 방송。\n官方来源 https://www.youtube.com/watch?v=pRlOZHe5aeM",
     "source_url": "https://www.youtube.com/watch?v=6Lbb9FF4XhU",
@@ -8433,7 +8589,10 @@
     "official_sources": [
       "https://www.youtube.com/watch?v=6Lbb9FF4XhU",
       "https://www.youtube.com/watch?v=pRlOZHe5aeM"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-d6d4cc23686d633c0c",
@@ -8528,10 +8687,10 @@
     "id": "archive-bc37140646183a01d6",
     "title": "🎵 TWS｜《音乐银行》采访",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2025-04-25",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=GoA9eoE2xIo\nhttps://www.youtube.com/watch?v=kfPFTS85d3c\nhttps://www.youtube.com/watch?v=kr4rD_0h8Uk",
     "details": "(Interview) Interview with TWS [Music Bank] | KBS WORLD TV 250425。\n(ENG)[MusicBank Interview Cam] 투어스 (TWS  Interview) l @MusicBank KBS 250425。\nLucky to be loved - TWS トゥアス 투어스 [Music Bank] | KBS WORLD TV 250425。 （音乐银行）\n官方来源 https://www.youtube.com/watch?v=kfPFTS85d3c\n官方来源 https://www.youtube.com/watch?v=kr4rD_0h8Uk",
     "source_url": "https://www.youtube.com/watch?v=GoA9eoE2xIo",
@@ -8551,7 +8710,10 @@
       "https://www.youtube.com/watch?v=GoA9eoE2xIo",
       "https://www.youtube.com/watch?v=kfPFTS85d3c",
       "https://www.youtube.com/watch?v=kr4rD_0h8Uk"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-f741c5006f17f27a22",
@@ -8854,10 +9016,10 @@
     "id": "archive-1bf589712931878270",
     "title": "🎵 TWS｜《音乐银行》采访",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2025-05-02",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=kbQVJcVugVM\nhttps://www.youtube.com/watch?v=cryuKINYY7s",
     "details": "(ENG)[MusicBank chart-topping  Interview ] 투어스 (TWS Interview)l@MusicBank KBS250502。\n(Interview) Winner's Ceremony - TWS🏆 [Music Bank] | KBS WORLD TV 250502。 （音乐银行）\n官方来源 https://www.youtube.com/watch?v=cryuKINYY7s",
     "source_url": "https://www.youtube.com/watch?v=kbQVJcVugVM",
@@ -8875,7 +9037,10 @@
     "official_sources": [
       "https://www.youtube.com/watch?v=kbQVJcVugVM",
       "https://www.youtube.com/watch?v=cryuKINYY7s"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-9385fede69c3c25da7",
@@ -8925,10 +9090,10 @@
     "id": "archive-c788f096a9a549ce78",
     "title": "🎵 TWS｜《人气歌谣》打歌",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2025-05-04",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=D2-snH3f8Uk",
     "details": "[안방1열 풀캠4K] 투어스 '마음 따라 뛰는 건 멋지지 않아?' (TWS 'Countdown!' FullCam) @SBS Inkigayo 250504。 （人气歌谣）",
     "source_url": "https://www.youtube.com/watch?v=D2-snH3f8Uk",
@@ -8944,7 +9109,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=D2-snH3f8Uk"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-a915070fcd4e3bf2df",
@@ -9071,10 +9239,10 @@
     "id": "archive-66cfe9d8b9c5018155",
     "title": "🎵 TWS｜《音乐银行》打歌",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2025-05-09",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=7XW9FSlbaoE",
     "details": "Countdown! - TWS トゥアス 투어스 [Music Bank] | KBS WORLD TV 250509。 （音乐银行）",
     "source_url": "https://www.youtube.com/watch?v=7XW9FSlbaoE",
@@ -9090,7 +9258,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=7XW9FSlbaoE"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-07aeb60442d2808599",
@@ -9319,10 +9490,10 @@
     "id": "archive-79696e1a64b85e5d0e",
     "title": "📺 TWS｜节目上线 · [TWS:CLUB] Variety Show Game Challenge Project #1 I EP.30",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2025-06-10",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=9r1MxUocWIg",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=9r1MxUocWIg",
@@ -9338,16 +9509,19 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=9r1MxUocWIg"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-6803fb6b188b622837",
     "title": "📺 志薰｜节目上线 · Get Ready TWS:TUDIO l 'Face To Face - Ruel' l Covered by TWS JIHOON",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2025-06-14",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=t3S0F5LdWRs",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=t3S0F5LdWRs",
@@ -9363,16 +9537,19 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=t3S0F5LdWRs"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-9401241557deabbb76",
     "title": "📺 志薰｜节目上线 · [TWS:TUDIO] 'Face To Face - Ruel' l Covered by TWS JIHOON",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2025-06-15",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=YPmpeQg0SFo",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=YPmpeQg0SFo",
@@ -9388,16 +9565,19 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=YPmpeQg0SFo"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-0780292bb0240a7b94",
     "title": "📺 TWS｜节目上线 · [TWS:CLUB] Variety Show Game Challenge Project #2 I EP.31",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2025-06-17",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=D57Bjx4v3EA",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=D57Bjx4v3EA",
@@ -9413,16 +9593,19 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=D57Bjx4v3EA"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-5ff3a0640e448b7f20",
     "title": "📺 TWS｜节目上线 · [TWS:CLUB] Welcome To The Land of Fantasy #1 | EP.32",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2025-06-24",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=6pN5Fl3YB0Q",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=6pN5Fl3YB0Q",
@@ -9438,7 +9621,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=6pN5Fl3YB0Q"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-0486d98e0489fd3a2f",
@@ -9748,10 +9934,10 @@
     "id": "archive-d493f7087fbe745689",
     "title": "📺 TWS｜节目上线 · A Thousand Years🤍",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2025-07-19",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=zB5BykHn5wY",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=zB5BykHn5wY",
@@ -9767,7 +9953,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=zB5BykHn5wY"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-fd585004d2e995d41d",
@@ -9841,10 +10030,10 @@
     "id": "archive-01b3051311dcec81b3",
     "title": "📺 炅潣｜节目上线 · 好きだから。🩵 #TWS #KYUNGMIN #TWSTUDIO",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2025-07-26",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=Bx5xZsH4VtM",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=Bx5xZsH4VtM",
@@ -9860,7 +10049,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=Bx5xZsH4VtM"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-64e57ab4ce9d1988a2",
@@ -9892,10 +10084,10 @@
     "id": "archive-fc266c1d06ff5ea145",
     "title": "🤝 TWS｜《はじめまして》全员 Premium 签售 · 大阪",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2025-07-31",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "",
     "details": "日本时间。限获参加资格者。\n官方来源 https://tws-official.jp/news/2324d2e19fda",
     "source_url": "https://tws-official.jp/news/2324d2e19fda",
@@ -9906,16 +10098,19 @@
     "archive_category": "日本歌迷活动",
     "official_sources": [
       "https://tws-official.jp/news/2324d2e19fda"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-c1dc7523aeced2ef7e",
     "title": "🤝 TWS｜《はじめまして》序列号特典 · 大阪",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2025-07-31",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "",
     "details": "日本时间。可选全员谈话、欢送、个人签售或个人谈话。\n官方来源 https://tws-official.jp/news/cd741094197e",
     "source_url": "https://tws-official.jp/news/cd741094197e",
@@ -9926,7 +10121,10 @@
     "archive_category": "日本歌迷活动",
     "official_sources": [
       "https://tws-official.jp/news/cd741094197e"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-df9369ba085b0578b2",
@@ -9970,10 +10168,10 @@
     "id": "archive-7d313aed514445d081",
     "title": "📺 TWS｜节目上线 · [TWS:CLUB] Ghost Hunters #1 | EP.38",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2025-08-05",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=0gshbirRh-w",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=0gshbirRh-w",
@@ -9989,7 +10187,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=0gshbirRh-w"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-5919de20d5cac504ed",
@@ -10061,10 +10262,10 @@
     "id": "archive-f5d6feb11da76c48cf",
     "title": "🤝 TWS｜日本巡演神奈川场演后全员欢送会",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2025-08-09",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "K-Arena 横滨",
     "details": "日本时间。限获参加资格者。\n官方来源 https://tws-official.jp/news/cd741094197e",
     "source_url": "https://tws-official.jp/news/cd741094197e",
@@ -10075,7 +10276,10 @@
     "archive_category": "日本歌迷活动",
     "official_sources": [
       "https://tws-official.jp/news/cd741094197e"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-1b74d2e3d780f438ef",
@@ -10100,10 +10304,10 @@
     "id": "archive-52bb85d44ac26da4d3",
     "title": "🤝 TWS｜日本巡演神奈川场演后全员欢送会",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2025-08-10",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "K-Arena 横滨",
     "details": "日本时间。限获参加资格者。\n官方来源 https://tws-official.jp/news/cd741094197e",
     "source_url": "https://tws-official.jp/news/cd741094197e",
@@ -10114,16 +10318,19 @@
     "archive_category": "日本歌迷活动",
     "official_sources": [
       "https://tws-official.jp/news/cd741094197e"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-69ac104277a72f9925",
     "title": "🤝 TWS｜《はじめまして》全员 Premium 签售 · 东京",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2025-08-11",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "",
     "details": "日本时间。限获参加资格者。\n官方来源 https://tws-official.jp/news/2324d2e19fda",
     "source_url": "https://tws-official.jp/news/2324d2e19fda",
@@ -10134,16 +10341,19 @@
     "archive_category": "日本歌迷活动",
     "official_sources": [
       "https://tws-official.jp/news/2324d2e19fda"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-3ece41a1ae6233b338",
     "title": "🤝 TWS｜《はじめまして》序列号特典 · 东京",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2025-08-11",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "",
     "details": "日本时间。可选全员谈话、欢送、个人签售或个人谈话。\n官方来源 https://tws-official.jp/news/cd741094197e",
     "source_url": "https://tws-official.jp/news/cd741094197e",
@@ -10154,16 +10364,19 @@
     "archive_category": "日本歌迷活动",
     "official_sources": [
       "https://tws-official.jp/news/cd741094197e"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-4b66e113adf2a06022",
     "title": "📺 TWS｜节目上线 · [TWS:CLUB] Ghost Hunters #2 | EP.39",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2025-08-12",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=sPyrCIXXvN8",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=sPyrCIXXvN8",
@@ -10179,7 +10392,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=sPyrCIXXvN8"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-87b729bbedcd2265e5",
@@ -10223,10 +10439,10 @@
     "id": "archive-59adb083283905c9b0",
     "title": "📺 TWS｜节目上线 · [TWS:CLUB] Last Days of Summer Break #1 | EP.40",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2025-08-19",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=7mxtPQPmz3U",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=7mxtPQPmz3U",
@@ -10242,7 +10458,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=7mxtPQPmz3U"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-39822368d28657dda7",
@@ -10333,10 +10552,10 @@
     "id": "archive-9cac14edceedf8ac5c",
     "title": "📺 TWS｜节目上线 · [TWS:CLUB] Wise Health Checkup #1 | EP.42",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2025-09-02",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=hrw60xhTmAc",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=hrw60xhTmAc",
@@ -10352,7 +10571,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=hrw60xhTmAc"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-08616688c2679fc6e9",
@@ -10424,10 +10646,10 @@
     "id": "archive-fcb960b60e0367d88a",
     "title": "📺 TWS｜节目上线 · [TWS:CLUB] Wise Health Checkup #2 | EP.43",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2025-09-09",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=2t5nLkTj0HM",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=2t5nLkTj0HM",
@@ -10443,7 +10665,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=2t5nLkTj0HM"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-2011b02efff29133d2",
@@ -10826,10 +11051,10 @@
     "id": "archive-e77c094a259331b81b",
     "title": "📺 TWS｜节目上线 · 24/7, 365🌳",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2025-10-02",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=zvN5L_m9oxA",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=zvN5L_m9oxA",
@@ -10845,7 +11070,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=zvN5L_m9oxA"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-f09bf27e822fdda42e",
@@ -11352,10 +11580,10 @@
     "id": "archive-f69bd98f805da3b45f",
     "title": "🎵 TWS｜《M COUNTDOWN》打歌",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2025-10-16",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=oQJ-7vyrfTs",
     "details": "'최초 공개' TWS (투어스) - OVERDRIVE #엠카운트다운 EP.909 | Mnet 251016 방송。",
     "source_url": "https://www.youtube.com/watch?v=oQJ-7vyrfTs",
@@ -11371,7 +11599,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=oQJ-7vyrfTs"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-c9404d2c60ad14149b",
@@ -11452,10 +11683,10 @@
     "id": "archive-d388573c204f1cd041",
     "title": "🎵 TWS｜《音乐银行》打歌",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2025-10-17",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=k9bU70G76HY\nhttps://www.youtube.com/watch?v=hFNhZNx26t0",
     "details": "OVERDRIVE - TWS (투어스) [뮤직뱅크/Music Bank] | KBS 251017 방송。\n[COMEBACK🎉] TWS トゥアス 투어스 - OVERDRIVE [Music Bank] | KBS WORLD TV 251017。 （音乐银行）\n官方来源 https://www.youtube.com/watch?v=hFNhZNx26t0",
     "source_url": "https://www.youtube.com/watch?v=k9bU70G76HY",
@@ -11473,7 +11704,10 @@
     "official_sources": [
       "https://www.youtube.com/watch?v=k9bU70G76HY",
       "https://www.youtube.com/watch?v=hFNhZNx26t0"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-d01bcbceeef041c644",
@@ -11504,10 +11738,10 @@
     "id": "archive-8183c7fddbd264e277",
     "title": "🤝 TWS｜《play hard》Weverse 视频签售",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2025-10-18",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "",
     "details": "TWS 成员参加，限中签者。韩国时间（KST）。\n官方来源 https://weverse.io/tws/notice/30309",
     "source_url": "https://weverse.io/tws/notice/30309",
@@ -11518,7 +11752,10 @@
     "archive_category": "视频签售",
     "official_sources": [
       "https://weverse.io/tws/notice/30309"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-b5ff9958192abbb968",
@@ -11599,10 +11836,10 @@
     "id": "archive-bc4383f6f03c33305d",
     "title": "🎵 TWS｜《人气歌谣》打歌",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2025-10-19",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=OF1VCHJFuZg\nhttps://www.youtube.com/watch?v=tcwVbBknpnk",
     "details": "[안방1열 풀캠4K] 투어스 'OVERDRIVE' (TWS FullCam) @SBS Inkigayo 251019。\n[안방1열 풀캠4K] 투어스 'Head Shoulders Knees Toes' (TWS FullCam) @SBS Inkigayo 251019。 （人气歌谣）\n官方来源 https://www.youtube.com/watch?v=tcwVbBknpnk",
     "source_url": "https://www.youtube.com/watch?v=OF1VCHJFuZg",
@@ -11620,7 +11857,10 @@
     "official_sources": [
       "https://www.youtube.com/watch?v=OF1VCHJFuZg",
       "https://www.youtube.com/watch?v=tcwVbBknpnk"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-86185b59826348e399",
@@ -11846,10 +12086,10 @@
     "id": "archive-2701c7e4f4abd1db3d",
     "title": "🎵 TWS｜《M COUNTDOWN》打歌",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2025-10-23",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=xYg9Wo27sK4",
     "details": "TWS (투어스) - OVERDRIVE #엠카운트다운 EP.910 | Mnet 251023 방송。",
     "source_url": "https://www.youtube.com/watch?v=xYg9Wo27sK4",
@@ -11865,7 +12105,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=xYg9Wo27sK4"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-98075c0f5e83f69302",
@@ -12036,10 +12279,10 @@
     "id": "archive-2443588c3b4039b771",
     "title": "🤝 TWS｜《play hard》뮤직플랜트 线下签售",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2025-11-01",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "대한민국 서울",
     "details": "TWS 成员参加，限中签者。韩国时间（KST）。\n官方来源 https://weverse.io/tws/notice/30863",
     "source_url": "https://weverse.io/tws/notice/30863",
@@ -12050,7 +12293,10 @@
     "archive_category": "线下签售",
     "official_sources": [
       "https://weverse.io/tws/notice/30863"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-855238f1efcfe68368",
@@ -12435,10 +12681,10 @@
     "id": "archive-359f2d6fcbd762dfc4",
     "title": "📺 TWS｜节目上线 · [TWS:TUDIO] 'Snow Prince - SS501' Live Clip l Covered by TWS",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2025-12-23",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=j8EAE3_uoYM",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=j8EAE3_uoYM",
@@ -12454,7 +12700,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=j8EAE3_uoYM"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-137381930e8990705a",
@@ -12510,10 +12759,10 @@
     "id": "archive-9ee95fc9db14a4b0f1",
     "title": "🎵 TWS｜《音乐银行》打歌",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2025-12-30",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=zrPq_nr10Ks\nhttps://www.youtube.com/watch?v=iE92CqiJd6I\nhttps://www.youtube.com/watch?v=81_Z5arSjsY",
     "details": "INTRO + HIT + 락 (樂) (원곡: 세븐틴/스트레이 키즈) - TWS X NEXZ [2025 뮤직뱅크 글로벌페스티벌 IN JAPAN] | KBS 251230 방송。\n마음 따라 뛰는 건 멋지지 않아? - TWS (투어스) [2025 뮤직뱅크 글로벌페스티벌 IN JAPAN] | KBS 251230 방송。\nOVERDRIVE - TWS (투어스) [2025 뮤직뱅크 글로벌페스티벌 IN JAPAN] | KBS 251230 방송。 （音乐银行）\n官方来源 https://www.youtube.com/watch?v=iE92CqiJd6I\n官方来源 https://www.youtube.com/watch?v=81_Z5arSjsY",
     "source_url": "https://www.youtube.com/watch?v=zrPq_nr10Ks",
@@ -12533,7 +12782,10 @@
       "https://www.youtube.com/watch?v=zrPq_nr10Ks",
       "https://www.youtube.com/watch?v=iE92CqiJd6I",
       "https://www.youtube.com/watch?v=81_Z5arSjsY"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-7f722176c9b3b94d38",
@@ -12664,10 +12916,10 @@
     "id": "archive-18ecb4039846ffb912",
     "title": "📺 TWS｜节目上线 · [TWS:CLUB] I will become the Director's 🐶 (Meow) | 42 Company | EP.44",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2026-01-06",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=Qb6_F7-9B_U",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=Qb6_F7-9B_U",
@@ -12683,7 +12935,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=Qb6_F7-9B_U"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-f54270b6e3326abbe1",
@@ -12788,10 +13043,10 @@
     "id": "archive-c2cef9b4f92464fc11",
     "title": "📺 TWS｜节目上线 · [TWS:CLUB] We promised not to get angry (as they scream) | TWS in Bangkok | EP.46",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2026-01-27",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=PurXqrbwZgQ",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=PurXqrbwZgQ",
@@ -12807,7 +13062,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=PurXqrbwZgQ"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-04d412e266b52bd8b9",
@@ -13043,10 +13301,10 @@
     "id": "archive-c01f21813fd020820e",
     "title": "📺 TWS｜节目上线 · [TWS:CLUB] 2026 will be someone's big break🫢 | Know thyself | EP.48",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2026-02-17",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=MWnhvmY3tMc",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=MWnhvmY3tMc",
@@ -13062,7 +13320,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=MWnhvmY3tMc"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-e4cd53d81140c61e62",
@@ -13093,10 +13354,10 @@
     "id": "archive-afa30e4f5de79ce007",
     "title": "📺 韩振｜节目上线 · Get Ready TWS:TUDIO l 'Polaroid Love - ENHYPEN' l Covered by TWS HANJIN",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2026-02-19",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=HBgmZ3BwNzo",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=HBgmZ3BwNzo",
@@ -13112,16 +13373,19 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=HBgmZ3BwNzo"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-63972004b1d8353e6b",
     "title": "📺 韩振｜节目上线 · [TWS:TUDIO] 'Polaroid Love - ENHYPEN' l Covered by TWS HANJIN",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2026-02-20",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=aD7Qj8N_0DE",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=aD7Qj8N_0DE",
@@ -13137,7 +13401,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=aD7Qj8N_0DE"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-56155846ab96fc7578",
@@ -13188,10 +13455,10 @@
     "id": "archive-dfa61f54fdd8e8b3ab",
     "title": "📺 TWS｜节目上线 · [TWS:CLUB] A sled race with pride on the line❄️ | I love skiing | EP.50",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2026-03-03",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=Ap7pjZMzV7k",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=Ap7pjZMzV7k",
@@ -13207,7 +13474,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=Ap7pjZMzV7k"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-9d64be387db1e53040",
@@ -13291,10 +13561,10 @@
     "id": "archive-1b665adc1b50779d36",
     "title": "🎬 TWS｜GLOBAL OFFICIAL FANCLUB 42 MEMBERSHIP RENEWAL CONCEPT TEASER",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2026-03-24",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=voRJLPhEiGE",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。预告／试听。",
     "source_url": "https://www.youtube.com/watch?v=voRJLPhEiGE",
@@ -13310,7 +13580,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=voRJLPhEiGE"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-aaeebe0f784db21a24",
@@ -14185,10 +14458,10 @@
     "id": "archive-f60d7eb6090689d490",
     "title": "🎬 志薰｜DREAMS COME TRUE 🎬 지훈의 꿈이 현실이 되기까지 | Red Bull Performance Film",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2026-04-26",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=tD3G8z9V07Q",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=tD3G8z9V07Q",
@@ -14204,7 +14477,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=tD3G8z9V07Q"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-3545268ca29ff84350",
@@ -14574,10 +14850,10 @@
     "id": "archive-a8beb680dd3549a99f",
     "title": "📺 TWS｜节目上线 · 기쁨, 슬픔, 아름다운 마음☀️",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2026-05-07",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=wwT86s3nqpQ",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=wwT86s3nqpQ",
@@ -14593,16 +14869,19 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=wwT86s3nqpQ"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-a50fac46478d2e0f6b",
     "title": "🎵 TWS｜《Show! 音乐中心》打歌",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2026-05-09",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=B5DvgHuHBLk",
     "details": "[#음중풀캠] TWS (투어스) – 널 따라가 (You, You) FullCam | 쇼! 음악중심 | MBC260509。 （Show! 音乐中心）",
     "source_url": "https://www.youtube.com/watch?v=B5DvgHuHBLk",
@@ -14618,7 +14897,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=B5DvgHuHBLk"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-0d4fb6dd24d96e5acf",
@@ -14907,10 +15189,10 @@
     "id": "archive-0925cd753dd26a3aa0",
     "title": "📺 炅潣｜节目上线 · DAISIES🌼 #TWS #KYUNGMIN #TWSTUDIO",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2026-05-30",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=ub5JgHz3gBw",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=ub5JgHz3gBw",
@@ -14926,16 +15208,19 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=ub5JgHz3gBw"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-b42da6c4060d518048",
     "title": "📺 TWS｜节目上线 · [TWS:CLUB] All the Avatars👥 | Hot TWS | EP.54",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2026-06-02",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=8ecqIwDpkig",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=8ecqIwDpkig",
@@ -14951,7 +15236,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=8ecqIwDpkig"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-7b4787e844529c0c68",
@@ -15462,10 +15750,10 @@
     "id": "archive-723e5c8e71d2b2bcdc",
     "title": "🎵 TWS｜《M COUNTDOWN》打歌",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2026-08-13",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=LdNi0CbGh9k",
     "details": "[MCD Summer Camp⛺️] TWS (투어스) - 내가 S면 넌 나의 N이 되어줘 #엠카운트다운 EP.941 | Mnet 260813 방송。",
     "source_url": "https://www.youtube.com/watch?v=LdNi0CbGh9k",
@@ -15481,16 +15769,19 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=LdNi0CbGh9k"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-72dae6e285ec014768",
     "title": "🤝 TWS｜《SODA SODA》全员 Heart Touch 欢送会 · 东京",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2026-08-17",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "",
     "details": "日本时间。限获参加资格者。\n官方来源 https://tws-official.jp/news/4c3415ce5b68",
     "source_url": "https://tws-official.jp/news/4c3415ce5b68",
@@ -15501,16 +15792,19 @@
     "archive_category": "日本歌迷活动",
     "official_sources": [
       "https://tws-official.jp/news/4c3415ce5b68"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-8d67ca8e6be90142cb",
     "title": "📺 TWS｜节目上线 · [TWS:CLUB] Yeoju and Junyoung's love story... 💗Filming sketch🎬| Short-form Series | EP.65",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2026-08-18",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=9SRYLAT9KvA",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=9SRYLAT9KvA",
@@ -15526,7 +15820,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=9SRYLAT9KvA"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-7adb4803a13c8467e5",
@@ -15870,10 +16167,10 @@
     "id": "archive-2a4bd986d983e6e13f",
     "title": "🤝 TWS｜《SODA SODA》个人双人合影 · 大阪",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2026-09-08",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "",
     "details": "日本时间。限获参加资格者。\n官方来源 https://tws-official.jp/news/29515977483e",
     "source_url": "https://tws-official.jp/news/29515977483e",
@@ -15884,7 +16181,10 @@
     "archive_category": "日本歌迷活动",
     "official_sources": [
       "https://tws-official.jp/news/29515977483e"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-8907046e25a8d38332",
@@ -15916,10 +16216,10 @@
     "id": "archive-84d3a2027afef5a561",
     "title": "🤝 TWS｜《SODA SODA》个人双人合影 · 东京",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2026-09-09",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "",
     "details": "日本时间。限获参加资格者。\n官方来源 https://tws-official.jp/news/29515977483e",
     "source_url": "https://tws-official.jp/news/29515977483e",
@@ -15930,7 +16230,10 @@
     "archive_category": "日本歌迷活动",
     "official_sources": [
       "https://tws-official.jp/news/29515977483e"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-e72c401ce305538002",
@@ -15982,10 +16285,10 @@
     "id": "archive-ec1ef031f88cec766d",
     "title": "📺 英宰｜节目上线 · Happy End🕰️ #TWS #YOUNGJAE #TWSTUDIO",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2026-09-11",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=NB8dilVh7KY",
     "details": "YouTube 所示发布日期，具体上线时刻及时区未公布。正片。",
     "source_url": "https://www.youtube.com/watch?v=NB8dilVh7KY",
@@ -16001,7 +16304,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=NB8dilVh7KY"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-a750982fa88306d8a9",
@@ -16756,10 +17062,10 @@
     "id": "archive-faca77394aede8e213",
     "title": "🎵 TWS｜《音乐银行》打歌",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2026-11-06",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=Jhb78TMm3u4",
     "details": "[COMEBACK] TWS トゥアス 투어스 - Call My Name [Music Bank] | KBS WORLD TV 261106。 （音乐银行）",
     "source_url": "https://www.youtube.com/watch?v=Jhb78TMm3u4",
@@ -16775,7 +17081,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=Jhb78TMm3u4"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-da30636c2211f4eeab",
@@ -16920,10 +17229,10 @@
     "id": "archive-b216bfa8c335b5d7db",
     "title": "🎵 TWS｜《Show! 音乐中心》打歌",
     "status": "confirmed",
-    "sequence": 0,
+    "sequence": 1,
     "all_day": true,
     "start": "2026-11-14",
-    "updated_at": "2026-11-24T12:38:55Z",
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=W9DDlUFj130",
     "details": "[#음중풀캠] TWS (투어스) – 내 이름을 불러줘 FullCam | 쇼! 음악중심 | MBC261114。 （Show! 音乐中心）",
     "source_url": "https://www.youtube.com/watch?v=W9DDlUFj130",
@@ -16939,7 +17248,10 @@
     },
     "official_sources": [
       "https://www.youtube.com/watch?v=W9DDlUFj130"
-    ]
+    ],
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-36dd1a4f892eb9e849",
@@ -17442,8 +17754,8 @@
     "start": "2024-03-03",
     "all_day": true,
     "status": "confirmed",
-    "sequence": 0,
-    "updated_at": "2026-11-24T12:47:17Z",
+    "sequence": 1,
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "东京",
     "details": "分部举行，具体时刻未列。\n官方来源 https://www.universal-music.co.jp/tws/news/2024-01-23/",
     "source_url": "https://www.universal-music.co.jp/tws/news/2024-01-23/",
@@ -17455,7 +17767,10 @@
     "historical": true,
     "archive_category": "日本歌迷活动",
     "time_tbd": true,
-    "end": "2024-03-04"
+    "end": "2024-03-04",
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-70afee6c3d2fe71cc4",
@@ -17463,8 +17778,8 @@
     "start": "2024-03-24",
     "all_day": true,
     "status": "confirmed",
-    "sequence": 0,
-    "updated_at": "2026-11-24T12:47:17Z",
+    "sequence": 1,
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "",
     "details": "每位中签者约 30 秒。\n官方来源 https://www.universal-music.co.jp/tws/news/2024-01-23/",
     "source_url": "https://www.universal-music.co.jp/tws/news/2024-01-23/",
@@ -17476,7 +17791,10 @@
     "historical": true,
     "archive_category": "日本歌迷活动",
     "time_tbd": true,
-    "end": "2024-03-25"
+    "end": "2024-03-25",
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-467c5fc0fb8b4dd9c7",
@@ -17484,8 +17802,8 @@
     "start": "2024-12-21",
     "all_day": true,
     "status": "confirmed",
-    "sequence": 0,
-    "updated_at": "2026-11-24T12:47:17Z",
+    "sequence": 1,
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "",
     "details": "官方说明为日本当地下午。\n官方来源 https://www.universal-music.co.jp/tws/news/2024-11-08-2/",
     "source_url": "https://www.universal-music.co.jp/tws/news/2024-11-08-2/",
@@ -17497,7 +17815,10 @@
     "historical": true,
     "archive_category": "日本歌迷活动",
     "time_tbd": true,
-    "end": "2024-12-22"
+    "end": "2024-12-22",
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-03e6d667436f773410",
@@ -17505,8 +17826,8 @@
     "start": "2025-01-25",
     "all_day": true,
     "status": "confirmed",
-    "sequence": 0,
-    "updated_at": "2026-11-24T12:47:17Z",
+    "sequence": 1,
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "东京近郊",
     "details": "含个人击掌、个人签售及全员击掌。\n官方来源 https://www.universal-music.co.jp/tws/news/2024-11-08-2/",
     "source_url": "https://www.universal-music.co.jp/tws/news/2024-11-08-2/",
@@ -17518,7 +17839,10 @@
     "historical": true,
     "archive_category": "日本歌迷活动",
     "time_tbd": true,
-    "end": "2025-01-26"
+    "end": "2025-01-26",
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-2505fbba5e8099dd07",
@@ -17526,8 +17850,8 @@
     "start": "2025-01-26",
     "all_day": true,
     "status": "confirmed",
-    "sequence": 0,
-    "updated_at": "2026-11-24T12:47:17Z",
+    "sequence": 1,
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "大阪近郊",
     "details": "含个人击掌、个人签售及全员击掌。\n官方来源 https://www.universal-music.co.jp/tws/news/2024-11-08-2/",
     "source_url": "https://www.universal-music.co.jp/tws/news/2024-11-08-2/",
@@ -17539,7 +17863,10 @@
     "historical": true,
     "archive_category": "日本歌迷活动",
     "time_tbd": true,
-    "end": "2025-01-27"
+    "end": "2025-01-27",
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-7e9424f4117f6d4a56",
@@ -17547,8 +17874,8 @@
     "start": "2025-05-12",
     "all_day": true,
     "status": "confirmed",
-    "sequence": 0,
-    "updated_at": "2026-11-24T12:47:17Z",
+    "sequence": 1,
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "东京近郊",
     "details": "个人谈话、个人签售或全员击掌，按中签项目参加。\n官方来源 https://www.universal-music.co.jp/tws/news/2025-04-03-2/",
     "source_url": "https://www.universal-music.co.jp/tws/news/2025-04-03-2/",
@@ -17560,7 +17887,10 @@
     "historical": true,
     "archive_category": "日本歌迷活动",
     "time_tbd": true,
-    "end": "2025-05-13"
+    "end": "2025-05-13",
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-90c89e5b5a81ed6d0a",
@@ -17568,8 +17898,8 @@
     "start": "2025-05-14",
     "all_day": true,
     "status": "confirmed",
-    "sequence": 0,
-    "updated_at": "2026-11-24T12:47:17Z",
+    "sequence": 1,
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "大阪近郊",
     "details": "个人谈话、个人签售或全员击掌，按中签项目参加。\n官方来源 https://www.universal-music.co.jp/tws/news/2025-04-03-2/",
     "source_url": "https://www.universal-music.co.jp/tws/news/2025-04-03-2/",
@@ -17581,7 +17911,10 @@
     "historical": true,
     "archive_category": "日本歌迷活动",
     "time_tbd": true,
-    "end": "2025-05-15"
+    "end": "2025-05-15",
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-66a6bac50d71d734e3",
@@ -17589,8 +17922,8 @@
     "start": "2025-05-25",
     "all_day": true,
     "status": "confirmed",
-    "sequence": 0,
-    "updated_at": "2026-11-24T12:47:17Z",
+    "sequence": 1,
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "",
     "details": "可选成员的双人合影或 60 秒谈话。\n官方来源 https://www.universal-music.co.jp/tws/news/2025-04-03-2/",
     "source_url": "https://www.universal-music.co.jp/tws/news/2025-04-03-2/",
@@ -17602,7 +17935,10 @@
     "historical": true,
     "archive_category": "日本歌迷活动",
     "time_tbd": true,
-    "end": "2025-05-26"
+    "end": "2025-05-26",
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-9002bdafb1ebb2ac23",
@@ -17610,8 +17946,8 @@
     "start": "2025-11-24",
     "all_day": true,
     "status": "confirmed",
-    "sequence": 0,
-    "updated_at": "2026-11-24T12:47:17Z",
+    "sequence": 1,
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "",
     "details": "小分队 80 秒，个人 60 秒。\n官方来源 https://www.universal-music.co.jp/tws/news/2025-10-02/",
     "source_url": "https://www.universal-music.co.jp/tws/news/2025-10-02/",
@@ -17623,7 +17959,10 @@
     "historical": true,
     "archive_category": "日本歌迷活动",
     "time_tbd": true,
-    "end": "2025-11-25"
+    "end": "2025-11-25",
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-0e36a6715975503258",
@@ -17631,8 +17970,8 @@
     "start": "2025-11-24",
     "all_day": true,
     "status": "confirmed",
-    "sequence": 0,
-    "updated_at": "2026-11-24T12:47:17Z",
+    "sequence": 1,
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "",
     "details": "序列号特典 B 赏。\n官方来源 https://www.universal-music.co.jp/tws/news/2025-10-10-2/",
     "source_url": "https://www.universal-music.co.jp/tws/news/2025-10-10-2/",
@@ -17644,7 +17983,10 @@
     "historical": true,
     "archive_category": "日本歌迷活动",
     "time_tbd": true,
-    "end": "2025-11-25"
+    "end": "2025-11-25",
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-94f4727a792b9d8890",
@@ -17747,8 +18089,8 @@
     "start": "2025-12-12",
     "all_day": true,
     "status": "confirmed",
-    "sequence": 0,
-    "updated_at": "2026-11-24T12:47:17Z",
+    "sequence": 1,
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "东京",
     "details": "单独报名的双人合影活动。\n官方来源 https://www.universal-music.co.jp/tws/news/2025-10-15/",
     "source_url": "https://www.universal-music.co.jp/tws/news/2025-10-15/",
@@ -17760,7 +18102,10 @@
     "historical": true,
     "archive_category": "日本歌迷活动",
     "time_tbd": true,
-    "end": "2025-12-13"
+    "end": "2025-12-13",
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-6a58c231840c36f0bd",
@@ -17768,8 +18113,8 @@
     "start": "2025-12-28",
     "all_day": true,
     "status": "confirmed",
-    "sequence": 0,
-    "updated_at": "2026-11-24T12:47:17Z",
+    "sequence": 1,
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "大阪",
     "details": "单独报名的双人合影活动。\n官方来源 https://www.universal-music.co.jp/tws/news/2025-10-15/",
     "source_url": "https://www.universal-music.co.jp/tws/news/2025-10-15/",
@@ -17781,7 +18126,10 @@
     "historical": true,
     "archive_category": "日本歌迷活动",
     "time_tbd": true,
-    "end": "2025-12-29"
+    "end": "2025-12-29",
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-417de111b802f323c8",
@@ -17808,8 +18156,8 @@
     "start": "2025-05-30",
     "all_day": true,
     "status": "confirmed",
-    "sequence": 0,
-    "updated_at": "2026-11-24T12:47:17Z",
+    "sequence": 1,
+    "updated_at": "2026-11-25T01:45:12Z",
     "location": "https://www.youtube.com/watch?v=1V0YwVWAz8o",
     "details": "动画《ブスに花束を。》官方预告，首次公开片头曲音源。\n官方来源 https://www.universal-music.co.jp/tws/news/2025-05-30/",
     "source_url": "https://www.universal-music.co.jp/tws/news/2025-05-30/",
@@ -17825,7 +18173,10 @@
     "watch_url": "https://www.youtube.com/watch?v=1V0YwVWAz8o",
     "media_links": {
       "https://www.youtube.com/watch?v=1V0YwVWAz8o": "预告"
-    }
+    },
+    "time_reviewed_at": "2026-11-25T01:45:12Z",
+    "time_review_status": "no_verifiable_time",
+    "hide_time_tbd_note": true
   },
   {
     "id": "archive-7c0657577304889563",
