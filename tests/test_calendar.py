@@ -34,11 +34,11 @@ class CalendarTests(unittest.TestCase):
         del self.event['end']
         self.assertNotIn(b'DTEND', build([self.event]))
 
-    def test_estimated_end_is_explicit(self):
+    def test_estimated_end_metadata_does_not_add_boilerplate(self):
         self.event.update(end_estimated=True)
         data = build([self.event]).decode('utf-8').replace('\r\n ', '')
         self.assertIn('DTEND:20300101T120000Z', data)
-        self.assertIn('结束时间为估计', data)
+        self.assertNotIn('结束时间为估计', data)
         del self.event['end']
         with self.assertRaises(ValueError): build([self.event])
 
@@ -95,7 +95,7 @@ class CalendarTests(unittest.TestCase):
         del self.event['end']
         data = build([self.event]).decode('utf-8').replace('\r\n ', '')
         self.assertIn('DTEND:20300101T120000Z', data)
-        self.assertIn('结束时间为估计', data)
+        self.assertNotIn('结束时间为估计', data)
         self.event['end'] = '2030-01-01T22:00:00+09:00'
         data = build([self.event]).decode('utf-8').replace('\r\n ', '')
         self.assertIn('DTEND:20300101T130000Z', data)
@@ -165,4 +165,5 @@ class CalendarTests(unittest.TestCase):
 
 
 if __name__ == '__main__': unittest.main()
+
 

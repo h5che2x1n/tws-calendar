@@ -1,5 +1,6 @@
 import unittest
 from calendar_build import build, duration_category
+from note_format import format_notes
 
 
 class CalendarPreferencesTests(unittest.TestCase):
@@ -18,7 +19,7 @@ class CalendarPreferencesTests(unittest.TestCase):
             with self.subTest(title=title):
                 text = self.calendar(self.event(title=title))
                 self.assertIn('DTEND:20300101T113000Z', text)
-                self.assertIn('结束时间为估计', text)
+                self.assertNotIn('结束时间为估计', text)
 
     def test_known_video_end_takes_priority(self):
         text = self.calendar(self.event(end='2030-01-01T20:07:33+09:00'))
@@ -46,6 +47,24 @@ class CalendarPreferencesTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             build([self.event(time_tbd=True, historical=True, hide_time_tbd_note=True)])
 
+    def test_partial_members_prefix_notes_without_duplicate_prefix(self):
+        text = format_notes('🎬 炅潣｜2027 Season’s Greetings · Safety Video',
+                            '年历企划官方宣传短片（预告）。')
+        self.assertEqual(text, '炅潣｜年历企划官方宣传短片（预告）。')
+        self.assertEqual(format_notes('🎬 炅潣｜Safety Video', text), text)
+        self.assertEqual(format_notes('📺 SHINYU、DOHOON｜Show', ''), '申惟、道勋｜Show')
+        self.assertEqual(format_notes('📺 TWS｜Show', '全员出演。'), '全员出演。')
+        self.assertEqual(format_notes('📺 申惟、道勋、英宰、韩振、志薰、炅潣｜Show',
+                                     '全员出演。'), '全员出演。')
+
+    def test_remove_only_estimated_end_boilerplate(self):
+        text = self.calendar(self.event(end_estimated=True, end='2030-01-01T20:30:00+09:00',
+            details='结束时间为估计，实际以官方安排为准。\n集合信息通知中签者。'))
+        self.assertNotIn('结束时间为估计', text)
+        self.assertIn('集合信息通知中签者。', text)
+        self.assertIn('DTEND:20300101T113000Z', text)
+
 
 if __name__ == '__main__':
     unittest.main()
+

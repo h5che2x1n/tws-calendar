@@ -4,6 +4,7 @@ from datetime import date, datetime, time, timezone, timedelta
 from pathlib import Path
 from urllib.parse import urlparse, quote_plus
 from venue_maps import map_location
+from note_format import format_notes
 
 
 def escape(value):
@@ -156,6 +157,7 @@ def original_events(text):
 def clean_original(block):
     """Keep the imported UID and timing, while removing research notes."""
     result = []
+    notes_changed = False
     title = next((x[len('SUMMARY:'):] for x in block if x.startswith('SUMMARY:')), '')
     concise = {
         '《Show! 音乐中心》预录': 'TWS《Show! 音乐中心》预录。',
@@ -197,7 +199,9 @@ def clean_original(block):
             intro = re.sub(r'；17:00为台湾当地典礼时间，与北京时间相同。时间参考Soompi年末汇总；非单独舞台时刻。', '出演12月6日。', intro)
             sources = [p for p in parts if p.startswith('来源：')]
             desc = '\\n'.join(filter(None, [intro.strip()] + sources))
-            line = 'DESCRIPTION:' + desc
+            formatted = format_notes(title, desc.replace('\\n', '\n')).replace('\n', '\\n')
+            notes_changed = notes_changed or formatted != desc
+            line = 'DESCRIPTION:' + formatted
         elif line.startswith('LOCATION:'):
             value = line[len('LOCATION:'):]
             if value in ('线上', 'MBC', 'KBS 2TV', 'SBS', 'YouTube：KBS Kpop', 'TBS Channel 1') or '仅通知' in value or '通知中签者' in value:
@@ -231,11 +235,19 @@ def clean_original(block):
     if category and starts and not any(x.startswith(('DTEND', 'DURATION')) for x in result):
         start = datetime.strptime(starts[0][8:], '%Y%m%dT%H%M%SZ').replace(tzinfo=timezone.utc)
         result.insert(-1, 'DTEND:' + fmt(start + timedelta(minutes=DEFAULT_MINUTES[category])))
+        notes_changed = notes_changed or (not title_translation_revision and any(
+            line.startswith('DESCRIPTION:') for line in result))
+    result = convert_original_long_event(result)
+    if notes_changed:
+        revision = '20261125T113015Z'
+        result = [line for line in result if not line.startswith('LAST-MODIFIED:')]
         for i, line in enumerate(result):
-            if line.startswith('DESCRIPTION:') and not title_translation_revision:
-                result[i] += '\\n结束时间为估计，实际以官方安排为准。'
-                break
-    return convert_original_long_event(result)
+            if line.startswith('SEQUENCE:'):
+                result[i] = 'SEQUENCE:' + str(int(line.split(':', 1)[1]) + 1)
+            elif line.startswith('DTSTAMP:'):
+                result[i] = 'DTSTAMP:' + revision
+        result.insert(-1, 'LAST-MODIFIED:' + revision)
+    return result
 
 
 def build(events, original=None):
@@ -282,11 +294,9 @@ def build(events, original=None):
             startline = 'DTSTART;VALUE=DATE:' + first.strftime('%Y%m%d')
             endline = 'DTEND;VALUE=DATE:' + exclusive_end.strftime('%Y%m%d')
             display_all_day = True
-        desc = e.get('details', e.get('description', ''))
+        desc = format_notes(e['title'], e.get('details', e.get('description', '')))
         if local_start is not None:
             desc = '\n'.join(filter(None, (desc, long_event_details(local_start, local_end))))
-        if (e.get('end_estimated') or (not e['all_day'] and default_estimated)) and not e.get('concise_notes'):
-            desc += '\n结束时间为估计，实际以官方安排为准。'
         if e.get('time_tbd'):
             if not e['all_day']:
                 raise ValueError('time_tbd requires date-only event')
@@ -354,4 +364,5 @@ if __name__ == '__main__':
     Path('site').mkdir(exist_ok=True)
     original = Path('data/original.ics').read_text(encoding='utf-8')
     Path('site/tws.ics').write_bytes(build(events, original))
+
 
