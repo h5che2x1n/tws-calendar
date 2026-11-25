@@ -18391,5 +18391,18 @@
     "media_links": {
       "https://x.com/TWS_PLEDIS_JP/status/2070493530745909698": "图文原帖"
     }
+  },
+  {
+    "id": "3d7acdd8-257a-5ae2-af3e-209bff77d5e6",
+    "title": "📺 TWS｜日本巡演全曲无删减电视首播",
+    "status": "confirmed",
+    "sequence": 8,
+    "all_day": false,
+    "start": "2026-12-27T22:00:00+09:00",
+    "end": "2026-12-28T01:10:00+09:00",
+    "updated_at": "2026-11-25T01:08:14Z",
+    "location": "",
+    "details": "TBS Channel 1 播出 2026 日本巡演最终场全曲无删减版；需日本付费订阅。",
+    "source_url": "https://www.tbs.co.jp/tbs-ch/item/o3070/"
   }
 ]
