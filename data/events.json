@@ -270,18 +270,22 @@
     "id": "20261126-tws-tours-bangkok-ep1",
     "title": "📺 TWS｜TWS TOURS in BANGKOK EP.1",
     "status": "confirmed",
-    "sequence": 6,
+    "sequence": 7,
     "all_day": false,
     "start": "2026-11-26T20:00:00+09:00",
-    "updated_at": "2026-11-25T07:42:44Z",
-    "location": "",
+    "updated_at": "2026-11-26T14:03:15Z",
+    "location": "https://weverse.io/tws/media/1-181795658",
     "details": "TWS曼谷旅行记 第一集\n官方预告：https://weverse.io/tws/media/0-181639003",
     "source_url": "https://x.com/TWS_PLEDIS/status/2123370719396626596",
     "remind_at_start": true,
     "end": "2026-11-26T21:00:00+09:00",
     "end_estimated": true,
     "duration_category": "variety",
-    "concise_notes": true
+    "concise_notes": true,
+    "watch_url": "https://weverse.io/tws/media/1-181795658",
+    "media_links": {
+      "https://weverse.io/tws/media/1-181795658": "正片"
+    }
   },
   {
     "id": "20261203-tws-tours-bangkok-ep2",
@@ -19496,5 +19500,25 @@
     "watch_url": "https://page.line.me/tws-jp",
     "details": "在 TWS 日本官方 LINE 发送「おやすみ」，收听成员限定语音。",
     "source_url": "https://x.com/TWS_PLEDIS_JP/status/2125409133218394177"
+  },
+  {
+    "id": "20261129-shinyu-inkigayo-mc",
+    "title": "📺 申惟｜SBS《인기가요》MC",
+    "status": "confirmed",
+    "sequence": 0,
+    "all_day": false,
+    "start": "2026-11-29T15:25:00+09:00",
+    "end": "2026-11-29T16:35:00+09:00",
+    "end_estimated": true,
+    "duration_category": "inkigayo",
+    "updated_at": "2026-11-26T14:03:15Z",
+    "location": "SBS 등촌동 공개홀",
+    "members": [
+      "SHINYU"
+    ],
+    "details": "申惟｜SBS《人气歌谣》主持。",
+    "source_url": "https://weverse.io/tws/notice/41364",
+    "original_timezone": "Asia/Seoul",
+    "concise_notes": true
   }
 ]
