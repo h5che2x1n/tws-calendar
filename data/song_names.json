@@ -1,0 +1,468 @@
+{
+  "checked_at": "2026-11-25T13:10:12Z",
+  "source": "QQ Music track titles and album track lists",
+  "policy": "优先使用QQ音乐曲目名字段中的官方中文名；无中文名时使用已核实英文名，不自行直译。读取失败不等于无中文名。",
+  "songs": [
+    {
+      "qq_music_title": "Head Shoulders Knees Toes",
+      "display_name": "Head Shoulders Knees Toes",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/000Z6pTG0z6nUP"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "YOU LIKE IT I LOVE IT",
+      "display_name": "YOU LIKE IT I LOVE IT",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/002l38yX4K4jyc"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "YOU LIKE IT I LOVE IT (Inst.)",
+      "display_name": "YOU LIKE IT I LOVE IT (Inst.)",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/0049Xe2B2ISzky"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "Oh Mymy : 7s",
+      "display_name": "Oh Mymy : 7s",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/004LyR0g49W9pv"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "너+나=7942 (YOU+ME=7942)",
+      "display_name": "YOU+ME=7942",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/0011uNuj10MRie"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "내가 S면 넌 나의 N이 되어줘 (If I'm S, Can You Be My N?)",
+      "display_name": "If I'm S, Can You Be My N?",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/003licS4059X0h"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "hey! hey!",
+      "display_name": "hey! hey!",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/002kL3361NLAWZ"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "Double Take",
+      "display_name": "Double Take",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/001yqlRW1oOVPk"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "내가 태양이라면 (Keep On)",
+      "display_name": "Keep On",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/001gBE9O0hnFyK"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "Fire Confetti",
+      "display_name": "Fire Confetti",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/003NfTsc2AxWMz"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "SODA SODA",
+      "display_name": "SODA SODA",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/0045uG6v0fsi0x"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "Kiss Kiss Shy Shy (Korean Ver.)",
+      "display_name": "Kiss Kiss Shy Shy (Korean Ver.)",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/004DZrPl4ZTlmw"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "Uptown Girl",
+      "display_name": "Uptown Girl",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/000D7XOV0Y96w2"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "Uptown Girl (Instrumental)",
+      "display_name": "Uptown Girl (Instrumental)",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/0004u1fz0Q5WrU"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "Lucky to be loved",
+      "display_name": "Lucky to be loved",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/004Wjw9K3D7eG7"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "마음 따라 뛰는 건 멋지지 않아? (Countdown!)",
+      "display_name": "Countdown!",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/000bTyS54GvKWI"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "Random Play",
+      "display_name": "Random Play",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/004bftl640V3Jx"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "Freestyle",
+      "display_name": "Freestyle",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/002qbRGQ1dbGeW"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "심야 영화 (Now Playing)",
+      "display_name": "Now Playing",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/000LAcUj0QIFPp"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "GO BACK",
+      "display_name": "GO BACK",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/003vPKhu0NjBFr"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "はじめまして",
+      "display_name": "Nice to see you again",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/003IJXXZ3gGPZH",
+        "https://weverse.io/tws/notice/33442"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "BLOOM (feat. Ayumu Imazu)",
+      "display_name": "BLOOM (feat. Ayumu Imazu)",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/001xtinC1tyuhM"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "plot twist (Japanese ver.)",
+      "display_name": "plot twist (Japanese ver.)",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/003nZJBr1FwZTU"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "너의 모든 가능성이 되어 줄게 (All the Possibilities)",
+      "display_name": "All the Possibilities",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/003K2I1q4V6tyV"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "널 따라가 (You, You)",
+      "display_name": "You, You",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/001jC75f19anPT"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "Why You So Bad?",
+      "display_name": "Why You So Bad?",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/002ePBRo1C06YP"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "Get It Now",
+      "display_name": "Get It Now",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/004UDFFH4evOxM"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "Fire Escape",
+      "display_name": "Fire Escape",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/000GqvGJ2oqO60"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "Back To Strangers",
+      "display_name": "Back To Strangers",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/0016DerF3ND3V4"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "첫 만남은 계획대로 되지 않아 (初次见面并不按计划进行)",
+      "display_name": "初次见面并不按计划进行",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/002DQFDz4VpodY"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "unplugged boy",
+      "display_name": "unplugged boy",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/002aFBYi2kz5E9"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "first hooky",
+      "display_name": "first hooky",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/000Aa6VN0qNgty"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "BFF",
+      "display_name": "BFF",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/000E1B0a4dgZGM"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "Oh Mymy : 7s",
+      "display_name": "Oh Mymy : 7s",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/0040p5IJ1YCuu4"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "다시 만난 오늘 (Nice to see you again (Korean Ver.))",
+      "display_name": "Nice to see you again (Korean Ver.)",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/0008mh6B2ySGXv"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "WE UP",
+      "display_name": "WE UP",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/004TkmhI41VziQ"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "내 이름을 불러줘 (Call My Name)",
+      "display_name": "Call My Name",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/002mPAIi2D9RNT"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "heavy",
+      "display_name": "heavy",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/003gYmWZ0SKeXm"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "SODA SODA",
+      "display_name": "SODA SODA",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/000HK6oZ2zyDIS"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "Palm Tree",
+      "display_name": "Palm Tree",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/004Uhhiv3mcvC3"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "If I'm S, Can You Be My N? -Japanese ver.-",
+      "display_name": "If I'm S, Can You Be My N? -Japanese ver.-",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/002GADWk0qU9lL"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "Dream With Us",
+      "display_name": "Dream With Us",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/002KUrJI2ohD89"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "Head Shoulders Knees Toes",
+      "display_name": "Head Shoulders Knees Toes",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/002ezSs81MAlTZ"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "OVERDRIVE",
+      "display_name": "OVERDRIVE",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/001H0tks1Eu7PP"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "HOT BLUE SHOES",
+      "display_name": "HOT BLUE SHOES",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/000EEDo23kBNdl"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "Caffeine Rush",
+      "display_name": "Caffeine Rush",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/003QsOkX2Vg2c2"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "overthinking",
+      "display_name": "overthinking",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/000OqPbH1hJbAq"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "내일이 되어 줄게 (Here For You)",
+      "display_name": "Here For You",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/004bsEwP2EROgl"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "plot twist (Japanese ver.)",
+      "display_name": "plot twist (Japanese ver.)",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/003NuqsL0I7ksJ"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "hey! hey! (Chinese ver.)",
+      "display_name": "hey! hey! (Chinese ver.)",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/000SMXBW1lVLyJ"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "Brand New Day",
+      "display_name": "Brand New Day",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/003u21xA29NwMK"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "Brand New Day (Inst.)",
+      "display_name": "Brand New Day (Inst.)",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/000ZK7hS3DodJO"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "너의 이름 (Highlight)",
+      "display_name": "Highlight",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/003U4ez42JrVdx"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "마지막 축제 (Last Festival)",
+      "display_name": "Last Festival",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/002kXKxU3PaKZZ"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "점 대신 쉼표를 그려 (Comma,)",
+      "display_name": "Comma,",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/002RtHul1ecxgu"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    },
+    {
+      "qq_music_title": "BLOOM",
+      "display_name": "BLOOM",
+      "source_urls": [
+        "https://y.qq.com/n/ryqq_v2/songDetail/0020kcQ33og1ws"
+      ],
+      "checked_at": "2026-11-25T13:10:12Z"
+    }
+  ],
+  "retired_note_translations": {
+    "初次见面不如计划": "初次见面并不按计划进行",
+    "如果我是S，你愿意成为我的N吗？": "If I'm S, Can You Be My N?",
+    "最后的庆典": "Last Festival",
+    "你的名字": "Highlight",
+    "跟随内心奔跑不是很酷吗？": "Countdown!",
+    "初次见面": "Nice to see you again",
+    "再次相遇的今天": "Nice to see you again (Korean Ver.)",
+    "跟随你": "You, You",
+    "我会成为你的一切可能": "All the Possibilities",
+    "呼唤我的名字": "Call My Name"
+  }
+}
