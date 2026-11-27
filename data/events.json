@@ -270,22 +270,25 @@
     "id": "20261126-tws-tours-bangkok-ep1",
     "title": "📺 TWS｜TWS TOURS in BANGKOK EP.1",
     "status": "confirmed",
-    "sequence": 7,
+    "sequence": 8,
     "all_day": false,
     "start": "2026-11-26T20:00:00+09:00",
-    "updated_at": "2026-11-26T14:03:15Z",
+    "updated_at": "2026-11-27T04:33:27Z",
     "location": "https://weverse.io/tws/media/1-181795658",
     "details": "TWS曼谷旅行记 第一集\n官方预告：https://weverse.io/tws/media/0-181639003",
     "source_url": "https://x.com/TWS_PLEDIS/status/2123370719396626596",
     "remind_at_start": true,
-    "end": "2026-11-26T21:00:00+09:00",
-    "end_estimated": true,
+    "end": "2026-11-26T20:34:11+09:00",
+    "end_estimated": false,
     "duration_category": "variety",
     "concise_notes": true,
-    "watch_url": "https://weverse.io/tws/media/1-181795658",
+    "watch_url": "https://www.youtube.com/watch?v=tOoCZYY2uCI",
     "media_links": {
-      "https://weverse.io/tws/media/1-181795658": "正片"
-    }
+      "https://weverse.io/tws/media/1-181795658": "正片",
+      "https://www.youtube.com/watch?v=tOoCZYY2uCI": "正片"
+    },
+    "duration_seconds": 2051,
+    "duration_source_url": "https://www.youtube.com/watch?v=tOoCZYY2uCI"
   },
   {
     "id": "20261203-tws-tours-bangkok-ep2",
@@ -405,9 +408,9 @@
     "source_url": "https://weverse.io/tws/media/4-243988046",
     "watch_url": "https://www.youtube.com/watch?v=NOd_pmyYnLE",
     "status": "confirmed",
-    "sequence": 3,
+    "sequence": 4,
     "all_day": false,
-    "updated_at": "2026-11-25T11:30:17Z",
+    "updated_at": "2026-11-27T04:33:27Z",
     "source_type": "official",
     "original_timezone": "UTC-08:00",
     "platform": "TWS · YouTube",
@@ -418,25 +421,31 @@
       "https://weverse.io/tws/media/4-243988046",
       "https://www.youtube.com/watch?v=NOd_pmyYnLE"
     ],
-    "duration_category": "vlog_behind"
+    "duration_category": "vlog_behind",
+    "end": "2026-11-20T20:07:19+09:00",
+    "end_estimated": false,
+    "duration_seconds": 441,
+    "duration_source_url": "https://www.youtube.com/watch?v=NOd_pmyYnLE"
   },
   {
     "id": "20261125-hanjin-sbs-what-an-idol",
     "title": "📺 韩振｜《순간뽀짝 세상에 이런 아이돌이》",
     "status": "confirmed",
-    "sequence": 4,
+    "sequence": 5,
     "all_day": false,
     "start": "2026-11-25T18:00:00+09:00",
-    "end": "2026-11-25T19:00:00+09:00",
-    "end_estimated": true,
+    "end": "2026-11-25T18:23:15+09:00",
+    "end_estimated": false,
     "duration_category": "variety",
-    "updated_at": "2026-11-26T01:13:35Z",
+    "updated_at": "2026-11-27T04:33:27Z",
     "location": "",
     "details": "韩振｜《瞬间萌趣：世界上竟有这样的爱豆》",
     "source_url": "https://www.youtube.com/watch?v=OFPlLz8XPJ8",
     "remind_at_start": true,
     "concise_notes": true,
-    "watch_url": "https://www.youtube.com/watch?v=1-pNqEA3A_Q"
+    "watch_url": "https://www.youtube.com/watch?v=1-pNqEA3A_Q",
+    "duration_seconds": 1395,
+    "duration_source_url": "https://www.youtube.com/watch?v=1-pNqEA3A_Q"
   },
   {
     "id": "20261127-yizhiyu-video-fansign-1",
@@ -530,10 +539,10 @@
     "id": "20261122-youngjae-247-vlog",
     "title": "📺 英宰｜24/7 LOG《영재의 뜨겁고 행복했던 날들》",
     "status": "confirmed",
-    "sequence": 5,
+    "sequence": 6,
     "all_day": false,
     "start": "2026-11-22T19:59:58+09:00",
-    "updated_at": "2026-11-25T11:30:17Z",
+    "updated_at": "2026-11-27T04:33:27Z",
     "location": "https://www.youtube.com/watch?v=MuatN39if24",
     "watch_url": "https://www.youtube.com/watch?v=MuatN39if24",
     "source_url": "https://weverse.io/tws/media/3-244115999",
@@ -549,7 +558,11 @@
       "https://www.youtube.com/watch?v=MuatN39if24"
     ],
     "duration_category": "vlog_behind",
-    "concise_notes": true
+    "concise_notes": true,
+    "end": "2026-11-22T20:21:56+09:00",
+    "end_estimated": false,
+    "duration_seconds": 1318,
+    "duration_source_url": "https://www.youtube.com/watch?v=MuatN39if24"
   },
   {
     "id": "20261127-youngjae-kyungmin-would-you-record",
@@ -19520,5 +19533,27 @@
     "source_url": "https://weverse.io/tws/notice/41364",
     "original_timezone": "Asia/Seoul",
     "concise_notes": true
+  },
+  {
+    "id": "20270110-golden-disc-awards-day2",
+    "title": "🏆 TWS｜第41届 Golden Disc Awards DAY 2",
+    "status": "confirmed",
+    "sequence": 0,
+    "all_day": false,
+    "start": "2027-01-10T18:00:00+07:00",
+    "end": "2027-01-10T22:00:00+07:00",
+    "end_estimated": true,
+    "duration_category": "year_end",
+    "updated_at": "2026-11-27T04:33:27Z",
+    "location": "越南河内 · Vietnam Exposition Center 特设室外舞台",
+    "map_query": "Vietnam Exposition Center Hanoi Vietnam",
+    "details": "TWS 出演第41届 Golden Disc Awards 第二天。\n典礼时间：https://www.goldendisc.co.kr/en/about",
+    "source_url": "https://x.com/_GoldenDisc/status/2125822126074806662",
+    "source_type": "official",
+    "original_timezone": "Asia/Ho_Chi_Minh",
+    "official_sources": [
+      "https://x.com/_GoldenDisc/status/2125822126074806662",
+      "https://www.goldendisc.co.kr/en/about"
+    ]
   }
 ]
