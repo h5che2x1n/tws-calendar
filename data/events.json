@@ -611,17 +611,17 @@
   },
   {
     "id": "20261127-tws-dream-address-live",
-    "title": "📺 TWS｜粉丝岛屿探访特别直播",
+    "title": "📺 韩志薰｜粉丝岛屿探访特别直播",
     "status": "confirmed",
-    "sequence": 4,
+    "sequence": 5,
     "all_day": false,
     "start": "2026-11-27T20:00:03+09:00",
     "end": "2026-11-27T21:02:54+09:00",
     "end_estimated": false,
     "duration_category": "variety",
-    "updated_at": "2026-11-28T08:19:07Z",
+    "updated_at": "2026-11-28T08:34:15Z",
     "location": "https://weverse.io/tws/live/0-181776013",
-    "details": "探访 42 在《集合啦！动物森友会》中布置的岛屿；参与成员待确认。",
+    "details": "韩志薰｜单人直播，探访 42 在《集合啦！动物森友会》中布置的岛屿。",
     "source_url": "https://x.com/TWS_PLEDIS/status/2124344619714625881",
     "watch_url": "https://weverse.io/tws/live/0-181776013",
     "remind_at_start": true,
@@ -633,7 +633,10 @@
       "https://weverse.io/tws/live/0-181776013"
     ],
     "duration_seconds": 3771,
-    "duration_source_url": "https://weverse.io/tws/live/0-181776013"
+    "duration_source_url": "https://weverse.io/tws/live/0-181776013",
+    "members": [
+      "JIHOON"
+    ]
   },
   {
     "id": "20261126-hybe-merch-popup-shibuya",
